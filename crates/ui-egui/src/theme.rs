@@ -69,8 +69,8 @@ impl Accent {
     /// with white lettering.
     fn colors(self, dark: bool) -> (u32, u32) {
         match (self, dark) {
-            (Accent::Coral, true) => (0xf06a52, 0xe8573f),
-            (Accent::Coral, false) => (0xd9472f, 0xd14a33),
+            (Accent::Coral, true) => (0x25d6b7, 0x00816f),
+            (Accent::Coral, false) => (0x00816f, 0x00675c),
             (Accent::Blue, true) => (0x5b96ff, 0x2f74f0),
             (Accent::Blue, false) => (0x2563eb, 0x1f5ad6),
             (Accent::Violet, true) => (0xa98bff, 0x7c55f0),
@@ -190,9 +190,9 @@ impl Tokens {
             icon: hex(0xc9d0dc),
             hover: hex(0x262b35),
             tool_active: hex(0x2f3541),
-            accent: hex(0xf06a52),
-            accent_strong: hex(0xe8573f),
-            row_selected: hex(0x3a2a2c),
+            accent: hex(0x25d6b7),
+            accent_strong: hex(0x00816f),
+            row_selected: hex(0x19433f),
             pasteboard: hex(0x101217),
             ruler: hex(0x13161c),
             ruler_tick: hex(0x6f788a),
@@ -206,7 +206,7 @@ impl Tokens {
             button_border: hex(0x4a5363),
             selection: hex(0x4f80ff),
             anchor_selected: hex(0x3d82ff),
-            flyout_active: hex(0xff8a74),
+            flyout_active: hex(0x55efd0),
             font_size: 13.0,
             caption_close: hex(0xc42b1c),
             caption_close_text: Color32::WHITE,
@@ -223,11 +223,11 @@ impl Tokens {
             Brightness::Dark => base,
             // Charcoal, the default.
             Brightness::MediumDark => Tokens {
-                app_bar: hex(0x1b1f27),
-                panel: hex(0x272c36),
-                panel_darker: hex(0x21262f),
-                tab_strip: hex(0x1e222a),
-                input: hex(0x1a1e26),
+                app_bar: hex(0x0d1215),
+                panel: hex(0x0d1215),
+                panel_darker: hex(0x090b0d),
+                tab_strip: hex(0x090f11),
+                input: hex(0x172125),
                 input_border: hex(0x3a414e),
                 border: hex(0x11141a),
                 divider: hex(0x323946),
@@ -237,9 +237,9 @@ impl Tokens {
                 icon: hex(0xccd3de),
                 hover: hex(0x353c49),
                 tool_active: hex(0x3d4553),
-                row_selected: hex(0x4a3236),
-                pasteboard: hex(0x1e222a),
-                ruler: hex(0x21262f),
+                row_selected: hex(0x19433f),
+                pasteboard: hex(0x090f11),
+                ruler: hex(0x090b0d),
                 ruler_tick: hex(0x7c8597),
                 measure_bg: Color32::from_rgba_unmultiplied(39, 44, 54, 235),
                 button: hex(0x39404d),
@@ -256,16 +256,16 @@ impl Tokens {
                 input_border: hex(0x9aa2b0),
                 border: hex(0xa9b0bc),
                 divider: hex(0xbcc3ce),
-                text: hex(0x1b1f27),
+                text: hex(0x0d1215),
                 text_strong: hex(0x000000),
                 text_dim: hex(0x4a5160),
                 text_disabled: hex(0x7d8594),
-                icon: hex(0x272c36),
+                icon: hex(0x0d1215),
                 hover: hex(0xc5ccd6),
                 tool_active: hex(0xb6bec9),
-                accent: hex(0xd9472f),
-                accent_strong: hex(0xd14a33),
-                flyout_active: hex(0xc23e28),
+                accent: hex(0x00816f),
+                accent_strong: hex(0x00675c),
+                flyout_active: hex(0x00675c),
                 row_selected: hex(0xe7c4bd),
                 pasteboard: hex(0xb9c0cb),
                 ruler: hex(0xccd2db),
@@ -285,16 +285,16 @@ impl Tokens {
                 input_border: hex(0xc3c9d3),
                 border: hex(0xd0d5dd),
                 divider: hex(0xdde1e8),
-                text: hex(0x1b1f27),
+                text: hex(0x0d1215),
                 text_strong: hex(0x000000),
                 text_dim: hex(0x58606e),
                 text_disabled: hex(0x9aa1ad),
                 icon: hex(0x2a303b),
                 hover: hex(0xe3e7ed),
                 tool_active: hex(0xd5dbe3),
-                accent: hex(0xd9472f),
-                accent_strong: hex(0xd14a33),
-                flyout_active: hex(0xc23e28),
+                accent: hex(0x00816f),
+                accent_strong: hex(0x00675c),
+                flyout_active: hex(0x00675c),
                 row_selected: hex(0xf8d9d2),
                 pasteboard: hex(0xdfe3e9),
                 ruler: hex(0xeceff3),
@@ -668,5 +668,18 @@ mod tests {
             assert_eq!(classic.accent, Color32::from_rgb(0x37, 0x8e, 0xf0));
             assert_eq!(Scheme::parse(Scheme::Classic.id()), Some(Scheme::Classic));
         }
+    }
+}
+
+#[cfg(test)]
+mod visualab_brand_tests {
+    use super::*;
+    #[test]
+    fn legacy_accent_preference_keeps_brand_and_contrast() {
+        assert_eq!(Accent::parse("coral"), Some(Accent::default()));
+        assert_eq!(Accent::default().colors(true), (0x25d6b7, 0x00816f));
+        let t = Tokens::for_brightness(Brightness::default());
+        assert!(t.text.r() > 200 && t.panel.r() < 30);
+        assert_ne!(t.error, t.accent);
     }
 }

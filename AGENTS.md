@@ -1,3 +1,7 @@
+# Visualab customization
+
+This is an independently branded Visualab Studios fork. User-facing product names and original replacement artwork use Visualab Photo, Visualab Vector or Visualab Effects as appropriate. This explicit fork scope overrides upstream instructions requiring the original product name or first-party ArtCraft artwork. Keep upstream copyright, code licences, document formats and crate names.
+
 # VectorCraft — instructions for agents
 
 VectorCraft is a clean-room, open-source, Rust-native vector illustration app targeting Adobe Illustrator parity (and beyond). It runs natively on macOS, Windows and Linux, and on the web via WASM. Siblings: `../photocraft` (Photoshop-class) and `../pdfcraft` (Acrobat-class); same conventions.
