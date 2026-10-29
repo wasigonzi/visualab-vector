@@ -215,9 +215,12 @@ mod tests {
     #[test]
     fn unset_override_keeps_platform_paths_and_legacy_migration() {
         assert_eq!(prefs_path_with("macos", false, environment, installed), Some("/user/Library/Application Support/VisualabVector/ui.json".into()));
-        assert_eq!(prefs_path_with("macos", true, environment, installed), Some("/user/Library/Application Support/VisualabVectorLegacy/ui.json".into()));
-        assert_eq!(prefs_path_with("windows", false, environment, installed), Some("/roaming/VectorCraft/ui.json".into()));
-        assert_eq!(prefs_path_with("linux", false, environment, installed), Some("/xdg-config/vectorcraft/ui.json".into()));
+        assert_eq!(
+            prefs_path_with("macos", true, environment, installed),
+            Some("/user/Library/Application Support/VisualabVectorLegacy/ui.json".into())
+        );
+        assert_eq!(prefs_path_with("windows", false, environment, installed), Some("/roaming/VisualabVector/ui.json".into()));
+        assert_eq!(prefs_path_with("linux", false, environment, installed), Some("/xdg-config/visualab-vector/ui.json".into()));
         assert_eq!(
             prefs_path_with("linux", true, |key| if key == "HOME" { environment(key) } else { None }, installed),
             Some("/user/.config/visualab-vector-legacy/ui.json".into())
@@ -225,10 +228,10 @@ mod tests {
     }
 
     #[test]
-    fn portable_mode_keeps_the_settings_beside_the_executable_and_skips_the_visualab-vector-legacy_profile() {
-        let portable = || Some(PathBuf::from("/usb/VectorCraft/VisualabVectorData"));
+    fn portable_mode_keeps_the_settings_beside_the_executable_and_skips_the_visualab_vector_legacy_profile() {
+        let portable = || Some(PathBuf::from("/usb/VisualabVector/VisualabVectorData"));
         for os in ["macos", "windows", "linux"] {
-            assert_eq!(prefs_path_with(os, false, environment, portable), Some("/usb/VectorCraft/VisualabVectorData/ui.json".into()), "{os}");
+            assert_eq!(prefs_path_with(os, false, environment, portable), Some("/usb/VisualabVector/VisualabVectorData/ui.json".into()), "{os}");
             // A portable copy is self-contained: the one-time read of VisualabVectorLegacy's old settings is skipped.
             assert_eq!(prefs_path_with(os, true, environment, portable), None, "{os}");
         }
@@ -246,7 +249,7 @@ mod tests {
     fn a_run_without_preferences_never_looks_for_the_portable_folder() {
         let env = |key: &str| if key == "VECTORCRAFT_NO_PREFS" { Some("1".into()) } else { environment(key) };
         let portable = || -> Option<PathBuf> { panic!("the portable folder is not looked for under VECTORCRAFT_NO_PREFS") };
-        assert_eq!(prefs_path_with("windows", false, env, portable), Some("/roaming/VectorCraft/ui.json".into()));
+        assert_eq!(prefs_path_with("windows", false, env, portable), Some("/roaming/VisualabVector/ui.json".into()));
         assert_eq!(prefs_path_with("windows", true, env, portable), Some("/roaming/VisualabVectorLegacy/ui.json".into()));
     }
 

@@ -91,7 +91,7 @@
           <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="Visualab Vector" Description="Visualab Vector vector illustration app" WorkingDirectory="INSTALLFOLDER" Advertise="yes" Icon="VectorcraftIcon.ico" IconIndex="0" />
         </File>
 
-        <RegistryValue Root="HKMU" Key="Software\Microsoft\Windows\CurrentVersion\App Paths\vectorcraft.exe" Value="[#VectorcraftExe]" Type="string" />
+        <RegistryValue Root="HKMU" Key="Software\Microsoft\Windows\CurrentVersion\App Paths\visualab-vector.exe" Value="[#VectorcraftExe]" Type="string" />
         <RegistryValue Root="HKMU" Key="Software\Visualab Vector" Name="InstallDir" Value="[INSTALLFOLDER]" Type="string" />
       </Component>
 

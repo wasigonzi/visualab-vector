@@ -28,6 +28,9 @@ jobs:
       - name: Test branding
         shell: pwsh
         run: cargo +stable test -p vectorcraft-ui-egui --lib visualab_brand_tests
+      - name: Test desktop host
+        shell: pwsh
+        run: cargo +stable test -p vectorcraft --bin vectorcraft
       - name: Build installer and portable application
         shell: pwsh
         run: ./packaging/windows/package.ps1 -Arch x64
