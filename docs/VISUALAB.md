@@ -18,3 +18,7 @@ No signed installers or verified functional preview are delivered yet. Existing 
 `cargo clippy -p vectorcraft-ui-egui --lib -- -D warnings`: passed.
 
 Formatting and dependency-layer checks were run; Vector and Effects asset-attribution checks passed. Full workspace CI and runtime / screenshot verification are incomplete. The new regression tests have not been executed. These changes are a draft for review, not a validated release.
+
+## Independent distribution configuration
+
+The application now has its own com.visualabstudios platform ID, profile folder, Windows installer UpgradeCode and Visualab display name. Updater instances target only the corresponding wasigonzi repository; no Visualab release feed is populated yet. Existing internal binary names and native file formats are retained. The Windows workflow tests branding then produces an MSI and portable ZIP. Without signing certificates these are unsigned builds. Runtime verification is still in progress.

@@ -26,7 +26,10 @@ impl Default for Runtime {
     fn default() -> Self {
         Self {
             #[cfg(not(target_arch = "wasm32"))]
-            updater: Updater::new(&craft_update::suite::VECTORCRAFT, env!("CARGO_PKG_VERSION")),
+            updater: Updater::new(
+                &craft_update::App::new("visualab-vector", "Visualab Vector", "Visualab Studios creative tools", "wasigonzi/visualab-vector"),
+                env!("CARGO_PKG_VERSION"),
+            ),
             #[cfg(not(target_arch = "wasm32"))]
             startup_check: false,
             #[cfg(not(target_arch = "wasm32"))]

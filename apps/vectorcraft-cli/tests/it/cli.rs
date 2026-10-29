@@ -651,7 +651,7 @@ fn run_with_a_closed_stdout_ends_quietly_and_finishes_the_batch() {
     assert!(!out.status.success());
 }
 
-/// A fresh settings folder for one test (`VECTORCRAFT_CONFIG_DIR`), so no run reads or writes the
+/// A fresh settings folder for one test (`VISUALAB_VECTOR_CONFIG_DIR`), so no run reads or writes the
 /// developer's real profile.
 fn config_dir(name: &str) -> std::path::PathBuf {
     let dir = tmp(&format!("config-{name}"));
@@ -663,7 +663,7 @@ fn config_dir(name: &str) -> std::path::PathBuf {
 /// the result of each step.
 fn run_in(config: &std::path::Path, steps: &[(&str, Value)]) -> Vec<Value> {
     let mut cmd = Command::new(BIN);
-    cmd.arg("run").env("VECTORCRAFT_CONFIG_DIR", config).env_remove("VECTORCRAFT_NO_PREFS");
+    cmd.arg("run").env("VISUALAB_VECTOR_CONFIG_DIR", config).env_remove("VECTORCRAFT_NO_PREFS");
     for (id, params) in steps {
         cmd.args(["--cmd", id, "--params", &params.to_string()]);
     }
@@ -735,7 +735,7 @@ fn runs_without_preferences_remember_nothing() {
     let config = config_dir("noprefs");
     let out = Command::new(BIN)
         .args(["run", "--cmd", "pdf.preset.save", "--params", r#"{"name":"Press"}"#])
-        .env("VECTORCRAFT_CONFIG_DIR", &config)
+        .env("VISUALAB_VECTOR_CONFIG_DIR", &config)
         .env("VECTORCRAFT_NO_PREFS", "1")
         .output()
         .unwrap();

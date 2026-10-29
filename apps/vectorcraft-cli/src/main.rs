@@ -197,7 +197,7 @@ fn main() -> ExitCode {
 
 /// A headless session that remembers what the user keeps between runs: the PDF presets saved, the
 /// ICC profiles loaded and the plug-ins installed (#2168, #2174, #2541), in the folders next to the preferences that the desktop
-/// app uses too. `VECTORCRAFT_NO_PREFS` and `VECTORCRAFT_CONFIG_DIR` apply as they do there.
+/// app uses too. `VECTORCRAFT_NO_PREFS` and `VISUALAB_VECTOR_CONFIG_DIR` apply as they do there.
 fn with_stores(mut h: Headless) -> Headless {
     prefs_dir::attach_profile_store(&mut h.session);
     prefs_dir::attach_plugin_store(&mut h.session);
