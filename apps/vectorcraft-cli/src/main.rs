@@ -197,7 +197,7 @@ fn main() -> ExitCode {
 
 /// A headless session that remembers what the user keeps between runs: the PDF presets saved, the
 /// ICC profiles loaded and the plug-ins installed (#2168, #2174, #2541), in the folders next to the preferences that the desktop
-/// app uses too. `VECTORCRAFT_NO_PREFS` and `VECTORCRAFT_CONFIG_DIR` apply as they do there.
+/// app uses too. `VECTORCRAFT_NO_PREFS` and `VISUALAB_VECTOR_CONFIG_DIR` apply as they do there.
 fn with_stores(mut h: Headless) -> Headless {
     prefs_dir::attach_profile_store(&mut h.session);
     prefs_dir::attach_plugin_store(&mut h.session);
@@ -346,7 +346,7 @@ fn convert(args: &[String]) -> Result<(), String> {
         let skipped = vectorcraft_engine::cmd::fileio::pdf::EDITING_NEEDS_EVERY_ARTBOARD;
         let embedded = !obj.get("warnings").and_then(Value::as_array).is_some_and(|w| w.iter().any(|w| w.as_str() == Some(skipped)));
         if embedded {
-            let note = "The PDF embeds the native VectorCraft document as an attachment (preserveEditing).";
+            let note = "The PDF embeds the native Visualab Vector document as an attachment (preserveEditing).";
             if let Some(Value::Array(w)) = obj.get_mut("warnings") {
                 if !w.iter().any(|w| w.as_str() == Some(note)) {
                     w.push(json!(note));

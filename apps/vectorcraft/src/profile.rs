@@ -1,17 +1,17 @@
 //! Native profile paths. Isolated profiles never migrate preferences from a user's old profile.
 //!
 //! In order:
-//! 1. `VECTORCRAFT_CONFIG_DIR`, when set (tests, agents, custom setups).
+//! 1. `VISUALAB_VECTOR_CONFIG_DIR`, when set (tests, agents, custom setups).
 //! 2. **Portable mode** (#1366), as in PhotoCraft: a marker file ([`PORTABLE_MARKERS`]) in the
-//!    install folder puts the settings in `VectorCraftData` beside it, so a portable copy leaves
+//!    install folder puts the settings in `VisualabVectorData` beside it, so a portable copy leaves
 //!    nothing in `%APPDATA%`. The install folder is the executable's; on macOS the one holding
 //!    `VectorCraft.app` (nothing is written inside a signed bundle), for an AppImage the one holding
 //!    the `.AppImage` file (`$APPIMAGE`; the executable runs from a read-only mount). The Windows
-//!    portable zip ships with `portable.txt`; the MSI doesn't. The first time `VectorCraftData` is
+//!    portable zip ships with `portable.txt`; the MSI doesn't. The first time `VisualabVectorData` is
 //!    created, the settings in the user's profile are copied into it, so a portable zip that gains
 //!    the marker keeps its users' settings. If the folder can't be written (read-only medium,
 //!    Program Files), a warning is logged and the platform folder is used. A portable copy never
-//!    reads the old DrawCraft profile, and a run without preferences (`VECTORCRAFT_NO_PREFS`) never
+//!    reads the old VisualabVectorLegacy profile, and a run without preferences (`VECTORCRAFT_NO_PREFS`) never
 //!    looks for the marker.
 //! 3. The platform convention.
 
@@ -22,7 +22,7 @@ use std::sync::OnceLock;
 /// Files in the install folder that switch on portable mode (either one; contents are ignored).
 pub const PORTABLE_MARKERS: [&str; 2] = ["portable.txt", "VectorCraft.portable"];
 /// The settings folder created in the install folder in portable mode.
-pub const PORTABLE_DATA_DIR: &str = "VectorCraftData";
+pub const PORTABLE_DATA_DIR: &str = "VisualabVectorData";
 
 pub fn prefs_path(legacy: bool) -> Option<PathBuf> {
     prefs_path_with(std::env::consts::OS, legacy, |key| std::env::var_os(key), portable_dir)
@@ -31,23 +31,23 @@ pub fn prefs_path(legacy: bool) -> Option<PathBuf> {
 /// `portable` is the portable settings folder, if any: only asked for when no override is set and
 /// preferences are in use.
 fn prefs_path_with(os: &str, legacy: bool, env: impl Fn(&str) -> Option<OsString>, portable: impl FnOnce() -> Option<PathBuf>) -> Option<PathBuf> {
-    if let Some(root) = env("VECTORCRAFT_CONFIG_DIR") {
-        // Never fall back to DrawCraft's real profile when the isolated file does not exist.
+    if let Some(root) = env("VISUALAB_VECTOR_CONFIG_DIR") {
+        // Never fall back to VisualabVectorLegacy's real profile when the isolated file does not exist.
         return (!legacy && !root.is_empty()).then(|| PathBuf::from(root).join("ui.json"));
     }
     // A run without preferences reads and writes nothing, so it must not create the portable folder.
     if env("VECTORCRAFT_NO_PREFS").is_none()
         && let Some(dir) = portable()
     {
-        // A portable copy is self-contained: DrawCraft's old profile is not read into it.
+        // A portable copy is self-contained: VisualabVectorLegacy's old profile is not read into it.
         return (!legacy).then(|| dir.join("ui.json"));
     }
     platform_dir(os, legacy, &env).map(|p| p.join("ui.json"))
 }
 
-/// The platform's settings folder of VectorCraft, or of DrawCraft (`legacy`).
+/// The platform's settings folder of VectorCraft, or of VisualabVectorLegacy (`legacy`).
 fn platform_dir(os: &str, legacy: bool, env: &impl Fn(&str) -> Option<OsString>) -> Option<PathBuf> {
-    let (name, lower) = if legacy { ("DrawCraft", "drawcraft") } else { ("VectorCraft", "vectorcraft") };
+    let (name, lower) = if legacy { ("VisualabVectorLegacy", "visualab-vector-legacy") } else { ("VisualabVector", "visualab-vector") };
     match os {
         "macos" => env("HOME").map(|p| PathBuf::from(p).join("Library/Application Support").join(name)),
         "windows" => env("APPDATA").map(|p| PathBuf::from(p).join(name)),
@@ -98,7 +98,7 @@ fn app_bundle_parent(exe_dir: &Path) -> Option<&Path> {
     bundle.extension().filter(|ext| *ext == "app").and(bundle.parent())
 }
 
-/// `<install_dir>/VectorCraftData` when a portable marker sits in `install_dir`, created if missing;
+/// `<install_dir>/VisualabVectorData` when a portable marker sits in `install_dir`, created if missing;
 /// `None` without a marker, and the warning to log when there is one but that folder can't be
 /// written. The first time the folder is created, the settings in `previous` (the user's profile
 /// folder, when it exists) are copied into it, so a portable zip that gains the marker keeps its
@@ -198,7 +198,7 @@ mod tests {
     fn isolated_profile_has_no_legacy_fallback_on_any_platform() {
         for os in ["macos", "windows", "linux"] {
             let env = |key: &str| {
-                if key == "VECTORCRAFT_CONFIG_DIR" { Some("/isolated".into()) } else { environment(key) }
+                if key == "VISUALAB_VECTOR_CONFIG_DIR" { Some("/isolated".into()) } else { environment(key) }
             };
             assert_eq!(prefs_path_with(os, false, env, installed), Some("/isolated/ui.json".into()));
             assert_eq!(prefs_path_with(os, true, env, installed), None);
@@ -207,37 +207,40 @@ mod tests {
 
     #[test]
     fn empty_override_does_not_fall_back_to_user_files() {
-        let env = |key: &str| if key == "VECTORCRAFT_CONFIG_DIR" { Some(OsString::new()) } else { environment(key) };
+        let env = |key: &str| if key == "VISUALAB_VECTOR_CONFIG_DIR" { Some(OsString::new()) } else { environment(key) };
         assert_eq!(prefs_path_with("macos", false, env, installed), None);
         assert_eq!(prefs_path_with("macos", true, env, installed), None);
     }
 
     #[test]
     fn unset_override_keeps_platform_paths_and_legacy_migration() {
-        assert_eq!(prefs_path_with("macos", false, environment, installed), Some("/user/Library/Application Support/VectorCraft/ui.json".into()));
-        assert_eq!(prefs_path_with("macos", true, environment, installed), Some("/user/Library/Application Support/DrawCraft/ui.json".into()));
-        assert_eq!(prefs_path_with("windows", false, environment, installed), Some("/roaming/VectorCraft/ui.json".into()));
-        assert_eq!(prefs_path_with("linux", false, environment, installed), Some("/xdg-config/vectorcraft/ui.json".into()));
+        assert_eq!(prefs_path_with("macos", false, environment, installed), Some("/user/Library/Application Support/VisualabVector/ui.json".into()));
+        assert_eq!(
+            prefs_path_with("macos", true, environment, installed),
+            Some("/user/Library/Application Support/VisualabVectorLegacy/ui.json".into())
+        );
+        assert_eq!(prefs_path_with("windows", false, environment, installed), Some("/roaming/VisualabVector/ui.json".into()));
+        assert_eq!(prefs_path_with("linux", false, environment, installed), Some("/xdg-config/visualab-vector/ui.json".into()));
         assert_eq!(
             prefs_path_with("linux", true, |key| if key == "HOME" { environment(key) } else { None }, installed),
-            Some("/user/.config/drawcraft/ui.json".into())
+            Some("/user/.config/visualab-vector-legacy/ui.json".into())
         );
     }
 
     #[test]
-    fn portable_mode_keeps_the_settings_beside_the_executable_and_skips_the_drawcraft_profile() {
-        let portable = || Some(PathBuf::from("/usb/VectorCraft/VectorCraftData"));
+    fn portable_mode_keeps_the_settings_beside_the_executable_and_skips_the_visualab_vector_legacy_profile() {
+        let portable = || Some(PathBuf::from("/usb/VisualabVector/VisualabVectorData"));
         for os in ["macos", "windows", "linux"] {
-            assert_eq!(prefs_path_with(os, false, environment, portable), Some("/usb/VectorCraft/VectorCraftData/ui.json".into()), "{os}");
-            // A portable copy is self-contained: the one-time read of DrawCraft's old settings is skipped.
+            assert_eq!(prefs_path_with(os, false, environment, portable), Some("/usb/VisualabVector/VisualabVectorData/ui.json".into()), "{os}");
+            // A portable copy is self-contained: the one-time read of VisualabVectorLegacy's old settings is skipped.
             assert_eq!(prefs_path_with(os, true, environment, portable), None, "{os}");
         }
     }
 
     #[test]
     fn the_config_dir_override_wins_over_portable_mode_without_probing_it() {
-        let env = |key: &str| if key == "VECTORCRAFT_CONFIG_DIR" { Some("/isolated".into()) } else { environment(key) };
-        let portable = || -> Option<PathBuf> { panic!("the portable folder is not looked for under VECTORCRAFT_CONFIG_DIR") };
+        let env = |key: &str| if key == "VISUALAB_VECTOR_CONFIG_DIR" { Some("/isolated".into()) } else { environment(key) };
+        let portable = || -> Option<PathBuf> { panic!("the portable folder is not looked for under VISUALAB_VECTOR_CONFIG_DIR") };
         assert_eq!(prefs_path_with("windows", false, env, portable), Some("/isolated/ui.json".into()));
         assert_eq!(prefs_path_with("windows", true, env, portable), None);
     }
@@ -246,8 +249,8 @@ mod tests {
     fn a_run_without_preferences_never_looks_for_the_portable_folder() {
         let env = |key: &str| if key == "VECTORCRAFT_NO_PREFS" { Some("1".into()) } else { environment(key) };
         let portable = || -> Option<PathBuf> { panic!("the portable folder is not looked for under VECTORCRAFT_NO_PREFS") };
-        assert_eq!(prefs_path_with("windows", false, env, portable), Some("/roaming/VectorCraft/ui.json".into()));
-        assert_eq!(prefs_path_with("windows", true, env, portable), Some("/roaming/DrawCraft/ui.json".into()));
+        assert_eq!(prefs_path_with("windows", false, env, portable), Some("/roaming/VisualabVector/ui.json".into()));
+        assert_eq!(prefs_path_with("windows", true, env, portable), Some("/roaming/VisualabVectorLegacy/ui.json".into()));
     }
 
     #[test]

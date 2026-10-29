@@ -197,7 +197,7 @@ fn the_macos_bundle_opens_every_readable_format() {
 }
 
 /// The MIME types a Linux desktop gives each extension in `OPEN_EXTS` but `UNASSOCIATED_EXTS`
-/// (one row per type): shared-mime-info's, or one that `ai.storyteller.vectorcraft.mime.xml`
+/// (one row per type): shared-mime-info's, or one that `com.visualabstudios.vector.mime.xml`
 /// declares.
 const LINUX_TYPES: &[(&str, &str)] = &[
     ("vectorcraft", "application/x-vectorcraft"),
@@ -257,8 +257,8 @@ const LINUX_BY_CONTENT: &[(&str, &str)] = &[(
 /// have.
 #[test]
 fn the_linux_desktop_entry_opens_every_readable_format() {
-    let desktop = include_str!("../../../packaging/linux/ai.storyteller.vectorcraft.desktop");
-    let mime = include_str!("../../../packaging/linux/ai.storyteller.vectorcraft.mime.xml");
+    let desktop = include_str!("../../../packaging/linux/com.visualabstudios.vector.desktop");
+    let mime = include_str!("../../../packaging/linux/com.visualabstudios.vector.mime.xml");
     let listed: Vec<&str> =
         desktop.lines().find_map(|l| l.strip_prefix("MimeType=")).unwrap_or_default().split(';').filter(|t| !t.is_empty()).collect();
     // Each type the MIME package declares, with the extensions of its globs and its `<magic>`

@@ -1,0 +1,8 @@
+asset: com.visualabstudios.vector.png
+title: Visualab Vector provisional V mark
+author: Visualab Studios
+source: original work
+license: MIT OR Apache-2.0
+license-file: ../../../../../LICENSE-MIT
+added: 2026-10-29 by Visualab Studios
+notes: Original geometric V and rounded tile drawn procedurally, replacing the upstream app icon.
