@@ -4828,7 +4828,7 @@ imageTrace	Outline	Obrys
 @msg	its editing data doesn't say where its art is	z jeho dat pro úpravy není zřejmé, kde je kresba
 @msg	this file was saved without PDF compatibility, and its editing data can't be read ({why})	tento soubor byl uložen bez kompatibility s PDF a jeho data pro úpravy nelze přečíst ({why})
 @msg	No fonts are missing in this document	V tomto dokumentu nechybí žádná písma
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft neprohledává složky jiných aplikací ani systému: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector neprohledává složky jiných aplikací ani systému: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft neprohledává složku Shared ani Public ve složce Users: {path}
 @msg	{path} is not a folder	{path} není složka
 @msg	the search couldn't start: try again in a moment	hledání nelze spustit: zkuste to za chvíli znovu

@@ -4559,7 +4559,7 @@ theme	Appearance	외관
 @msg	x and y must be finite	x와 y는 유한한 값이어야 합니다
 @msg	t, dx and dy must be finite	t, dx, dy는 유한한 값이어야 합니다
 @msg	No fonts are missing in this document	이 문서에는 누락된 글꼴이 없습니다
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft는 다른 앱이나 시스템의 폴더를 검색하지 않습니다: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector는 다른 앱이나 시스템의 폴더를 검색하지 않습니다: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft는 사용자 폴더의 공유 또는 공용 폴더를 검색하지 않습니다: {path}
 @msg	{path} is not a folder	{path}은(는) 폴더가 아닙니다
 @msg	the search couldn't start: try again in a moment	검색을 시작할 수 없습니다: 잠시 후 다시 시도하세요

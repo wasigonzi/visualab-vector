@@ -5537,7 +5537,7 @@
 @msg	Updated {_1} linked file(s) changed on disk	S’han actualitzat {_1} fitxer(s) enllaçat(s) que han canviat al disc
 @msg	variables are locked	les variables estan blocades
 @msg	variables that aren't text were left out: {kinds}	les variables que no són text s’han omès: {kinds}
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft no cerca a les carpetes d’altres aplicacions ni del sistema: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector no cerca a les carpetes d’altres aplicacions ni del sistema: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft no cerca a la carpeta Shared o Public d’Usuaris: {path}
 @msg	VectorCraft failed to start: {e}	VectorCraft no s’ha pogut iniciar: {e}
 @msg	VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it	aquí no s’ha definit la carpeta Fonts de VectorCraft: l’aplicació d’escriptori i vectorcraft-cli la defineixen

@@ -4627,7 +4627,7 @@ swatch	Bright Violet	ビビッドバイオレット
 @msg	x and y must be finite	x と y には有限の数値を指定してください
 @msg	t, dx and dy must be finite	t、dx、dy には有限の数値を指定してください
 @msg	No fonts are missing in this document	このドキュメントには見つからないフォントはありません
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft は他のアプリやシステムのフォルダーを検索しません: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector は他のアプリやシステムのフォルダーを検索しません: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft は Users 内の Shared フォルダーと Public フォルダーを検索しません: {path}
 @msg	{path} is not a folder	{path} はフォルダーではありません
 @msg	the search couldn't start: try again in a moment	検索を開始できませんでした: しばらくしてからもう一度お試しください

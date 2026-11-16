@@ -2288,7 +2288,7 @@ file-filter	Templates	範本
 @msg	unknown workspace (one of {_1})	未知的工作區 (應為 {_1} 其中之一)
 @msg	workspace name can't be empty	工作區名稱不能是空的
 @msg	No fonts are missing in this document	此文件中沒有遺失的字體
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft 不會搜尋其他應用程式或系統的資料夾：{path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector 不會搜尋其他應用程式或系統的資料夾：{path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft 不會搜尋「使用者」中的 Shared 或 Public 資料夾：{path}
 @msg	{path} is not a folder	{path} 不是資料夾
 @msg	the search couldn't start: try again in a moment	無法開始搜尋：請稍後再試

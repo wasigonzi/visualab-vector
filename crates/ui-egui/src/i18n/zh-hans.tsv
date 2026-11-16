@@ -4345,7 +4345,7 @@ imageTrace	Outline	轮廓
 @msg	unknown workspace (one of {_1})	未知工作区 (应为 {_1} 之一)
 @msg	workspace name can't be empty	工作区名称不能为空
 @msg	No fonts are missing in this document	此文档中没有缺失的字体
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft 不会搜索其他应用或系统的文件夹：{path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector 不会搜索其他应用或系统的文件夹：{path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft 不会搜索“用户”中的 Shared 或 Public 文件夹：{path}
 @msg	{path} is not a folder	{path} 不是文件夹
 @msg	the search couldn't start: try again in a moment	无法开始搜索：请稍后重试
