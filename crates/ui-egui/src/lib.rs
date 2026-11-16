@@ -56,6 +56,7 @@ pub mod screen_color;
 mod scrub;
 pub mod shortcut_editor;
 pub mod shortcuts;
+pub mod splash;
 pub mod state;
 pub mod stylus;
 pub mod sysclip;

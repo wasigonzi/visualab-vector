@@ -1,4 +1,4 @@
-# Visualab Vector branding fork
+# VL Vector branding fork
 
 This fork changes visible product strings, default theme colours and application icons. The artwork is provisional; an official Visualab logo has not been supplied. Internal package names, format IDs, file extensions, signing configuration, updater feeds, platform IDs and preferences locations are deliberately unchanged in this first source pass. Install alongside an upstream copy only after those identities have been separated.
 

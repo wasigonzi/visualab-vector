@@ -69,8 +69,8 @@ impl Accent {
     /// with white lettering.
     fn colors(self, dark: bool) -> (u32, u32) {
         match (self, dark) {
-            (Accent::Coral, true) => (0x25d6b7, 0x00816f),
-            (Accent::Coral, false) => (0x00816f, 0x00675c),
+            (Accent::Coral, true) => (0x00d4ff, 0x0089a8),
+            (Accent::Coral, false) => (0x0089a8, 0x00718c),
             (Accent::Blue, true) => (0x5b96ff, 0x2f74f0),
             (Accent::Blue, false) => (0x2563eb, 0x1f5ad6),
             (Accent::Violet, true) => (0xa98bff, 0x7c55f0),
@@ -172,8 +172,8 @@ pub struct Tokens {
 impl Tokens {
     pub fn for_brightness(b: Brightness) -> Self {
         let hex = |s: u32| Color32::from_rgb((s >> 16) as u8, (s >> 8) as u8, s as u8);
-        // The Craft look: cool slate greys, flat faces with soft corners, and one accent (the app
-        // icon's coral) for what is on, chosen or focused. The four brightness levels share the
+        // The Visualab Studios look: cool slate greys, flat faces with soft corners, and one accent
+        // (the brand cyan #00D4FF, as in VL Studios) for what is on, chosen or focused. The four brightness levels share the
         // style and differ only in their greys.
         let base = Tokens {
             dark: true,
@@ -190,9 +190,9 @@ impl Tokens {
             icon: hex(0xc9d0dc),
             hover: hex(0x262b35),
             tool_active: hex(0x2f3541),
-            accent: hex(0x25d6b7),
-            accent_strong: hex(0x00816f),
-            row_selected: hex(0x19433f),
+            accent: hex(0x00d4ff),
+            accent_strong: hex(0x0089a8),
+            row_selected: hex(0x0c3442),
             pasteboard: hex(0x101217),
             ruler: hex(0x13161c),
             ruler_tick: hex(0x6f788a),
@@ -237,7 +237,7 @@ impl Tokens {
                 icon: hex(0xccd3de),
                 hover: hex(0x353c49),
                 tool_active: hex(0x3d4553),
-                row_selected: hex(0x19433f),
+                row_selected: hex(0x0c3442),
                 pasteboard: hex(0x090f11),
                 ruler: hex(0x090b0d),
                 ruler_tick: hex(0x7c8597),
@@ -263,9 +263,9 @@ impl Tokens {
                 icon: hex(0x0d1215),
                 hover: hex(0xc5ccd6),
                 tool_active: hex(0xb6bec9),
-                accent: hex(0x00816f),
-                accent_strong: hex(0x00675c),
-                flyout_active: hex(0x00675c),
+                accent: hex(0x0089a8),
+                accent_strong: hex(0x00718c),
+                flyout_active: hex(0x00718c),
                 row_selected: hex(0xe7c4bd),
                 pasteboard: hex(0xb9c0cb),
                 ruler: hex(0xccd2db),
@@ -292,9 +292,9 @@ impl Tokens {
                 icon: hex(0x2a303b),
                 hover: hex(0xe3e7ed),
                 tool_active: hex(0xd5dbe3),
-                accent: hex(0x00816f),
-                accent_strong: hex(0x00675c),
-                flyout_active: hex(0x00675c),
+                accent: hex(0x0089a8),
+                accent_strong: hex(0x00718c),
+                flyout_active: hex(0x00718c),
                 row_selected: hex(0xf8d9d2),
                 pasteboard: hex(0xdfe3e9),
                 ruler: hex(0xeceff3),
@@ -677,7 +677,7 @@ mod visualab_brand_tests {
     #[test]
     fn legacy_accent_preference_keeps_brand_and_contrast() {
         assert_eq!(Accent::parse("coral"), Some(Accent::default()));
-        assert_eq!(Accent::default().colors(true), (0x25d6b7, 0x00816f));
+        assert_eq!(Accent::default().colors(true), (0x00d4ff, 0x0089a8));
         let t = Tokens::for_brightness(Brightness::default());
         assert!(t.text.r() > 200 && t.panel.r() < 30);
         assert_ne!(t.error, t.accent);

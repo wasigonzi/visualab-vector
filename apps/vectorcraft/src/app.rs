@@ -67,6 +67,8 @@ impl eframe::App for App {
         #[cfg(all(target_os = "macos", feature = "wgpu"))]
         super::mac_color_space::tag(ui);
         file_access::unconfined(|| self.app.ui(ui));
+        // The Visualab Studios loading screen, over the first seconds of the session.
+        vectorcraft_ui_egui::splash::paint(ui.ctx());
         // Preferences are written when confirmed, not only at exit: a session ended any other way
         // (the system shutting down, the process ended or crashing) used to lose them (#1747).
         if self.app.take_prefs_changed() {

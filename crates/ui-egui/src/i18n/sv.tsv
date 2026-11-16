@@ -86,7 +86,7 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	Ett lägre värde följer konturen noga; ett högre ger färre punkter och jämnare kurvor.
 	A new preset starting from the selected one	En ny förinställning baserad på den markerade
 	A saved copy of the selected preset	En sparad kopia av den markerade förinställningen
-	About VectorCraft	Om VectorCraft
+	About VL Vector	Om VL Vector
 	above	ovanför
 	Absolute Position	Absolut position
 	Accurate	Exakt
@@ -193,7 +193,7 @@ font-technology	Variable	Variabla
 	Appearance Panel	Utseendepanel
 	Appearance panel	Utseendepanelen
 	Applies when the linked file is relinked or updated.	Gäller när den länkade filen länkas om eller uppdateras.
-	Applies the next time VectorCraft starts.	Gäller nästa gång VectorCraft startas.
+	Applies the next time VL Vector starts.	Gäller nästa gång VL Vector startas.
 	Apply	Använd
 	Apply Brush	Använd pensel
 	Apply Character Style	Använd teckenstil
@@ -231,8 +231,8 @@ font-technology	Variable	Variabla
 	Artboard {number}	Rityta {number}
 	Artboard:	Rityta:
 	Artboards	Ritytor
-	ArtCraft Website	ArtCrafts webbplats
-	ArtCraft website	ArtCrafts webbplats
+	Visualab Studios Website	Visualab Studioss webbplats
+	Visualab Studios website	Visualab Studioss webbplats
 	Artwork Colors	Färger i grafiken
 	As Multiple Assets	Som flera resurser
 	As Single Asset	Som en enda resurs
@@ -391,7 +391,7 @@ font-technology	Variable	Variabla
 	Check Script	Kontrollera skript
 	Check Script…	Kontrollera skript…
 	Copy Report	Kopiera rapport
-	VectorCraft read this script without running it.	VectorCraft läste skriptet utan att köra det.
+	VL Vector read this script without running it.	VL Vector läste skriptet utan att köra det.
 	Needs nothing beyond plain JavaScript	Kräver inget utöver vanlig JavaScript
 	Needs the script language's own objects or directives	Kräver skriptspråkets egna objekt eller direktiv
 	Needs the document model	Kräver dokumentmodellen
@@ -1556,9 +1556,9 @@ font-technology	Variable	Variabla
 	Italian	Italienska
 	Japanese	Japanska
 	Join	Foga samman
-	Join Our Discord	Gå med i vår Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Gå med i vår Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Gå med i ArtCraft-gemenskapen på Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Foga samman raderna i varje stycke
 	Join Tool	Sammanfogningsverktyg
 	Justification…	Justering…
@@ -1581,7 +1581,7 @@ font-technology	Variable	Variabla
 	Keyboard Shortcuts…	Kortkommandon…
 	Import Shortcut Set	Importera kortkommandouppsättning
 	Import Shortcut Set…	Importera kortkommandouppsättning…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Varje post i filen matchas mot ett verktyg, kommando eller en panel i VectorCraft. Kontrollera matchningarna och besvara det som återstår.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Varje post i filen matchas mot ett verktyg, kommando eller en panel i VL Vector. Kontrollera matchningarna och besvara det som återstår.
 	Keys	Tangenter
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Filen anger tangenter och modifieringstangenter som koder. Kontrollera de föreslagna betydelserna och besvara de koder som ännu inte är kända.
 	Click, then press the key this code stands for (Esc cancels)	Klicka och tryck sedan på tangenten som koden står för (Esc avbryter)
@@ -1591,7 +1591,7 @@ font-technology	Variable	Variabla
 	not known yet	ännu okänt
 	Shortcuts	Kortkommandon
 	In the File	I filen
-	In VectorCraft	I VectorCraft
+	In VL Vector	I VL Vector
 	Needs Attention Only	Endast de som kräver åtgärd
 	Ready	Klar
 	Needs a choice	Kräver ett val
@@ -1600,7 +1600,7 @@ font-technology	Variable	Variabla
 	Tools take a single key (optionally with Shift)	Verktyg använder en enda tangent (eventuellt med Shift)
 	A later row takes this shortcut	En senare rad använder detta kortkommando
 	Same item as a later row	Samma objekt som en senare rad
-	Start from VectorCraft Defaults	Utgå från standardvärdena i VectorCraft
+	Start from VL Vector Defaults	Utgå från standardvärdena i VL Vector
 	Add to the Current Shortcuts	Lägg till i aktuella kortkommandon
 	Remember My Choices	Kom ihåg mina val
 	{ready} of {total} ready	{ready} av {total} klara
@@ -2220,7 +2220,7 @@ font-technology	Variable	Variabla
 	Paragraph Style Options	Alternativ för styckestil
 	Paragraph Styles	Styckestilar
 	Paragraph Symbol	Styckesymbol
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Del av ArtCraft. MIT OR Apache-2.0. Typsnitt: Source Sans 3, Inter, JetBrains Mono (OFL). Ikoner: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Del av Visualab Studios. MIT OR Apache-2.0. Typsnitt: Source Sans 3, Inter, JetBrains Mono (OFL). Ikoner: Lucide (ISC) + VL Vector.
 	Password	Lösenord
 	Paste	Klistra in
 	Paste in Back	Klistra in bakom
@@ -2399,7 +2399,7 @@ font-technology	Variable	Variabla
 	Quarter Space	Fjärdedels blanksteg
 	Quick Actions	Snabbåtgärder
 	Quickly start a new file	Skapa snabbt en ny fil
-	Quit VectorCraft	Avsluta VectorCraft
+	Quit VL Vector	Avsluta VL Vector
 	Radar Graph Tool	Verktyget Radardiagram
 	Radial	Radiell
 	Radial Glows	Radiellt sken
@@ -2524,7 +2524,7 @@ font-technology	Variable	Variabla
 	{count} folder(s) or file(s) couldn't be read	{count} mapp(ar) eller fil(er) kunde inte läsas
 	The search stopped at its limit: search a smaller folder.	Sökningen stoppades vid sin gräns: sök i en mindre mapp.
 	Copy only fonts you own or are licensed to install.	Kopiera bara typsnitt som du äger eller har licens att installera.
-	VectorCraft copies the fonts to {folder}.	VectorCraft kopierar typsnitten till {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector kopierar typsnitten till {folder}.
 	Registered Trademark Symbol	Symbol för registrerat varumärke
 	Registration marks	Passmärken
 	Registry name:	Registernamn:
@@ -2634,9 +2634,9 @@ font-technology	Variable	Variabla
 	Revert	Återgå
 	Revert to the saved version of “{name}”?	Vill du återgå till den sparade versionen av ”{name}”?
 	Replace “{name}”, the file this document was opened from?	Vill du ersätta ”{name}”, filen som dokumentet öppnades från?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	När filen öppnades utelämnades det som VectorCraft inte kan läsa än ({what}), så om du ersätter den förloras det för gott. Spara under ett annat namn för att behålla det.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	När filen öppnades utelämnades det som VL Vector inte kan läsa än ({what}), så om du ersätter den förloras det för gott. Spara under ett annat namn för att behålla det.
 	“{name}” already exists. Replace it?	”{name}” finns redan. Vill du ersätta den?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Namnet i sparpanelen var ”{typed}”, och VectorCraft lade till filtypens filändelse. Om du ersätter filen skrivs innehållet över.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Namnet i sparpanelen var ”{typed}”, och VL Vector lade till filtypens filändelse. Om du ersätter filen skrivs innehållet över.
 	Revolve…	Rotera runt axel…
 	RGB Color	RGB-färg
 	Right	Höger
@@ -3511,10 +3511,10 @@ font-technology	Variable	Variabla
 	Vector Halftone	Vektorrastrering
 	Vector Halftone…	Vektorrastrering…
 	Vector illustration — fast, open, scriptable.	Vektorillustration – snabb, öppen, skriptbar.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft avslutades inte normalt förra gången. De här dokumenten hade osparade ändringar:
-	VectorCraft Help…	VectorCraft-hjälp…
-	VectorCraft on getartcraft.com	VectorCraft på getartcraft.com
-	VectorCraft on GitHub	VectorCraft på GitHub
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector avslutades inte normalt förra gången. De här dokumenten hade osparade ändringar:
+	VL Vector Help…	VL Vector-hjälp…
+	VL Vector on visualabstudios.com	VL Vector på visualabstudios.com
+	VL Vector on GitHub	VL Vector på GitHub
 	Vectors	Vektorer
 	Version {version} — open-source vector illustration in pure Rust.	Version {version} – vektorillustration med öppen källkod i ren Rust.
 	Version:	Version:
@@ -3554,7 +3554,7 @@ font-technology	Variable	Variabla
 	Web Snap:	Fäst mot webbfärger:
 	Weight	Tjocklek
 	Weight:	Tjocklek:
-	Welcome to VectorCraft	Välkommen till VectorCraft
+	Welcome to VL Vector	Välkommen till VL Vector
 	When pasting text	När text klistras in
 	White	Vit
 	Widget Position:	Widgetens position:
@@ -4393,7 +4393,7 @@ axis	Both	Båda
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Grafikprocessorn som prövades först kunde inte visa fönstret, så VectorCraft startade om med {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Den senaste starten av VectorCraft avbröts på {name} innan fönstret visades, så det startade med {summary}. Om du vill prova den grafikprocessorn igen ändrar du Inställningar › Prestanda › Grafikprocessor eller startar med WGPU_BACKEND angiven
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Den senaste starten av VectorCraft avbröts medan grafikprocessorerna listades, så det startade med {summary} med enbart OpenGL. Om du vill prova de andra grafikgränssnitten igen ändrar du Inställningar › Prestanda › Grafikprocessor eller startar med WGPU_BACKEND angiven
-@msg	Loading VectorCraft…	Läser in VectorCraft…
+@msg	Loading VL Vector…	Läser in VL Vector…
 @msg	VectorCraft failed to start: {e}	VectorCraft kunde inte starta: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	En webbläsare med WebGPU eller WebGL2 krävs.
 @msg	The graphics were lost and couldn't be restarted.	Grafiken förlorades och kunde inte startas om.
@@ -4449,7 +4449,7 @@ axis	Both	Båda
 @msg	No linked files to look for	Inga länkade filer att leta efter
 @msg	Relinked {n} image(s); {name} couldn't be relinked: {reason}	Omlänkade {n} bild(er); {name} kunde inte omlänkas: {reason}
 	Services	Tjänster
-	Hide VectorCraft	Göm VectorCraft
+	Hide VL Vector	Göm VL Vector
 	Zoom	Zoom
 	Bring All to Front	Lägg alla överst
 	Settings	Inställningar
@@ -4457,7 +4457,7 @@ axis	Both	Båda
 	On: one locked object showing the document, updated when it changes.	På: ett låst objekt som visar dokumentet och uppdateras när det ändras.
 	Off: an editable copy of its art, embedded in this document.	Av: en redigerbar kopia av grafiken, inbäddad i det här dokumentet.
 	Images: link to the file instead of only embedding it.	Bilder: länka till filen i stället för att bara bädda in den.
-	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft-dokument: ett låst objekt som uppdateras när filen ändras.
+	VL Vector documents: one locked object, updated when the file changes.	VL Vector-dokument: ett låst objekt som uppdateras när filen ändras.
 	A file dialog is open: choose there first	En fildialog är öppen: välj där först
 	The document was closed while its file dialog was open	Dokumentet stängdes medan dess fildialogruta var öppen
 	The dialog was closed before its file dialog answered	Dialogrutan stängdes innan dess fildialogruta svarade
@@ -4995,7 +4995,7 @@ lighting	Light	Ljus
 	PDF/X-4:2010	PDF/X-4:2010
 	PRs	PR:er
 	Page Cover 1640×624	Sidomslag 1640×624
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Del av ArtCraft. MIT OR Apache-2.0. Typsnitt: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikoner: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Del av Visualab Studios. MIT OR Apache-2.0. Typsnitt: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikoner: Lucide (ISC) + VL Vector.
 	Pattern Swatches	Mönsterfärgrutor
 	Pen	Penna
 	Pentagram	Pentagram
@@ -5134,7 +5134,7 @@ lighting	Light	Ljus
 	Use Default	Använd standard
 	Variation	Variation
 	VectorCraft Default	VectorCraft-standard
-	VectorCraft Defaults	VectorCraft-standardvärden
+	VL Vector Defaults	VL Vector-standardvärden
 	VectorCraft Generic CMYK (SWOP-like)	VectorCraft allmän CMYK (SWOP-liknande)
 	VectorCraft Swatches (.vcswatches)	VectorCraft-färgrutor (.vcswatches)
 	Vertical Align	Vertikal justering
@@ -5201,7 +5201,7 @@ file-filter	Print presets	Utskriftsförinställningar
 file-filter	SVG Compressed	SVG komprimerad
 file-filter	Swatch libraries	Färgrutebibliotek
 file-filter	Templates	Mallar
-file-filter	VectorCraft Template	VectorCraft-mall
+file-filter	VL Vector Template	VL Vector-mall
 gradient-kind	Radial	Radiell
 mark-style	Japanese	Japanska
 theme	Appearance	Utseende

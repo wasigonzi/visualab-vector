@@ -9,17 +9,17 @@
 	Paste Design	Tempel desain
 	Select Unused	Seleksi yang tidak digunakan
 	Glowing Edges…	Tepi berpendar…
-	About VectorCraft	Tentang VectorCraft
+	About VL Vector	Tentang VL Vector
 	Align to Path	Sejajarkan ke jalur
 	Cut Path at Selected Anchor Points	Potong jalur pada titik jangkar terseleksi
-	Join Our Discord	Gabung ke Discord kami
+	Visit Visualab Studios	Visit Visualab Studios
 	Language	Bahasa
 	UI Brightness	Kecerahan UI
 	Dark	Gelap
 	Medium Dark	Agak gelap
 	Medium Light	Agak terang
 	Light	Terang
-	Quit VectorCraft	Keluar dari VectorCraft
+	Quit VL Vector	Keluar dari VL Vector
 # Artwork drag between document tabs.
 	Drop Artwork	Letakkan karya
 @msg	{key} must be [x, y] with finite coordinates	{key} harus berupa [x, y] dengan koordinat berhingga
@@ -108,7 +108,7 @@
 	Keyboard Shortcuts…	Pintasan papan tik…
 	Import Shortcut Set	Impor set pintasan
 	Import Shortcut Set…	Impor set pintasan…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Setiap entri dalam berkas dicocokkan dengan alat, perintah, atau panel VectorCraft. Periksa kecocokannya dan jawab sisanya.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Setiap entri dalam berkas dicocokkan dengan alat, perintah, atau panel VL Vector. Periksa kecocokannya dan jawab sisanya.
 	Keys	Tombol
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Berkas menulis tombol dan pengubah sebagai kode. Periksa makna yang diusulkan dan jawab kode yang belum diketahui.
 	Click, then press the key this code stands for (Esc cancels)	Klik, lalu tekan tombol yang diwakili kode ini (Esc membatalkan)
@@ -118,7 +118,7 @@
 	not known yet	belum diketahui
 	Shortcuts	Pintasan
 	In the File	Dalam berkas
-	In VectorCraft	Dalam VectorCraft
+	In VL Vector	Dalam VL Vector
 	Needs Attention Only	Perlu perhatian saja
 	Ready	Siap
 	Needs a choice	Perlu pilihan
@@ -127,7 +127,7 @@
 	Tools take a single key (optionally with Shift)	Alat menggunakan satu tombol (opsional dengan Shift)
 	A later row takes this shortcut	Baris selanjutnya menggunakan pintasan ini
 	Same item as a later row	Item yang sama dengan baris selanjutnya
-	Start from VectorCraft Defaults	Mulai dari default VectorCraft
+	Start from VL Vector Defaults	Mulai dari default VL Vector
 	Add to the Current Shortcuts	Tambahkan ke pintasan saat ini
 	Remember My Choices	Ingat pilihan saya
 	{ready} of {total} ready	{ready} dari {total} siap
@@ -689,11 +689,11 @@
 	Save Swatch Library…	Simpan pustaka sampel warna…
 	Symbol Libraries	Pustaka simbol
 	Help	Bantuan
-	ArtCraft Website	Situs web ArtCraft
-	VectorCraft on getartcraft.com	VectorCraft di getartcraft.com
-	VectorCraft on GitHub	VectorCraft di GitHub
+	Visualab Studios Website	Situs web Visualab Studios
+	VL Vector on visualabstudios.com	VL Vector di visualabstudios.com
+	VL Vector on GitHub	VL Vector di GitHub
 	Search Commands…	Cari perintah…
-	VectorCraft Help…	Bantuan VectorCraft…
+	VL Vector Help…	Bantuan VL Vector…
 	Auto Color	Warna otomatis
 	Automatic	Otomatis
 	Isolate Selected Group	Isolasi grup terseleksi
@@ -742,7 +742,7 @@
 	Dock Panel	Tambatkan panel
 	Float Tool Group	Mengambangkan grup alat
 	Services	Layanan
-	Hide VectorCraft	Sembunyikan VectorCraft
+	Hide VL Vector	Sembunyikan VL Vector
 	Hide Others	Sembunyikan yang lain
 	Minimize	Minimalkan
 	Zoom	Zum
@@ -1877,8 +1877,8 @@ lighting	Light	Cahaya
 	Select All Bound Objects	Pilih semua objek terikat
 	Multiple objects	Beberapa objek
 	Graphics: {adapter}	Grafis: {adapter}
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Bagian dari ArtCraft. MIT OR Apache-2.0. Font: Source Sans 3, Inter, JetBrains Mono (OFL). Ikon: Lucide (ISC) + VectorCraft.
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Bagian dari ArtCraft. MIT OR Apache-2.0. Font: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikon: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Bagian dari Visualab Studios. MIT OR Apache-2.0. Font: Source Sans 3, Inter, JetBrains Mono (OFL). Ikon: Lucide (ISC) + VL Vector.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Bagian dari Visualab Studios. MIT OR Apache-2.0. Font: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikon: Lucide (ISC) + VL Vector.
 	Version {version} — open-source vector illustration in pure Rust.	Versi {version} — ilustrasi vektor sumber terbuka dalam Rust murni.
 	Align to Page	Ratakan ke halaman
 	Smooth Color	Warna mulus
@@ -2195,7 +2195,7 @@ lighting	Light	Cahaya
 	{count} folder(s) or file(s) couldn't be read	{count} folder atau file tidak dapat dibaca
 	The search stopped at its limit: search a smaller folder.	Pencarian berhenti pada batasnya: cari folder yang lebih kecil.
 	Copy only fonts you own or are licensed to install.	Salin hanya font yang Anda miliki atau yang dilisensikan untuk dipasang.
-	VectorCraft copies the fonts to {folder}.	VectorCraft menyalin font ke {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector menyalin font ke {folder}.
 	Apply to All ({count} more missing)	Terapkan ke semua ({count} lagi hilang)
 	Ignore	Abaikan
 	Linked File Not Found	File tertaut tidak ditemukan
@@ -2284,7 +2284,7 @@ lighting	Light	Cahaya
 	On: one locked object showing the document, updated when it changes.	Aktif: satu objek terkunci yang menampilkan dokumen, diperbarui saat dokumen berubah.
 	Off: an editable copy of its art, embedded in this document.	Nonaktif: salinan karya seninya yang dapat diedit, tersemat dalam dokumen ini.
 	Images: link to the file instead of only embedding it.	Gambar: tautkan ke file alih-alih hanya menyematkannya.
-	VectorCraft documents: one locked object, updated when the file changes.	Dokumen VectorCraft: satu objek terkunci, diperbarui saat file berubah.
+	VL Vector documents: one locked object, updated when the file changes.	Dokumen VL Vector: satu objek terkunci, diperbarui saat file berubah.
 	Alignment:	Perataan:
 	Applies when the linked file is relinked or updated.	Berlaku saat file tertaut ditautkan ulang atau diperbarui.
 	Bounds (Fill Proportionally)	Batas (isi proporsional)
@@ -2420,7 +2420,7 @@ lighting	Light	Cahaya
 	3 Color Job	Pekerjaan 3 warna
 	Recover Documents	Pulihkan dokumen
 	Restored documents open unsaved: save them to keep them.	Dokumen yang dipulihkan terbuka dalam keadaan belum disimpan: simpan untuk mempertahankannya.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft terakhir kali tidak keluar secara normal. Dokumen berikut memiliki perubahan yang belum disimpan:
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector terakhir kali tidak keluar secara normal. Dokumen berikut memiliki perubahan yang belum disimpan:
 	Do you want to save the changes you made to “{name}”?	Apakah Anda ingin menyimpan perubahan yang Anda buat pada “{name}”?
 	Don't Save	Jangan Simpan
 	Your changes will be lost if you don't save them.	Perubahan Anda akan hilang jika tidak disimpan.
@@ -2585,7 +2585,7 @@ lighting	Light	Cahaya
 	Selected Swatches Only (0)	Hanya swatch terpilih (0)
 	User Defined Libraries	Pustaka buatan pengguna
 	Copy Report	Salin laporan
-	VectorCraft read this script without running it.	VectorCraft membaca skrip ini tanpa menjalankannya.
+	VL Vector read this script without running it.	VL Vector membaca skrip ini tanpa menjalankannya.
 	Needs nothing beyond plain JavaScript	Tidak memerlukan apa pun selain JavaScript biasa
 	Needs the script language's own objects or directives	Memerlukan objek atau direktif milik bahasa skrip itu sendiri
 	Needs the document model	Memerlukan model dokumen
@@ -3599,11 +3599,11 @@ effect	Regular	Reguler
 	Quickly start a new file	Mulai file baru dengan cepat
 	Recent Files	File terkini
 	Vector illustration — fast, open, scriptable.	Ilustrasi vektor — cepat, terbuka, mendukung skrip.
-	Welcome to VectorCraft	Selamat datang di VectorCraft
-	ArtCraft website	Situs web ArtCraft
+	Welcome to VL Vector	Selamat datang di VL Vector
+	Visualab Studios website	Situs web Visualab Studios
 	Discord	Discord
 	Join our Discord	Gabung ke Discord kami
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Bergabunglah dengan komunitas ArtCraft di Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Source code on GitHub	Kode sumber di GitHub
 	All Tools	Semua alat
 	Draw	Menggambar
@@ -3648,7 +3648,7 @@ font-technology	Variable	Variabel
 	Opened with {} note(s): {}	Dibuka dengan {} catatan: {}
 	Revert to the saved version of “{name}”?	Kembalikan ke versi tersimpan dari “{name}”?
 	Replace “{name}”, the file this document was opened from?	Ganti “{name}”, file asal dokumen ini?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Saat membukanya, VectorCraft meninggalkan bagian yang belum dapat dibacanya ({what}), sehingga mengganti file akan membuat bagian itu hilang permanen. Simpan dengan nama lain untuk mempertahankannya.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Saat membukanya, VL Vector meninggalkan bagian yang belum dapat dibacanya ({what}), sehingga mengganti file akan membuat bagian itu hilang permanen. Simpan dengan nama lain untuk mempertahankannya.
 	Saved {path}	Berhasil menyimpan {path}
 	Saved {path} with {} note(s): {first}	Berhasil menyimpan {path} dengan {} catatan: {first}
 	Saving	Menyimpan
@@ -3657,7 +3657,7 @@ font-technology	Variable	Variabel
 	Dashed Line	Garis putus-putus
 	Panel menu	Menu panel
 	Unembed…	Lepaskan sematan…
-	Applies the next time VectorCraft starts.	Berlaku saat VectorCraft dimulai berikutnya.
+	Applies the next time VL Vector starts.	Berlaku saat VL Vector dimulai berikutnya.
 	Enable Contextual Task Bar	Aktifkan bilah tugas kontekstual
 	Next	Berikutnya
 	OK	OK
@@ -4452,7 +4452,7 @@ imageTrace	Outline	Kontur
 @msg	{_1} files	berkas {_1}
 @msg	The graphics were lost and have been restarted	Grafis hilang dan telah dimulai ulang
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Prosesor grafis yang dicoba pertama kali tidak dapat menampilkan jendela, jadi VectorCraft memulai ulang dengan {summary}
-@msg	Loading VectorCraft…	Memuat VectorCraft…
+@msg	Loading VL Vector…	Memuat VL Vector…
 @msg	VectorCraft failed to start: {e}	VectorCraft gagal dimulai: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Diperlukan browser dengan WebGPU atau WebGL2.
 @msg	The graphics were lost and couldn't be restarted.	Grafis hilang dan tidak dapat dimulai ulang.
@@ -4636,7 +4636,7 @@ imageTrace	Outline	Kontur
 	All shortcuts reset to defaults.	Semua pintasan diatur ulang ke default.
 	Imported. Press OK to keep the imported set.	Terimpor. Tekan OK untuk mempertahankan set yang diimpor.
 	⚠ {chord} was already used by {names} — it has been removed there.	Peringatan: {chord} sudah digunakan oleh {names} — pintasan tersebut telah dihapus di sana.
-	VectorCraft Defaults	Default VectorCraft
+	VL Vector Defaults	Default VL Vector
 @plural	{n} shortcut is assigned more than once|{n} shortcuts are assigned more than once	{n} pintasan ditetapkan lebih dari satu kali
 	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	Simulasi mencetak overprint sebagaimana ditampilkan Pratinjau Overprint; separasi selalu mempertahankannya. Preset meratakan transparansi sebelum mencetak (berkas PostScript selalu meratakannya).
 	Preserve	Pertahankan
@@ -4850,7 +4850,7 @@ file-filter	PDF presets	Preset PDF
 file-filter	Print presets	Preset cetak
 file-filter	SVG Compressed	SVG terkompresi
 file-filter	PDF-compatible .ai	.ai kompatibel PDF
-file-filter	VectorCraft Template	Templat VectorCraft
+file-filter	VL Vector Template	Templat VL Vector
 file-filter	Templates	Templat
 diagnostics	render	Render
 diagnostics	ui	UI
@@ -4986,7 +4986,7 @@ mark-style	Japanese	Jepang
 	Tracing	Tracing
 	Touch	Touch
 	Typography	Typography
-	VectorCraft	VectorCraft
+	VL Vector	VL Vector
 	Web	Web
 	Decrease Font Size by Five Steps	Perkecil ukuran font lima langkah
 	Increase Font Size by Five Steps	Perbesar ukuran font lima langkah
@@ -5288,7 +5288,7 @@ swatch	Bright Violet	Violet cerah
 	Resize	Ubah ukuran
 	Scale Design	Skalakan desain
 	Sliding	Bergeser
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Nama di dialog simpan adalah “{typed}”, lalu VectorCraft menambahkan ekstensi jenis file. Mengganti file akan menimpa kontennya.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Nama di dialog simpan adalah “{typed}”, lalu VL Vector menambahkan ekstensi jenis file. Mengganti file akan menimpa kontennya.
 	Uniformly Scaled	Diskalakan seragam
 	Vertically Scaled	Diskalakan vertikal
 	“{name}” already exists. Replace it?	“{name}” sudah ada. Ganti?

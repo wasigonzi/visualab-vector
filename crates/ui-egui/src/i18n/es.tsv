@@ -98,7 +98,7 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	Un valor menor sigue el trazo de cerca; uno mayor da menos puntos y curvas más suaves.
 	A new preset starting from the selected one	Un preajuste nuevo a partir del seleccionado
 	A saved copy of the selected preset	Una copia guardada del preajuste seleccionado
-	About VectorCraft	Acerca de VectorCraft
+	About VL Vector	Acerca de VL Vector
 	above	arriba
 	Absolute Position	Posición absoluta
 	Accurate	Preciso
@@ -205,7 +205,7 @@ font-technology	Variable	Variables
 	Appearance Panel	Panel Apariencia
 	Appearance panel	Panel Apariencia
 	Applies when the linked file is relinked or updated.	Se aplica al volver a vincular o actualizar el archivo vinculado.
-	Applies the next time VectorCraft starts.	Se aplica la próxima vez que se inicie VectorCraft.
+	Applies the next time VL Vector starts.	Se aplica la próxima vez que se inicie VL Vector.
 	Apply	Aplicar
 	Apply Brush	Aplicar pincel
 	Apply Character Style	Aplicar estilo de carácter
@@ -242,8 +242,8 @@ font-technology	Variable	Variables
 	Artboard {number}	Mesa de trabajo {number}
 	Artboard:	Mesa de trabajo:
 	Artboards	Mesas de trabajo
-	ArtCraft Website	Sitio web de ArtCraft
-	ArtCraft website	Sitio web de ArtCraft
+	Visualab Studios Website	Sitio web de Visualab Studios
+	Visualab Studios website	Sitio web de Visualab Studios
 	Artwork Colors	Colores de la ilustración
 	As Multiple Assets	Como varios recursos
 	As Single Asset	Como un solo recurso
@@ -403,7 +403,7 @@ font-technology	Variable	Variables
 	Check Script	Comprobar script
 	Check Script…	Comprobar script…
 	Copy Report	Copiar informe
-	VectorCraft read this script without running it.	VectorCraft leyó este script sin ejecutarlo.
+	VL Vector read this script without running it.	VL Vector leyó este script sin ejecutarlo.
 	Needs nothing beyond plain JavaScript	Solo necesita JavaScript simple
 	Needs the script language's own objects or directives	Necesita objetos o directivas propios del lenguaje del script
 	Needs the document model	Necesita el modelo de documento
@@ -1594,9 +1594,9 @@ font-technology	Variable	Variables
 	Italian	Italiano
 	Japanese	Japonés
 	Join	Unir
-	Join Our Discord	Únete a nuestro Discord
+	Visit Visualab Studios	Visita Visualab Studios
 	Join our Discord	Únete a nuestro Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Únete a la comunidad de ArtCraft en Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visita Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Unir las líneas de cada párrafo
 	Join Tool	Herramienta Unir
 	Justification…	Justificación…
@@ -1620,7 +1620,7 @@ font-technology	Variable	Variables
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Importar conjunto de métodos abreviados
 	Import Shortcut Set…	Importar conjunto de métodos abreviados…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Cada entrada del archivo se asocia con una herramienta, un comando o un panel de VectorCraft. Revisa las asociaciones y responde lo que falta.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Cada entrada del archivo se asocia con una herramienta, un comando o un panel de VL Vector. Revisa las asociaciones y responde lo que falta.
 	Keys	Teclas
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	El archivo guarda las teclas y los modificadores como códigos. Revisa los significados propuestos y responde los códigos que aún no se conocen.
 	Click, then press the key this code stands for (Esc cancels)	Haz clic y luego presiona la tecla que representa este código (Esc cancela)
@@ -1630,7 +1630,7 @@ font-technology	Variable	Variables
 	not known yet	aún desconocido
 	Shortcuts	Métodos abreviados
 	In the File	En el archivo
-	In VectorCraft	En VectorCraft
+	In VL Vector	En VL Vector
 	Needs Attention Only	Solo lo que requiere atención
 	Ready	Listo
 	Needs a choice	Requiere una elección
@@ -1639,7 +1639,7 @@ font-technology	Variable	Variables
 	Tools take a single key (optionally with Shift)	Las herramientas usan una sola tecla (opcionalmente con Shift)
 	A later row takes this shortcut	Una fila posterior usa este método abreviado
 	Same item as a later row	Mismo elemento que una fila posterior
-	Start from VectorCraft Defaults	Partir de los valores predeterminados de VectorCraft
+	Start from VL Vector Defaults	Partir de los valores predeterminados de VL Vector
 	Add to the Current Shortcuts	Agregar a los métodos abreviados actuales
 	Remember My Choices	Recordar mis elecciones
 	{ready} of {total} ready	{ready} de {total} listos
@@ -2276,7 +2276,7 @@ font-technology	Variable	Variables
 	Paragraph Style Options	Opciones de estilo de párrafo
 	Paragraph Styles	Estilos de párrafo
 	Paragraph Symbol	Símbolo de párrafo
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Parte de ArtCraft. MIT OR Apache-2.0. Fuentes: Source Sans 3, Inter, JetBrains Mono (OFL). Iconos: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Parte de Visualab Studios. MIT OR Apache-2.0. Fuentes: Source Sans 3, Inter, JetBrains Mono (OFL). Iconos: Lucide (ISC) + VL Vector.
 	Password	Contraseña
 	Paste	Pegar
 	Paste in Back	Pegar detrás
@@ -2456,7 +2456,7 @@ font-technology	Variable	Variables
 	Quarter Space	Cuarto de espacio
 	Quick Actions	Acciones rápidas
 	Quickly start a new file	Empieza rápidamente un archivo nuevo
-	Quit VectorCraft	Salir de VectorCraft
+	Quit VL Vector	Salir de VL Vector
 	Radar Graph Tool	Herramienta Gráfico de radar
 	Radial	Radial
 	Radial Glows	Resplandores radiales
@@ -2582,7 +2582,7 @@ font-technology	Variable	Variables
 	{count} folder(s) or file(s) couldn't be read	No se pudieron leer {count} carpeta(s) o archivo(s)
 	The search stopped at its limit: search a smaller folder.	La búsqueda se detuvo en su límite: busca en una carpeta más pequeña.
 	Copy only fonts you own or are licensed to install.	Copia solo fuentes que te pertenezcan o cuya licencia te permita instalarlas.
-	VectorCraft copies the fonts to {folder}.	VectorCraft copia las fuentes en {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector copia las fuentes en {folder}.
 	Registered Trademark Symbol	Símbolo de marca registrada
 	Registration marks	Marcas de registro
 	Registry name:	Nombre del registro:
@@ -2692,9 +2692,9 @@ font-technology	Variable	Variables
 	Revert	Revertir
 	Revert to the saved version of “{name}”?	¿Revertir a la versión guardada de “{name}”?
 	Replace “{name}”, the file this document was opened from?	¿Reemplazar “{name}”, el archivo desde el que se abrió este documento?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Al abrirlo quedó fuera lo que VectorCraft aún no puede leer ({what}), así que reemplazarlo lo pierde para siempre. Guárdelo con otro nombre para conservarlo.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Al abrirlo quedó fuera lo que VL Vector aún no puede leer ({what}), así que reemplazarlo lo pierde para siempre. Guárdelo con otro nombre para conservarlo.
 	“{name}” already exists. Replace it?	“{name}” ya existe. ¿Reemplazarlo?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	El nombre en el panel de guardado era “{typed}”, y VectorCraft añadió la extensión del tipo de archivo. Reemplazar el archivo sobrescribe su contenido.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	El nombre en el panel de guardado era “{typed}”, y VL Vector añadió la extensión del tipo de archivo. Reemplazar el archivo sobrescribe su contenido.
 	Revolve…	Revolución…
 	RGB Color	Color RGB
 	Right	Derecha
@@ -3583,10 +3583,10 @@ font-technology	Variable	Variables
 	Vector Halftone	Semitono vectorial
 	Vector Halftone…	Semitono vectorial…
 	Vector illustration — fast, open, scriptable.	Ilustración vectorial: rápida, abierta y programable.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft no se cerró correctamente la última vez. Estos documentos tenían cambios sin guardar:
-	VectorCraft Help…	Ayuda de VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft en getartcraft.com
-	VectorCraft on GitHub	VectorCraft en GitHub
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector no se cerró correctamente la última vez. Estos documentos tenían cambios sin guardar:
+	VL Vector Help…	Ayuda de VL Vector…
+	VL Vector on visualabstudios.com	VL Vector en visualabstudios.com
+	VL Vector on GitHub	VL Vector en GitHub
 	Vectors	Vectores
 	Version {version} — open-source vector illustration in pure Rust.	Versión {version}: ilustración vectorial de código abierto en Rust puro.
 	Version:	Versión:
@@ -3626,7 +3626,7 @@ font-technology	Variable	Variables
 	Web Snap:	Ajuste a web:
 	Weight	Grosor
 	Weight:	Grosor:
-	Welcome to VectorCraft	Te damos la bienvenida a VectorCraft
+	Welcome to VL Vector	Te damos la bienvenida a VL Vector
 	When pasting text	Al pegar texto
 	White	Blanco
 	Widget Position:	Posición del widget:
@@ -4488,7 +4488,7 @@ axis	Both	Ambos
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	El procesador gráfico probado primero no pudo mostrar la ventana, así que VectorCraft se inició de nuevo con {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	El último inicio de VectorCraft terminó en {name} antes de que apareciera la ventana, así que se inició con {summary}. Para volver a probar ese procesador gráfico, cambia Preferencias › Rendimiento › Procesador gráfico o inicia con la variable WGPU_BACKEND definida
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	El último inicio de VectorCraft terminó mientras enumeraba los procesadores gráficos, así que se inició solo con OpenGL, en {summary}. Para volver a probar las demás interfaces gráficas, cambia Preferencias › Rendimiento › Procesador gráfico o inicia con la variable WGPU_BACKEND definida
-@msg	Loading VectorCraft…	Cargando VectorCraft…
+@msg	Loading VL Vector…	Cargando VL Vector…
 @msg	VectorCraft failed to start: {e}	VectorCraft no pudo iniciarse: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Se necesita un navegador con WebGPU o WebGL2.
 @msg	The graphics were lost and couldn't be restarted.	Se perdieron los gráficos y no se pudieron reiniciar.
@@ -4546,7 +4546,7 @@ axis	Both	Ambos
 
 # The macOS menu bar (native_menu): the app and Window menus' system items, Settings pages.
 	Services	Servicios
-	Hide VectorCraft	Ocultar VectorCraft
+	Hide VL Vector	Ocultar VL Vector
 	Zoom	Zoom
 	Bring All to Front	Traer todo al frente
 	Settings	Ajustes
@@ -4554,7 +4554,7 @@ axis	Both	Ambos
 	On: one locked object showing the document, updated when it changes.	Activado: un objeto bloqueado que muestra el documento y se actualiza cuando este cambia.
 	Off: an editable copy of its art, embedded in this document.	Desactivado: una copia editable de su ilustración, incrustada en este documento.
 	Images: link to the file instead of only embedding it.	Imágenes: vincular al archivo en lugar de solo incrustarlo.
-	VectorCraft documents: one locked object, updated when the file changes.	Documentos de VectorCraft: un objeto bloqueado que se actualiza cuando cambia el archivo.
+	VL Vector documents: one locked object, updated when the file changes.	Documentos de VL Vector: un objeto bloqueado que se actualiza cuando cambia el archivo.
 	A file dialog is open: choose there first	Hay un cuadro de diálogo de archivos abierto: elija primero en él
 	The document was closed while its file dialog was open	Se cerró el documento mientras su cuadro de diálogo de archivos estaba abierto
 	The dialog was closed before its file dialog answered	El cuadro de diálogo se cerró antes de que respondiera su cuadro de diálogo de archivos
@@ -4910,7 +4910,7 @@ effect	Regular	Regular
 	All shortcuts reset to defaults.	Se restablecieron todos los métodos abreviados a los valores predeterminados.
 	Imported. Press OK to keep the imported set.	Importado. Presiona Aceptar para conservar el conjunto importado.
 	⚠ {chord} was already used by {names} — it has been removed there.	Atención: {chord} ya estaba en uso por {names}; se quitó de allí.
-	VectorCraft Defaults	Valores predeterminados de VectorCraft
+	VL Vector Defaults	Valores predeterminados de VL Vector
 @plural	{n} shortcut is assigned more than once|{n} shortcuts are assigned more than once	{n} método abreviado está asignado más de una vez|{n} métodos abreviados están asignados más de una vez
 	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	«Simular» imprime las sobreimpresiones tal como las muestra la vista previa de sobreimpresión; las separaciones siempre las conservan. Un preajuste acopla la transparencia antes de imprimir (los archivos PostScript siempre la acoplan).
 	Preserve	Conservar
@@ -5107,7 +5107,7 @@ file-filter	PDF presets	Preajustes de PDF
 file-filter	Print presets	Preajustes de impresión
 file-filter	SVG Compressed	SVG comprimido
 file-filter	PDF-compatible .ai	.ai compatible con PDF
-file-filter	VectorCraft Template	Plantilla de VectorCraft
+file-filter	VL Vector Template	Plantilla de VL Vector
 file-filter	Templates	Plantillas
 diagnostics	render	renderizado
 diagnostics	ui	interfaz

@@ -96,7 +96,7 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	Меньшее значение точнее повторяет обводку; большее даёт меньше точек и более гладкие кривые.
 	A new preset starting from the selected one	Новый набор на основе выбранного
 	A saved copy of the selected preset	Сохранённая копия выбранного набора
-	About VectorCraft	О программе VectorCraft
+	About VL Vector	О программе VL Vector
 	above	сверху
 	Absolute Position	Абсолютная позиция
 	Accurate	Точный
@@ -203,7 +203,7 @@ font-technology	Variable	Вариативные
 	Appearance Panel	Панель «Оформление»
 	Appearance panel	Панель «Оформление»
 	Applies when the linked file is relinked or updated.	Применяется при повторной привязке или обновлении связанного файла.
-	Applies the next time VectorCraft starts.	Применяется при следующем запуске VectorCraft.
+	Applies the next time VL Vector starts.	Применяется при следующем запуске VL Vector.
 	Apply	Применить
 	Apply Brush	Применить кисть
 	Apply Character Style	Применить стиль символа
@@ -240,8 +240,8 @@ font-technology	Variable	Вариативные
 	Artboard {number}	Монтажная область {number}
 	Artboard:	Монтажная область:
 	Artboards	Монтажные области
-	ArtCraft Website	Веб-сайт ArtCraft
-	ArtCraft website	Веб-сайт ArtCraft
+	Visualab Studios Website	Веб-сайт Visualab Studios
+	Visualab Studios website	Веб-сайт Visualab Studios
 	Artwork Colors	Цвета рисунка
 	As Multiple Assets	Как несколько ресурсов
 	As Single Asset	Как один ресурс
@@ -401,7 +401,7 @@ font-technology	Variable	Вариативные
 	Check Script	Проверить сценарий
 	Check Script…	Проверить сценарий…
 	Copy Report	Копировать отчёт
-	VectorCraft read this script without running it.	VectorCraft прочитал этот сценарий, не запуская его.
+	VL Vector read this script without running it.	VL Vector прочитал этот сценарий, не запуская его.
 	Needs nothing beyond plain JavaScript	Нужен только обычный JavaScript
 	Needs the script language's own objects or directives	Нужны собственные объекты или директивы языка сценариев
 	Needs the document model	Нужна модель документа
@@ -1193,7 +1193,7 @@ file-filter	PDF presets	Наборы PDF
 file-filter	Print presets	Наборы печати
 file-filter	SVG Compressed	Сжатый SVG
 file-filter	PDF-compatible .ai	.ai, совместимый с PDF
-file-filter	VectorCraft Template	Шаблон VectorCraft
+file-filter	VL Vector Template	Шаблон VL Vector
 file-filter	Templates	Шаблоны
 	Flattener Preview	Предварительный просмотр объединения
 	Flip Across	Отразить поперёк
@@ -1617,9 +1617,9 @@ file-filter	Templates	Шаблоны
 	Italian	Итальянский
 	Japanese	Японский
 	Join	Соединить
-	Join Our Discord	Присоединяйтесь к нашему Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Присоединяйтесь к нашему Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Присоединяйтесь к сообществу ArtCraft в Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Соединять строки каждого абзаца
 	Join Tool	Инструмент «Соединение»
 	Justification…	Выключка…
@@ -1643,7 +1643,7 @@ file-filter	Templates	Шаблоны
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Импорт набора сочетаний клавиш
 	Import Shortcut Set…	Импортировать набор сочетаний клавиш…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Каждая запись файла сопоставляется с инструментом, командой или панелью VectorCraft. Проверьте сопоставления и ответьте на оставшиеся вопросы.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Каждая запись файла сопоставляется с инструментом, командой или панелью VL Vector. Проверьте сопоставления и ответьте на оставшиеся вопросы.
 	Keys	Клавиши
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Файл записывает клавиши и модификаторы в виде кодов. Проверьте предложенные значения и укажите коды, которые ещё неизвестны.
 	Click, then press the key this code stands for (Esc cancels)	Щёлкните, затем нажмите клавишу, которую обозначает этот код (Esc отменяет)
@@ -1654,7 +1654,7 @@ file-filter	Templates	Шаблоны
 	Shortcuts	Сочетания клавиш
 	Shortcut	Сочетание клавиш
 	In the File	В файле
-	In VectorCraft	В VectorCraft
+	In VL Vector	В VL Vector
 	Needs Attention Only	Только требующие внимания
 	Ready	Готово
 	Needs a choice	Нужен выбор
@@ -1663,7 +1663,7 @@ file-filter	Templates	Шаблоны
 	Tools take a single key (optionally with Shift)	Инструментам назначается одна клавиша (можно с Shift)
 	A later row takes this shortcut	Это сочетание забирает строка ниже
 	Same item as a later row	Тот же элемент, что и в строке ниже
-	Start from VectorCraft Defaults	Начать со значений VectorCraft по умолчанию
+	Start from VL Vector Defaults	Начать со значений VL Vector по умолчанию
 	Add to the Current Shortcuts	Добавить к текущим сочетаниям клавиш
 	Remember My Choices	Запомнить мой выбор
 	{ready} of {total} ready	Готово: {ready} из {total}
@@ -2299,7 +2299,7 @@ file-filter	Templates	Шаблоны
 	Paragraph Style Options	Параметры стиля абзаца
 	Paragraph Styles	Стили абзацев
 	Paragraph Symbol	Символ абзаца
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Часть ArtCraft. MIT OR Apache-2.0. Шрифты: Source Sans 3, Inter, JetBrains Mono (OFL). Значки: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Часть Visualab Studios. MIT OR Apache-2.0. Шрифты: Source Sans 3, Inter, JetBrains Mono (OFL). Значки: Lucide (ISC) + VL Vector.
 	Password	Пароль
 	Paste	Вставить
 	Paste in Back	Вставить позади
@@ -2483,7 +2483,7 @@ mark-style	Japanese	Японский
 	Quarter Space	Четвертная шпация
 	Quick Actions	Быстрые действия
 	Quickly start a new file	Быстро создать новый файл
-	Quit VectorCraft	Выйти из VectorCraft
+	Quit VL Vector	Выйти из VL Vector
 	Radar Graph Tool	Инструмент «Лепестковая диаграмма»
 	Radial	Радиальный
 	Radial Glows	Радиальные свечения
@@ -2609,7 +2609,7 @@ mark-style	Japanese	Японский
 	{count} folder(s) or file(s) couldn't be read	Не удалось прочитать папок или файлов: {count}
 	The search stopped at its limit: search a smaller folder.	Поиск остановился на пределе: выберите папку поменьше.
 	Copy only fonts you own or are licensed to install.	Копируйте только шрифты, которые принадлежат вам или которые вы вправе устанавливать по лицензии.
-	VectorCraft copies the fonts to {folder}.	VectorCraft копирует шрифты в {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector копирует шрифты в {folder}.
 	Registered Trademark Symbol	Символ зарегистрированного товарного знака
 	Registration marks	Метки совмещения
 	Registry name:	Имя в реестре:
@@ -2720,9 +2720,9 @@ mark-style	Japanese	Японский
 	Revert	Вернуть
 	Revert to the saved version of “{name}”?	Вернуться к сохранённой версии «{name}»?
 	Replace “{name}”, the file this document was opened from?	Заменить «{name}» — файл, из которого открыт этот документ?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	При открытии было пропущено то, что VectorCraft пока не умеет читать ({what}), поэтому замена файла потеряет это навсегда. Чтобы сохранить это, сохраните документ под другим именем.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	При открытии было пропущено то, что VL Vector пока не умеет читать ({what}), поэтому замена файла потеряет это навсегда. Чтобы сохранить это, сохраните документ под другим именем.
 	“{name}” already exists. Replace it?	«{name}» уже существует. Заменить?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Имя в окне сохранения было «{typed}», а VectorCraft добавил расширение типа файла. Замена файла перезапишет его содержимое.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Имя в окне сохранения было «{typed}», а VL Vector добавил расширение типа файла. Замена файла перезапишет его содержимое.
 	Revolve…	Вращение…
 	RGB Color	Цвет RGB
 	Right	Справа
@@ -3614,10 +3614,10 @@ mark-style	Japanese	Японский
 	Vector Halftone	Векторный полутон
 	Vector Halftone…	Векторный полутон…
 	Vector illustration — fast, open, scriptable.	Векторная иллюстрация — быстрая, открытая, программируемая.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft не завершился нормально в прошлый раз. В этих документах были несохранённые изменения:
-	VectorCraft Help…	Справка VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft на getartcraft.com
-	VectorCraft on GitHub	VectorCraft на GitHub
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector не завершился нормально в прошлый раз. В этих документах были несохранённые изменения:
+	VL Vector Help…	Справка VL Vector…
+	VL Vector on visualabstudios.com	VL Vector на visualabstudios.com
+	VL Vector on GitHub	VL Vector на GitHub
 	Vectors	Векторы
 	Version {version} — open-source vector illustration in pure Rust.	Версия {version} — векторная иллюстрация с открытым исходным кодом на чистом Rust.
 	Version:	Версия:
@@ -3657,7 +3657,7 @@ mark-style	Japanese	Японский
 	Web Snap:	Привязка к web:
 	Weight	Толщина
 	Weight:	Толщина:
-	Welcome to VectorCraft	Добро пожаловать в VectorCraft
+	Welcome to VL Vector	Добро пожаловать в VL Vector
 	When pasting text	При вставке текста
 	White	Белый
 	Widget Position:	Положение виджета:
@@ -4524,7 +4524,7 @@ axis	Both	Оба
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Графический процессор, выбранный первым, не смог показать окно, поэтому VectorCraft запустился снова на {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Прошлый запуск VectorCraft завершился на {name} до появления окна, поэтому VectorCraft запустился на {summary}. Чтобы снова попробовать этот графический процессор, измените Настройки › Производительность › Графический процессор или запустите приложение с заданной переменной WGPU_BACKEND
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Прошлый запуск VectorCraft завершился во время перечисления графических процессоров, поэтому VectorCraft запустился на {summary} только с OpenGL. Чтобы снова попробовать другие графические интерфейсы, измените Настройки › Производительность › Графический процессор или запустите приложение с заданной переменной WGPU_BACKEND
-@msg	Loading VectorCraft…	Загрузка VectorCraft…
+@msg	Loading VL Vector…	Загрузка VL Vector…
 @msg	VectorCraft failed to start: {e}	VectorCraft не удалось запустить: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Требуется браузер с WebGPU или WebGL2.
 @msg	The graphics were lost and couldn't be restarted.	Графика была потеряна, и её не удалось перезапустить.
@@ -4582,7 +4582,7 @@ axis	Both	Оба
 
 # The macOS menu bar (native_menu): the app and Window menus' system items, Settings pages.
 	Services	Службы
-	Hide VectorCraft	Скрыть VectorCraft
+	Hide VL Vector	Скрыть VL Vector
 	Zoom	Масштаб
 	Bring All to Front	Все окна на передний план
 	Settings	Настройки
@@ -4590,7 +4590,7 @@ axis	Both	Оба
 	On: one locked object showing the document, updated when it changes.	Вкл.: один заблокированный объект, показывающий документ и обновляемый при его изменении.
 	Off: an editable copy of its art, embedded in this document.	Выкл.: редактируемая копия его рисунка, внедрённая в этот документ.
 	Images: link to the file instead of only embedding it.	Изображения: связывать с файлом вместо простого внедрения.
-	VectorCraft documents: one locked object, updated when the file changes.	Документы VectorCraft: один заблокированный объект, обновляемый при изменении файла.
+	VL Vector documents: one locked object, updated when the file changes.	Документы VL Vector: один заблокированный объект, обновляемый при изменении файла.
 	A file dialog is open: choose there first	Открыто окно выбора файла: сначала сделайте выбор в нём
 	The document was closed while its file dialog was open	Документ был закрыт, пока было открыто его окно выбора файла
 	The dialog was closed before its file dialog answered	Диалоговое окно было закрыто до того, как ответило его окно выбора файла
@@ -5580,7 +5580,7 @@ axis	Y Axis	Ось Y
 	Use Default	По умолчанию
 	Variation	Вариант
 	VectorCraft Default	VectorCraft по умолчанию
-	VectorCraft Defaults	Стандартные VectorCraft
+	VL Vector Defaults	Стандартные VL Vector
 	VectorCraft Generic CMYK (SWOP-like)	Общий CMYK VectorCraft (как SWOP)
 	VectorCraft Swatches (.vcswatches)	Образцы VectorCraft (.vcswatches)
 	Vertical Align	Вертикальное выравнивание

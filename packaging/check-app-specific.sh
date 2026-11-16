@@ -13,5 +13,5 @@ for name in ("com.visualabstudios.vector.yml", "com.visualabstudios.vector.bundl
     manifests.append(manifest)
 for key in ("runtime", "runtime-version", "sdk", "finish-args"):
     assert manifests[0][key] == manifests[1][key], f"Flatpak manifests disagree on {key}"
-print("Visualab Vector package identity ok")
+print("VL Vector package identity ok")
 PYEOF

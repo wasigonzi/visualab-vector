@@ -27,17 +27,17 @@
 	Paste Design	Wklej projekt
 	Select Unused	Zaznacz nieużywane
 	Glowing Edges…	Świecące krawędzie…
-	About VectorCraft	O programie VectorCraft
+	About VL Vector	O programie VL Vector
 	Align to Path	Wyrównaj do ścieżki
 	Cut Path at Selected Anchor Points	Rozetnij ścieżkę w zaznaczonych punktach kontrolnych
-	Join Our Discord	Dołącz do naszego Discorda
+	Visit Visualab Studios	Visit Visualab Studios
 	Language	Język
 	UI Brightness	Jasność interfejsu
 	Dark	Ciemny
 	Medium Dark	Średnio ciemny
 	Medium Light	Średnio jasny
 	Light	Jasny
-	Quit VectorCraft	Zakończ VectorCraft
+	Quit VL Vector	Zakończ VL Vector
 # Artwork drag between document tabs.
 	Drop Artwork	Upuść kompozycję
 @msg	{key} must be [x, y] with finite coordinates	{key} musi mieć postać [x, y] ze skończonymi współrzędnymi
@@ -697,11 +697,11 @@
 	Save Swatch Library…	Zapisz bibliotekę próbek…
 	Symbol Libraries	Biblioteki symboli
 	Help	Pomoc
-	ArtCraft Website	Strona ArtCraft
-	VectorCraft on getartcraft.com	VectorCraft w getartcraft.com
-	VectorCraft on GitHub	VectorCraft w serwisie GitHub
+	Visualab Studios Website	Strona Visualab Studios
+	VL Vector on visualabstudios.com	VL Vector w visualabstudios.com
+	VL Vector on GitHub	VL Vector w serwisie GitHub
 	Search Commands…	Szukaj poleceń…
-	VectorCraft Help…	Pomoc VectorCraft…
+	VL Vector Help…	Pomoc VL Vector…
 	Auto Color	Kolor automatyczny
 	Automatic	Automatycznie
 	Isolate Selected Group	Izoluj zaznaczoną grupę
@@ -751,7 +751,7 @@
 	Dock Panel	Zadokuj panel
 	Float Tool Group	Odepnij grupę narzędzi
 	Services	Usługi
-	Hide VectorCraft	Ukryj VectorCraft
+	Hide VL Vector	Ukryj VL Vector
 	Hide Others	Ukryj pozostałe
 	Minimize	Minimalizuj
 	Zoom	Zmień rozmiar
@@ -1986,7 +1986,7 @@ lighting	Light	Światło
 	Select All Bound Objects	Zaznacz wszystkie powiązane obiekty
 	Multiple objects	Wiele obiektów
 	Graphics: {adapter}	Grafika: {adapter}
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Część ArtCraft. MIT LUB Apache-2.0. Czcionki: Source Sans 3, Inter, JetBrains Mono (OFL). Ikony: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Część Visualab Studios. MIT LUB Apache-2.0. Czcionki: Source Sans 3, Inter, JetBrains Mono (OFL). Ikony: Lucide (ISC) + VL Vector.
 	Version {version} — open-source vector illustration in pure Rust.	Wersja {version} — otwartoźródłowa grafika wektorowa w czystym Ruście.
 	Align to Page	Wyrównaj do strony
 	Smooth Color	Gładki kolor
@@ -2317,7 +2317,7 @@ lighting	Light	Światło
 	{count} folder(s) or file(s) couldn't be read	Nie udało się odczytać folderów lub plików: {count}
 	The search stopped at its limit: search a smaller folder.	Wyszukiwanie zatrzymało się na limicie: przeszukaj mniejszy folder.
 	Copy only fonts you own or are licensed to install.	Kopiuj tylko czcionki, które posiadasz lub masz licencję na ich instalację.
-	VectorCraft copies the fonts to {folder}.	VectorCraft kopiuje czcionki do {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector kopiuje czcionki do {folder}.
 	Apply to All ({count} more missing)	Zastosuj do wszystkich (brakuje jeszcze: {count})
 	Ignore	Ignoruj
 	Linked File Not Found	Nie znaleziono połączonego pliku
@@ -2405,7 +2405,7 @@ lighting	Light	Światło
 	On: one locked object showing the document, updated when it changes.	Wł.: jeden zablokowany obiekt pokazujący dokument, aktualizowany przy jego zmianie.
 	Off: an editable copy of its art, embedded in this document.	Wył.: edytowalna kopia jego kompozycji, osadzona w tym dokumencie.
 	Images: link to the file instead of only embedding it.	Obrazy: połącz z plikiem zamiast tylko go osadzać.
-	VectorCraft documents: one locked object, updated when the file changes.	Dokumenty VectorCraft: jeden zablokowany obiekt, aktualizowany przy zmianie pliku.
+	VL Vector documents: one locked object, updated when the file changes.	Dokumenty VL Vector: jeden zablokowany obiekt, aktualizowany przy zmianie pliku.
 	Alignment:	Wyrównanie:
 	Applies when the linked file is relinked or updated.	Ma zastosowanie, gdy połączony plik zostanie ponownie połączony lub zaktualizowany.
 	Bounds (Fill Proportionally)	Granice (wypełnij proporcjonalnie)
@@ -2536,7 +2536,7 @@ lighting	Light	Światło
 	3 Color Job	Praca 3-kolorowa
 	Recover Documents	Odzyskaj dokumenty
 	Restored documents open unsaved: save them to keep them.	Odzyskane dokumenty otwierają się jako niezapisane: zapisz je, aby je zachować.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	Ostatnio VectorCraft nie zakończył pracy prawidłowo. Te dokumenty miały niezapisane zmiany:
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	Ostatnio VL Vector nie zakończył pracy prawidłowo. Te dokumenty miały niezapisane zmiany:
 	Do you want to save the changes you made to “{name}”?	Czy zapisać zmiany wprowadzone w „{name}”?
 	Don't Save	Nie zapisuj
 	Your changes will be lost if you don't save them.	Jeśli ich nie zapiszesz, zmiany zostaną utracone.
@@ -2678,7 +2678,7 @@ lighting	Light	Światło
 	Selected Swatches Only	Tylko zaznaczone próbki
 	User Defined Libraries	Biblioteki zdefiniowane przez użytkownika
 	Copy Report	Kopiuj raport
-	VectorCraft read this script without running it.	VectorCraft odczytał ten skrypt, nie uruchamiając go.
+	VL Vector read this script without running it.	VL Vector odczytał ten skrypt, nie uruchamiając go.
 	Needs nothing beyond plain JavaScript	Wymaga tylko zwykłego JavaScriptu
 	Needs the script language's own objects or directives	Wymaga własnych obiektów lub dyrektyw języka skryptowego
 	Needs the document model	Wymaga modelu dokumentu
@@ -3703,11 +3703,11 @@ effect	Regular	Normalny
 	Quickly start a new file	Szybko rozpocznij nowy plik
 	Recent Files	Ostatnie pliki
 	Vector illustration — fast, open, scriptable.	Ilustracja wektorowa — szybka, otwarta, skryptowalna.
-	Welcome to VectorCraft	Witamy w VectorCraft
-	ArtCraft website	Strona ArtCraft
+	Welcome to VL Vector	Witamy w VL Vector
+	Visualab Studios website	Strona Visualab Studios
 	Discord	Discord
 	Join our Discord	Dołącz do naszego Discorda
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Dołącz do społeczności ArtCraft na Discordzie (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Source code on GitHub	Kod źródłowy w serwisie GitHub
 	All Tools	Wszystkie narzędzia
 	Draw	Rysuj
@@ -3752,9 +3752,9 @@ font-technology	Variable	Zmienne
 	Opened with {} note(s): {}	Otwarto, uwagi ({}): {}
 	Revert to the saved version of “{name}”?	Przywrócić zapisaną wersję „{name}”?
 	Replace “{name}”, the file this document was opened from?	Zastąpić „{name}”, plik, z którego otwarto ten dokument?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Przy otwieraniu pominięto to, czego VectorCraft jeszcze nie odczytuje ({what}), więc zastąpienie pliku utraci to bezpowrotnie. Zapisz pod inną nazwą, aby to zachować.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Przy otwieraniu pominięto to, czego VL Vector jeszcze nie odczytuje ({what}), więc zastąpienie pliku utraci to bezpowrotnie. Zapisz pod inną nazwą, aby to zachować.
 	“{name}” already exists. Replace it?	„{name}” już istnieje. Zastąpić?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Nazwa w oknie zapisu to „{typed}”, a VectorCraft dodał rozszerzenie typu pliku. Zastąpienie pliku nadpisze jego zawartość.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Nazwa w oknie zapisu to „{typed}”, a VL Vector dodał rozszerzenie typu pliku. Zastąpienie pliku nadpisze jego zawartość.
 	Saved {path}	Zapisano {path}
 	Saved {path} with {} note(s): {first}	Zapisano {path}, uwagi ({}): {first}
 	Saving	Zapisywanie
@@ -3763,7 +3763,7 @@ font-technology	Variable	Zmienne
 	Dashed Line	Linia przerywana
 	Panel menu	Menu panelu
 	Unembed…	Wyodrębnij…
-	Applies the next time VectorCraft starts.	Zostanie zastosowane przy następnym uruchomieniu VectorCraft.
+	Applies the next time VL Vector starts.	Zostanie zastosowane przy następnym uruchomieniu VL Vector.
 	Enable Contextual Task Bar	Włącz kontekstowy pasek zadań
 	Next	Dalej
 	OK	OK
@@ -4620,7 +4620,7 @@ imageTrace	Outline	Kontur
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Pierwszy wypróbowany procesor graficzny nie mógł wyświetlić okna, więc VectorCraft uruchomił się ponownie na {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Ostatnie uruchomienie VectorCraft zakończyło się na {name}, zanim pojawiło się okno, więc VectorCraft uruchomił się na {summary}. Aby ponownie wypróbować ten procesor graficzny, zmień Preferencje › Wydajność › Procesor graficzny lub uruchom z ustawioną zmienną WGPU_BACKEND
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Ostatnie uruchomienie VectorCraft zakończyło się podczas wyliczania procesorów graficznych, więc VectorCraft uruchomił się na {summary} tylko z OpenGL. Aby ponownie wypróbować pozostałe interfejsy graficzne, zmień Preferencje › Wydajność › Procesor graficzny lub uruchom z ustawioną zmienną WGPU_BACKEND
-@msg	Loading VectorCraft…	Wczytywanie VectorCraft…
+@msg	Loading VL Vector…	Wczytywanie VL Vector…
 @msg	VectorCraft failed to start: {e}	Nie udało się uruchomić VectorCraft: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Wymagana jest przeglądarka z obsługą WebGPU lub WebGL2.
 @msg	The graphics were lost and couldn't be restarted.	Utracono grafikę i nie udało się jej ponownie uruchomić.
@@ -4809,12 +4809,12 @@ imageTrace	Outline	Kontur
 	All shortcuts reset to defaults.	Wszystkie skróty przywrócono do domyślnych.
 	Imported. Press OK to keep the imported set.	Zaimportowano. Naciśnij OK, aby zachować zaimportowany zestaw.
 	⚠ {chord} was already used by {names} — it has been removed there.	Uwaga: skrót {chord} był już używany przez {names} — został tam usunięty.
-	VectorCraft Defaults	Domyślne VectorCraft
+	VL Vector Defaults	Domyślne VL Vector
 @plural	{n} shortcut is assigned more than once|{n} shortcuts are assigned more than once	{n} skrót jest przypisany więcej niż raz|{n} skróty są przypisane więcej niż raz|{n} skrótów jest przypisanych więcej niż raz
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Importuj zestaw skrótów
 	Import Shortcut Set…	Importuj zestaw skrótów…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Każdy wpis pliku zostaje dopasowany do narzędzia, polecenia lub panelu VectorCraft. Sprawdź dopasowania i uzupełnij pozostałe.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Każdy wpis pliku zostaje dopasowany do narzędzia, polecenia lub panelu VL Vector. Sprawdź dopasowania i uzupełnij pozostałe.
 	Keys	Klawisze
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Plik zapisuje klawisze i modyfikatory jako kody. Sprawdź proponowane znaczenia i uzupełnij kody, które nie są jeszcze znane.
 	Click, then press the key this code stands for (Esc cancels)	Kliknij, a następnie naciśnij klawisz oznaczany tym kodem (Esc anuluje)
@@ -4824,7 +4824,7 @@ imageTrace	Outline	Kontur
 	not known yet	jeszcze nieznany
 	Shortcuts	Skróty
 	In the File	W pliku
-	In VectorCraft	W VectorCraft
+	In VL Vector	W VL Vector
 	Needs Attention Only	Tylko wymagające uwagi
 	Ready	Gotowe
 	Needs a choice	Wymaga wyboru
@@ -4833,7 +4833,7 @@ imageTrace	Outline	Kontur
 	Tools take a single key (optionally with Shift)	Narzędzia przyjmują pojedynczy klawisz (opcjonalnie z Shift)
 	A later row takes this shortcut	Ten skrót przejmuje dalszy wiersz
 	Same item as a later row	Ten sam element co w dalszym wierszu
-	Start from VectorCraft Defaults	Zacznij od domyślnych skrótów VectorCraft
+	Start from VL Vector Defaults	Zacznij od domyślnych skrótów VL Vector
 	Add to the Current Shortcuts	Dodaj do bieżących skrótów
 	Remember My Choices	Zapamiętaj moje wybory
 	{ready} of {total} ready	Gotowe: {ready} z {total}
@@ -5071,7 +5071,7 @@ file-filter	PDF presets	Ustawienia PDF
 file-filter	Print presets	Ustawienia drukowania
 file-filter	SVG Compressed	SVG skompresowany
 file-filter	PDF-compatible .ai	.ai zgodny z PDF
-file-filter	VectorCraft Template	Szablon VectorCraft
+file-filter	VL Vector Template	Szablon VL Vector
 file-filter	Templates	Szablony
 diagnostics	render	renderowanie
 diagnostics	ui	interfejs

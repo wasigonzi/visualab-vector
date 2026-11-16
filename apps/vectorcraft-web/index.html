@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="VL Vector: editor vectorial profesional de Visualab Studios, en tu navegador.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="VectorCraft">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="theme-color" content="#262626">
-  <title>Visualab Vector</title>
-  <!-- Tab and home-screen icons: copied from assets/app-icon (one folder per size, the PNG names are equal). -->
-  <link data-trunk rel="copy-file" href="../../assets/app-icon/hicolor/scalable/apps/com.visualabstudios.vector.svg" data-target-path="icons" />
+  <meta name="apple-mobile-web-app-title" content="VL Vector">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>VL Vector</title>
+  <!-- Visualab Studios brand: the same favicon, home-screen icons and install manifest as VL Studios. -->
+  <link data-trunk rel="copy-file" href="favicon.svg" />
+  <link data-trunk rel="copy-file" href="pwa/manifest.json" />
+  <link data-trunk rel="copy-file" href="pwa/sw.js" />
+  <link data-trunk rel="copy-file" href="pwa/icon-180.png" />
+  <link data-trunk rel="copy-file" href="pwa/icon-192.png" />
+  <link data-trunk rel="copy-file" href="pwa/icon-512.png" />
+  <link data-trunk rel="copy-file" href="pwa/vl-logo.png" />
   <link data-trunk rel="copy-file" href="../../assets/app-icon/hicolor/32x32/apps/com.visualabstudios.vector.png" data-target-path="icons/32" />
-  <link data-trunk rel="copy-file" href="../../assets/app-icon/hicolor/256x256/apps/com.visualabstudios.vector.png" data-target-path="icons/256" />
-  <link rel="icon" type="image/svg+xml" href="icons/com.visualabstudios.vector.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/32/com.visualabstudios.vector.png">
-  <link rel="apple-touch-icon" href="icons/256/com.visualabstudios.vector.png">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="manifest" href="manifest.json">
   <link data-trunk rel="rust" data-bin="vectorcraft-web" data-wasm-opt="z" data-weak-refs />
   <style>
-    /* iPad: no page scroll, bounce, pinch zoom, text selection or callout; the app takes the gestures. */
-    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #262626;
+    /* Mobile: no page scroll, bounce, pinch zoom, text selection or callout; the app takes the gestures. */
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #0b0b0c;
       overscroll-behavior: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
       -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
     /* Inside the safe areas (notch, home indicator) of a full-screen app. */
@@ -28,12 +35,28 @@
       width: calc(100% - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
       height: calc(100% - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
       display: block; touch-action: none; }
+    /* Visualab Studios loading screen while the app downloads (the app's own splash follows). */
     #vectorcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      color: #b8b8b8; font: 14px system-ui, sans-serif; pointer-events: none; }
+      gap: 18px; padding: 0 24px; text-align: center; color: #b8b8c0; font: 14px Inter, system-ui, sans-serif; pointer-events: none;
+      background: radial-gradient(ellipse at 30% 40%, rgba(0,212,255,.14), transparent 55%), radial-gradient(ellipse at 75% 65%, rgba(123,60,255,.14), transparent 55%), #0b0b0c; }
+    #vectorcraft_loading img { width: min(260px, 64vw); height: auto; animation: vl-pulse 2.4s ease-in-out infinite; filter: drop-shadow(0 0 18px rgba(0,212,255,.35)); }
+    #vectorcraft_loading .vl-name { color: #00d4ff; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; }
+    #vectorcraft_loading .vl-bar { width: min(260px, 64vw); height: 3px; border-radius: 2px; background: #26262a; overflow: hidden; }
+    #vectorcraft_loading .vl-bar i { display: block; height: 100%; width: 40%; border-radius: 2px; background: #00d4ff; animation: vl-slide 1.4s ease-in-out infinite; }
+    #vectorcraft_loading a { color: #00d4ff; pointer-events: auto; }
+    @keyframes vl-pulse { 50% { transform: scale(1.03); filter: drop-shadow(0 0 28px rgba(0,212,255,.55)); } }
+    @keyframes vl-slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+    @media (prefers-reduced-motion: reduce) { #vectorcraft_loading img, #vectorcraft_loading .vl-bar i { animation: none; } }
   </style>
 </head>
 <body>
   <canvas id="vectorcraft_canvas"></canvas>
-  <div id="vectorcraft_loading">Loading Visualab Vector&hellip;</div>
+  <div id="vectorcraft_loading">
+    <img src="vl-logo.png" alt="Visualab Studios" width="450" height="144">
+    <div class="vl-name">VL Vector</div>
+    <div class="vl-bar"><i></i></div>
+    <div id="vectorcraft_loading_text">Cargando VL Vector&hellip;</div>
+  </div>
+  <script>if ('serviceWorker' in navigator) addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });</script>
 </body>
 </html>

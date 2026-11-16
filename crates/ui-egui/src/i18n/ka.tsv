@@ -16,17 +16,17 @@
 # OpenType, the built-in workspace names and the bracketed perspective grid preset names. Keep
 # placeholders, ellipses and the leading/trailing spaces of fragments when editing.
 	Glowing Edges…	მანათობელი კიდეები…
-	About VectorCraft	VectorCraft-ის შესახებ
+	About VL Vector	VL Vector-ის შესახებ
 	Align to Path	ტრაექტორიაზე სწორება
 	Cut Path at Selected Anchor Points	ტრაექტორიის გაჭრა მონიშნულ საყრდენ წერტილებზე
-	Join Our Discord	შემოგვიერთდით Discord-ზე
+	Visit Visualab Studios	Visit Visualab Studios
 	Language	ენა
 	UI Brightness	ინტერფეისის სიკაშკაშე
 	Dark	ბნელი
 	Medium Dark	საშუალოდ ბნელი
 	Medium Light	საშუალოდ ღია
 	Light	ღია
-	Quit VectorCraft	VectorCraft-იდან გასვლა
+	Quit VL Vector	VL Vector-იდან გასვლა
 # Artwork drag between document tabs.
 	Drop Artwork	ნამუშევრის განთავსება
 @msg	{key} must be [x, y] with finite coordinates	{key} უნდა იყოს [x, y] სასრული კოორდინატებით
@@ -631,11 +631,11 @@
 	Save Swatch Library…	ფერის ნიმუშების ბიბლიოთეკის შენახვა…
 	Symbol Libraries	სიმბოლოების ბიბლიოთეკები
 	Help	დახმარება
-	ArtCraft Website	ArtCraft-ის ვებსაიტი
-	VectorCraft on getartcraft.com	VectorCraft getartcraft.com-ზე
-	VectorCraft on GitHub	VectorCraft GitHub-ზე
+	Visualab Studios Website	Visualab Studios-ის ვებსაიტი
+	VL Vector on visualabstudios.com	VL Vector visualabstudios.com-ზე
+	VL Vector on GitHub	VL Vector GitHub-ზე
 	Search Commands…	ბრძანებების ძიება…
-	VectorCraft Help…	VectorCraft-ის დახმარება…
+	VL Vector Help…	VL Vector-ის დახმარება…
 	Automatic	ავტომატური
 	Isolate Selected Group	მონიშნული ჯგუფის იზოლირება
 	Exit Isolation Mode	იზოლაციის რეჟიმიდან გამოსვლა
@@ -683,7 +683,7 @@
 	Dock Panel	პანელის მიმაგრება
 	Float Tool Group	მცურავი ხელსაწყოთა ჯგუფი
 	Services	სერვისები
-	Hide VectorCraft	VectorCraft-ის დამალვა
+	Hide VL Vector	VL Vector-ის დამალვა
 	Hide Others	სხვების დამალვა
 	Minimize	ჩაკეცვა
 	Zoom	მასშტაბი
@@ -1779,7 +1779,7 @@ lighting	Light	სინათლე
 	Select All Bound Objects	ყველა დაკავშირებული ობიექტის მონიშვნა
 	Multiple objects	რამდენიმე ობიექტი
 	Graphics: {adapter}	გრაფიკა: {adapter}
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft-ის ნაწილი. MIT OR Apache-2.0. შრიფტები: Source Sans 3, Inter, JetBrains Mono (OFL). ხატულები: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Visualab Studios-ის ნაწილი. MIT OR Apache-2.0. შრიფტები: Source Sans 3, Inter, JetBrains Mono (OFL). ხატულები: Lucide (ISC) + VL Vector.
 	Version {version} — open-source vector illustration in pure Rust.	ვერსია {version} — ღია კოდის ვექტორული ილუსტრაცია სუფთა Rust-ზე.
 	Align to Page	გვერდზე სწორება
 	Smooth Color	ფერის გლუვი გადასვლა
@@ -2092,7 +2092,7 @@ lighting	Light	სინათლე
 	{count} folder(s) or file(s) couldn't be read	ვერ წაიკითხა საქაღალდეები ან ფაილები: {count}
 	The search stopped at its limit: search a smaller folder.	ძიება ზღვარზე შეჩერდა: მოძებნეთ უფრო პატარა საქაღალდეში.
 	Copy only fonts you own or are licensed to install.	დააკოპირეთ მხოლოდ ის შრიფტები, რომლებიც გეკუთვნით ან რომელთა დაყენების ლიცენზია გაქვთ.
-	VectorCraft copies the fonts to {folder}.	VectorCraft შრიფტებს აკოპირებს აქ: {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector შრიფტებს აკოპირებს აქ: {folder}.
 	Apply to All ({count} more missing)	ყველაზე გამოყენება (კიდევ დაკარგული: {count})
 	Ignore	უგულებელყოფა
 	Linked File Not Found	დაკავშირებული ფაილი ვერ მოიძებნა
@@ -2180,7 +2180,7 @@ lighting	Light	სინათლე
 	On: one locked object showing the document, updated when it changes.	ჩართული: ერთი ჩაკეტილი ობიექტი, რომელიც დოკუმენტს აჩვენებს და მისი ცვლილებისას ახლდება.
 	Off: an editable copy of its art, embedded in this document.	გამორთული: მისი ნახატის რედაქტირებადი ასლი, ჩაშენებული ამ დოკუმენტში.
 	Images: link to the file instead of only embedding it.	გამოსახულებები: ფაილის ბმული მხოლოდ ჩაშენების ნაცვლად.
-	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft-ის დოკუმენტები: ერთი ჩაკეტილი ობიექტი, რომელიც ფაილის ცვლილებისას ახლდება.
+	VL Vector documents: one locked object, updated when the file changes.	VL Vector-ის დოკუმენტები: ერთი ჩაკეტილი ობიექტი, რომელიც ფაილის ცვლილებისას ახლდება.
 	Alignment:	სწორება:
 	Applies when the linked file is relinked or updated.	მოქმედებს, როცა დაკავშირებული ფაილი ხელახლა უკავშირდება ან ახლდება.
 	Bounds (Fill Proportionally)	საზღვრები (პროპორციული შევსება)
@@ -2311,7 +2311,7 @@ lighting	Light	სინათლე
 	3 Color Job	3-ფერიანი ბეჭდვა
 	Recover Documents	დოკუმენტების აღდგენა
 	Restored documents open unsaved: save them to keep them.	აღდგენილი დოკუმენტები შეუნახავად იხსნება: შესანარჩუნებლად შეინახეთ ისინი.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft ბოლოს ნორმალურად არ დახურულა. ამ დოკუმენტებს შეუნახავი ცვლილებები ჰქონდა:
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector ბოლოს ნორმალურად არ დახურულა. ამ დოკუმენტებს შეუნახავი ცვლილებები ჰქონდა:
 	Do you want to save the changes you made to “{name}”?	შევინახო „{name}“-ში შეტანილი ცვლილებები?
 	Don't Save	არ შეინახო
 	Your changes will be lost if you don't save them.	თუ ცვლილებებს არ შეინახავთ, ისინი დაიკარგება.
@@ -3383,11 +3383,11 @@ effect	Regular	ჩვეულებრივი
 	Quickly start a new file	ახალი ფაილის სწრაფად შექმნა
 	Recent Files	ბოლოს გახსნილი ფაილები
 	Vector illustration — fast, open, scriptable.	ვექტორული ილუსტრაცია — სწრაფი, ღია, სკრიპტებით მართვადი.
-	Welcome to VectorCraft	კეთილი იყოს თქვენი მობრძანება VectorCraft-ში
-	ArtCraft website	ArtCraft-ის ვებსაიტი
+	Welcome to VL Vector	კეთილი იყოს თქვენი მობრძანება VL Vector-ში
+	Visualab Studios website	Visualab Studios-ის ვებსაიტი
 	Discord	Discord
 	Join our Discord	შემოგვიერთდით Discord-ზე
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	შემოუერთდით ArtCraft-ის საზოგადოებას Discord-ზე (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Source code on GitHub	საწყისი კოდი GitHub-ზე
 	All Tools	ყველა ხელსაწყო
 	Draw	ხატვა
@@ -3430,7 +3430,7 @@ font-technology	Variable	ცვლადი
 	Opened with {} note(s): {}	გაიხსნა, შენიშვნა ({}): {}
 	Revert to the saved version of “{name}”?	დაბრუნდეს „{name}“-ის შენახული ვერსია?
 	Replace “{name}”, the file this document was opened from?	ჩანაცვლდეს „{name}“, ფაილი, რომლიდანაც ეს დოკუმენტი გაიხსნა?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	გახსნისას გამოტოვდა ის, რისი წაკითხვაც VectorCraft-ს ჯერ არ შეუძლია ({what}), ამიტომ ჩანაცვლება მას სამუდამოდ დაკარგავს. შესანარჩუნებლად შეინახეთ სხვა სახელით.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	გახსნისას გამოტოვდა ის, რისი წაკითხვაც VL Vector-ს ჯერ არ შეუძლია ({what}), ამიტომ ჩანაცვლება მას სამუდამოდ დაკარგავს. შესანარჩუნებლად შეინახეთ სხვა სახელით.
 	Saved {path}	შენახულია: {path}
 	Saved {path} with {} note(s): {first}	შენახულია: {path}, შენიშვნა ({}): {first}
 	Saving	შენახვა
@@ -3439,7 +3439,7 @@ font-technology	Variable	ცვლადი
 	Dashed Line	ტირეებიანი ხაზი
 	Panel menu	პანელის მენიუ
 	Unembed…	ჩაშენების მოხსნა…
-	Applies the next time VectorCraft starts.	ძალაში შევა VectorCraft-ის მომდევნო გაშვებისას.
+	Applies the next time VL Vector starts.	ძალაში შევა VL Vector-ის მომდევნო გაშვებისას.
 	Enable Contextual Task Bar	კონტექსტური ამოცანების ზოლის ჩართვა
 	Next	შემდეგი
 	OK	OK
@@ -4239,7 +4239,7 @@ font-technology	Variable	ცვლადი
 @msg	{_1} files	ფაილები: {_1}
 @msg	The graphics were lost and have been restarted	გრაფიკა დაიკარგა და ხელახლა გაეშვა
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	პირველად ნაცდმა გრაფიკულმა პროცესორმა ფანჯარა ვერ აჩვენა, ამიტომ VectorCraft ხელახლა გაეშვა: {summary}
-@msg	Loading VectorCraft…	VectorCraft იტვირთება…
+@msg	Loading VL Vector…	VL Vector იტვირთება…
 @msg	VectorCraft failed to start: {e}	VectorCraft-ის გაშვება ვერ მოხერხდა: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	საჭიროა ბრაუზერი WebGPU-ით ან WebGL2-ით.
 @msg	The graphics were lost and couldn't be restarted.	გრაფიკა დაიკარგა და ხელახლა ვერ გაეშვა.
@@ -4415,7 +4415,7 @@ font-technology	Variable	ცვლადი
 	All shortcuts reset to defaults.	ყველა მალსახმობი ნაგულისხმევზე დაბრუნდა.
 	Imported. Press OK to keep the imported set.	შემოტანილია. შემოტანილი ნაკრების შესანარჩუნებლად დააჭირეთ OK-ს.
 	⚠ {chord} was already used by {names} — it has been removed there.	{chord} უკვე გამოიყენებოდა აქ: {names} — იქიდან მოცილებულია.
-	VectorCraft Defaults	VectorCraft-ის ნაგულისხმევი
+	VL Vector Defaults	VL Vector-ის ნაგულისხმევი
 @plural	{n} shortcut is assigned more than once|{n} shortcuts are assigned more than once	ერთზე მეტჯერ მინიჭებული მალსახმობები: {n}
 	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	„სიმულაცია“ ბეჭდავს ზედდაბეჭდვებს ისე, როგორც ზედდაბეჭდვის გადახედვა აჩვენებს; სეპარაცია მათ ყოველთვის ინარჩუნებს. პრესეტი ბეჭდვამდე აბრტყელებს გამჭვირვალობას (PostScript ფაილები მას ყოველთვის აბრტყელებს).
 	Preserve	შენარჩუნება
@@ -4705,7 +4705,7 @@ file-filter	PDF presets	PDF-ის პრესეტები
 file-filter	Print presets	ბეჭდვის პრესეტები
 file-filter	SVG Compressed	შეკუმშული SVG
 file-filter	PDF-compatible .ai	PDF-თან თავსებადი .ai
-file-filter	VectorCraft Template	VectorCraft-ის შაბლონი
+file-filter	VL Vector Template	VL Vector-ის შაბლონი
 file-filter	Templates	შაბლონები
 diagnostics	render	რენდერი
 diagnostics	ui	ინტერფეისი
@@ -4803,7 +4803,7 @@ mark-style	Japanese	იაპონური
 	Check Script	სკრიპტის შემოწმება
 	Check Script…	სკრიპტის შემოწმება…
 	Copy Report	ანგარიშის კოპირება
-	VectorCraft read this script without running it.	VectorCraft-მა ეს სკრიპტი წაიკითხა მისი გაშვების გარეშე.
+	VL Vector read this script without running it.	VL Vector-მა ეს სკრიპტი წაიკითხა მისი გაშვების გარეშე.
 	Needs nothing beyond plain JavaScript	საკმარისია ჩვეულებრივი JavaScript
 	Needs the script language's own objects or directives	სჭირდება სკრიპტის ენის საკუთარი ობიექტები ან დირექტივები
 	Needs the document model	სჭირდება დოკუმენტის მოდელი
@@ -4874,14 +4874,14 @@ imageTrace	Outline	კონტური
 	Coloring Controls	ფერის მართვის ელემენტები
 	Draw Mode Controls	ხატვის რეჟიმის მართვის ელემენტები
 	Drawer menu	ხელსაწყოების ჩამოსაშლელი მენიუ
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	ფაილის თითოეულ ჩანაწერს შეესაბამება VectorCraft-ის ხელსაწყო, ბრძანება ან პანელი. შეამოწმეთ შესაბამისობები და უპასუხეთ დარჩენილს.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	ფაილის თითოეულ ჩანაწერს შეესაბამება VL Vector-ის ხელსაწყო, ბრძანება ან პანელი. შეამოწმეთ შესაბამისობები და უპასუხეთ დარჩენილს.
 	Enhanced	გაუმჯობესებული
 	Fill and Stroke Controls	შევსებისა და კონტურის მართვის ელემენტები
 	Forget Import Matches	იმპორტის შესაბამისობების დავიწყება
 	Import Matches	იმპორტის შესაბამისობები
 	Import Shortcut Set	მალსახმობების ნაკრების იმპორტი
 	Import Shortcut Set…	მალსახმობების ნაკრების იმპორტი…
-	In VectorCraft	VectorCraft-ში
+	In VL Vector	VL Vector-ში
 	In the File	ფაილში
 	Keys	კლავიშები
 	Light behind the object	სინათლე ობიექტის უკან
@@ -4907,7 +4907,7 @@ imageTrace	Outline	კონტური
 	Shortcuts	მალსახმობები
 	Single Corner Radius	კუთხის ერთიანი რადიუსი
 	Softness	სირბილე
-	Start from VectorCraft Defaults	VectorCraft-ის ნაგულისხმევიდან დაწყება
+	Start from VL Vector Defaults	VL Vector-ის ნაგულისხმევიდან დაწყება
 	The file is too large to read in full, so only its first part is listed.	ფაილი სრულად წასაკითხად ზედმეტად დიდია, ამიტომ მხოლოდ მისი პირველი ნაწილია ნაჩვენები.
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	ფაილი კლავიშებსა და მოდიფიკატორებს კოდებით წერს. შეამოწმეთ შემოთავაზებული მნიშვნელობები და უპასუხეთ ჯერ უცნობ კოდებს.
 	Toolbar: Show Controls	ხელსაწყოთა ზოლი: მართვის ელემენტების ჩვენება
@@ -5305,7 +5305,7 @@ imageTrace	Outline	კონტური
 	Symbol Stainer	სიმბოლოების შეფერადება
 	Symbol Styler	სიმბოლოების სტილიზაცია
 	Text Orientation	ტექსტის ორიენტაცია
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	შენახვის პანელში სახელი იყო „{typed}“; VectorCraft-მა ფაილის ტიპის გაფართოება დაამატა. ფაილის ჩანაცვლება მის შიგთავსს გადააწერს.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	შენახვის პანელში სახელი იყო „{typed}“; VL Vector-მა ფაილის ტიპის გაფართოება დაამატა. ფაილის ჩანაცვლება მის შიგთავსს გადააწერს.
 	Thread Text	ტექსტის დაკავშირება
 	Trackpad Gesture to Rotate View	ხედის შემობრუნება ტრეკპადის ჟესტით
 	Typing	აკრეფა
