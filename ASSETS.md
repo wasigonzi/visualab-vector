@@ -368,3 +368,28 @@ Original provisional V marks generated for this fork. These do not reproduce the
 | `assets/app-icon/hicolor/48x48/apps/com.visualabstudios.vector.png` | Visualab Studios | Original procedural artwork | MIT OR Apache-2.0 |
 | `assets/app-icon/hicolor/32x32/apps/com.visualabstudios.vector.png` | Visualab Studios | Original procedural artwork | MIT OR Apache-2.0 |
 | `assets/app-icon/visualab-mark.png` | Visualab Studios | Original procedural artwork | MIT OR Apache-2.0 |
+| `apps/vectorcraft-web/favicon.svg` | Visualab Studios | Original artwork (VL Vector web app icon) | MIT OR Apache-2.0 |
+| `apps/vectorcraft-web/pwa/icon-180.png` | Visualab Studios | Original artwork (VL Vector web app icon) | MIT OR Apache-2.0 |
+| `apps/vectorcraft-web/pwa/icon-192.png` | Visualab Studios | Original artwork (VL Vector web app icon) | MIT OR Apache-2.0 |
+| `apps/vectorcraft-web/pwa/icon-512.png` | Visualab Studios | Original artwork (VL Vector web app icon) | MIT OR Apache-2.0 |
+| `apps/vectorcraft-web/pwa/vl-logo.png` | Visualab Studios | Original artwork (VL Vector web app icon) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/128x128/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/16x16/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/24x24/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/256x256/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/32x32/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/48x48/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/512x512/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/64x64/apps/com.visualabstudios.vector.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/hicolor/scalable/apps/com.visualabstudios.vector.svg.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft-1024.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft-macos-512.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft-small.svg.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft.icns.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft.ico.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/vectorcraft.svg.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/app-icon/visualab-mark.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/brand/visualab-splash-bg.png` | Visualab Studios | Original artwork (VL Vector loading screen) | MIT OR Apache-2.0 |
+| `assets/brand/visualab-splash-bg.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
+| `assets/brand/visualab-splash-logo.png` | Visualab Studios | Original artwork (VL Vector loading screen) | MIT OR Apache-2.0 |
+| `assets/brand/visualab-splash-logo.png.attribution` | Visualab Studios | Attribution sidecar (metadata text) | MIT OR Apache-2.0 |
