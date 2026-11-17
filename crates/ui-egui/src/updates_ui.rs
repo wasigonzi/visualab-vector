@@ -22,11 +22,16 @@ pub(crate) struct Runtime {
     pub(crate) status_message: Option<String>,
 }
 
+/// VL Vector's update identity (Visualab Studios releases).
+#[cfg(not(target_arch = "wasm32"))]
+pub static VL_VECTOR_APP: craft_update::App =
+    craft_update::App::new("visualab-vector", "VL Vector", "Visualab Studios creative tools", "wasigonzi/visualab-vector");
+
 impl Default for Runtime {
     fn default() -> Self {
         Self {
             #[cfg(not(target_arch = "wasm32"))]
-            updater: Updater::new(&craft_update::suite::VECTORCRAFT, env!("CARGO_PKG_VERSION")),
+            updater: Updater::new(&VL_VECTOR_APP, env!("CARGO_PKG_VERSION")),
             #[cfg(not(target_arch = "wasm32"))]
             startup_check: false,
             #[cfg(not(target_arch = "wasm32"))]
@@ -86,7 +91,11 @@ pub(crate) fn show(app: &mut VectorcraftApp, ctx: &egui::Context) {
         // The restart helper is scheduled before the app closes, so no update starts over unsaved work.
         let clean = !crate::unsaved::any_dirty(app);
         match app.updates_rt.updater.show_if(ctx, clean) {
-            Action::OpenUrl(url) => app.open_url(&url),
+            Action::OpenUrl(url) => {
+                // Keep people on Visualab Studios; never open a GitHub page from the updater UI.
+                let url = if url.contains("github.com") { "https://www.visualabstudios.com/vl-tools/vl-vector" } else { url.as_str() };
+                app.open_url(url);
+            }
             Action::Close => ctx.send_viewport_cmd(egui::ViewportCommand::Close),
             Action::None => {}
         }
@@ -96,7 +105,7 @@ pub(crate) fn show(app: &mut VectorcraftApp, ctx: &egui::Context) {
             Status::Idle => (false, None),
             Status::Checking => (true, Some(tl!("Checking for updates…").to_string())),
             Status::UpToDate => {
-                (true, Some(tl!("VectorCraft {version} is currently the newest version available.").replace("{version}", env!("CARGO_PKG_VERSION"))))
+                (true, Some(tl!("VL Vector {version} is currently the newest version available.").replace("{version}", env!("CARGO_PKG_VERSION"))))
             }
             Status::Failed(e) => (true, Some(tl!("Could not check for updates:\n{error}").replace("{error}", e))),
         };
@@ -104,7 +113,7 @@ pub(crate) fn show(app: &mut VectorcraftApp, ctx: &egui::Context) {
 
     if app.updates_rt.manual_window_open {
         let mut open = true;
-        egui::Window::new(tl!("VectorCraft Updates"))
+        egui::Window::new(tl!("VL Vector Updates"))
             .open(&mut open)
             .collapsible(false)
             .resizable(false)
@@ -156,8 +165,8 @@ mod tests {
         let release = craft_update::Release {
             tag: "v99.0.0".into(),
             version: craft_update::parse_version("99.0.0"),
-            name: "VectorCraft 99.0.0".into(),
-            html_url: "https://github.com/storytold/vectorcraft/releases/tag/v99.0.0".into(),
+            name: "VL Vector 99.0.0".into(),
+            html_url: "https://www.visualabstudios.com/vl-tools/vl-vector".into(),
             ..Default::default()
         };
         app.updates_rt.updater.offer(release);

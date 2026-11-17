@@ -1,19 +1,18 @@
-//! Community and project links: the Discord button (header, About, Home) and the link list.
-//! Icons are Lucide's (ISC); Discord's own logo is a trademark, so the button uses a chat icon
-//! on Discord's colour with the word "Discord".
+//! Community and project links: the Visualab Studios button (header, About, Home) and the website
+//! / app page links. Icons are Lucide's (ISC).
 
 use egui::{Color32, CornerRadius, Sense, Ui, vec2};
 
 use crate::theme::{self, Tokens};
 use crate::{VectorcraftApp, icons};
 
-/// Discord's brand colour (a colour, not a logo).
-const DISCORD: Color32 = Color32::from_rgb(0x58, 0x65, 0xF2);
+/// The Visualab Studios brand cyan (deep shade, so white lettering reads on it).
+const DISCORD: Color32 = Color32::from_rgb(0x00, 0x89, 0xA8);
 
 /// The Discord button's label, height and width.
 fn discord_layout(ui: &Ui, large: bool) -> (std::sync::Arc<egui::Galley>, f32, f32) {
     let (h, font, label) =
-        if large { (36.0, theme::semibold(14.0), tl!("Join our Discord")) } else { (24.0, egui::FontId::proportional(12.0), "Discord") };
+        if large { (36.0, theme::semibold(14.0), tl!("Visit Visualab Studios")) } else { (24.0, egui::FontId::proportional(12.0), "Visualab") };
     let galley = ui.painter().layout_no_wrap(label.to_string(), font, Color32::PLACEHOLDER);
     let w = galley.size().x + h * 0.55 + h * 0.9;
     (galley, h, w)
@@ -34,16 +33,16 @@ pub fn discord_button(app: &mut VectorcraftApp, ui: &mut Ui, large: bool) -> egu
     if large {
         let fill = if resp.hovered() { DISCORD.gamma_multiply(0.85) } else { DISCORD };
         ui.painter().rect_filled(r, CornerRadius::same((h / 2.0) as u8), fill);
-        icons::paint(ui, "message-circle", ir, Color32::WHITE);
+        icons::paint(ui, "globe", ir, Color32::WHITE);
         ui.painter().galley(egui::pos2(ir.right() + h * 0.2, at.y), galley, Color32::WHITE);
     } else {
         // In the app bar it stays quiet: a soft button with Discord's colour on its icon alone.
         let t = Tokens::get(ui.ctx());
         ui.painter().rect_filled(r, CornerRadius::same(6), if resp.hovered() { t.hover } else { t.button });
-        icons::paint(ui, "message-circle", ir, DISCORD);
+        icons::paint(ui, "globe", ir, DISCORD);
         ui.painter().galley(egui::pos2(ir.right() + h * 0.2, at.y), galley, if resp.hovered() { t.text_strong } else { t.text });
     }
-    let resp = resp.on_hover_text(tl!("Join the ArtCraft community on Discord (discord.gg/artcraft)"));
+    let resp = resp.on_hover_text(tl!("Visit Visualab Studios (visualabstudios.com)"));
     if resp.clicked() {
         app.open_link("help.discord");
     }
@@ -62,15 +61,14 @@ fn link(app: &mut VectorcraftApp, ui: &mut Ui, icon: &str, label: &str, cmd: &st
     });
 }
 
-/// The Discord button and the website / app page / GitHub links.
+/// The Visualab Studios button and the website / app page links.
 pub fn links(app: &mut VectorcraftApp, ui: &mut Ui) {
     discord_button(app, ui, true);
     ui.add_space(8.0);
     let l = app.session.execute("help.links", &serde_json::json!({})).unwrap_or_default();
     let s = |k: &str| l[k].as_str().unwrap_or("").to_string();
-    link(app, ui, "globe", tl!("ArtCraft website"), "help.website", &s("website"));
-    link(app, ui, "external-link", tl!("VectorCraft on getartcraft.com"), "help.appPage", &s("appPage"));
-    link(app, ui, "git-branch", tl!("Source code on GitHub"), "help.github", &s("github"));
+    link(app, ui, "globe", tl!("Visualab Studios website"), "help.website", &s("website"));
+    link(app, ui, "external-link", tl!("VL Vector on visualabstudios.com"), "help.appPage", &s("appPage"));
 }
 
 #[cfg(test)]
@@ -84,22 +82,17 @@ mod tests {
         let o = opened.clone();
         let services = crate::Services { open_url: Some(Box::new(move |u: &str| o.lock().unwrap().push(u.to_string()))), ..Default::default() };
         let mut app = VectorcraftApp::new(vectorcraft_engine::Session::new(), services);
-        for id in ["help.discord", "help.website", "help.appPage", "help.github"] {
+        for id in ["help.discord", "help.website", "help.appPage"] {
             crate::menus::invoke(&mut app, id, serde_json::json!({}));
         }
         assert_eq!(
             *opened.lock().unwrap(),
-            [
-                "https://discord.gg/artcraft",
-                "https://getartcraft.com",
-                "https://getartcraft.com/apps/vectorcraft",
-                "https://github.com/storytold/vectorcraft"
-            ]
+            ["https://www.visualabstudios.com", "https://www.visualabstudios.com", "https://www.visualabstudios.com/vl-tools/vl-vector",]
         );
         // The control channel / MCP path returns the URL without opening a browser.
         let v = app.run("help.discord", serde_json::json!({})).unwrap();
-        assert_eq!(v["url"], "https://discord.gg/artcraft");
-        assert_eq!(opened.lock().unwrap().len(), 4);
+        assert_eq!(v["url"], "https://www.visualabstudios.com");
+        assert_eq!(opened.lock().unwrap().len(), 3);
         let ctx = egui::Context::default();
         theme::install_fonts(&ctx);
         let mut out = ctx.run_ui(egui::RawInput::default(), |ui| links(&mut app, ui));

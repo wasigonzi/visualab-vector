@@ -156,7 +156,7 @@
 	A5	A5
 	A6	A6
 	About	Névjegy
-	About VectorCraft	A VectorCraft névjegye
+	About VL Vector	A VL Vector névjegye
 	above	fölötte
 	Above Text	Szöveg fölött
 	Absolute	Abszolút
@@ -287,7 +287,7 @@ font-technology	Variable	Változó
 	Appearance of Black	A fekete megjelenése
 	Appearance panel	Megjelenés panel
 	Appearance Panel	Megjelenés panel
-	Applies the next time VectorCraft starts.	A VectorCraft következő indításakor lép életbe.
+	Applies the next time VL Vector starts.	A VL Vector következő indításakor lép életbe.
 	Applies when the linked file is relinked or updated.	A csatolt fájl újracsatolásakor vagy frissítésekor érvényes.
 	Apply	Alkalmaz
 	Apply Brush	Ecset alkalmazása
@@ -339,8 +339,8 @@ font-technology	Variable	Változó
 	Artboard:	Rajztábla:
 	Artboards	Rajztáblák
 	Artboards: {n}	Rajztáblák: {n}
-	ArtCraft Website	Az ArtCraft webhelye
-	ArtCraft website	Az ArtCraft webhelye
+	Visualab Studios Website	Az Visualab Studios webhelye
+	Visualab Studios website	Az Visualab Studios webhelye
 	Artwork Colors	Grafika színei
 	As Multiple Assets	Több elemként
 	As Single Asset	Egy elemként
@@ -562,7 +562,7 @@ font-technology	Variable	Változó
 	Check Script	Szkript ellenőrzése
 	Check Script…	Szkript ellenőrzése…
 	Copy Report	Jelentés másolása
-	VectorCraft read this script without running it.	A VectorCraft futtatás nélkül olvasta be ezt a szkriptet.
+	VL Vector read this script without running it.	A VL Vector futtatás nélkül olvasta be ezt a szkriptet.
 	Needs nothing beyond plain JavaScript	Csak egyszerű JavaScript kell hozzá
 	Needs the script language's own objects or directives	A szkriptnyelv saját objektumai vagy direktívái kellenek hozzá
 	Needs the document model	A dokumentummodell kell hozzá
@@ -1480,7 +1480,7 @@ file-filter	PDF presets	PDF-előbeállítások
 file-filter	Print presets	Nyomtatási előbeállítások
 file-filter	SVG Compressed	Tömörített SVG
 file-filter	PDF-compatible .ai	PDF-kompatibilis .ai
-file-filter	VectorCraft Template	VectorCraft-sablon
+file-filter	VL Vector Template	VL Vector-sablon
 file-filter	Templates	Sablonok
 	Flattener Preview	Lapítás előnézete
 	Flip	Tükrözés
@@ -1767,7 +1767,7 @@ file-filter	Templates	Sablonok
 	Hide Thumbnail	Bélyegkép elrejtése
 	Hide Thumbnails	Bélyegképek elrejtése
 	Hide Transparency Grid	Átlátszósági rács elrejtése
-	Hide VectorCraft	VectorCraft elrejtése
+	Hide VL Vector	VL Vector elrejtése
 	High	Magas
 	High (300 ppi)	Magas (300 ppi)
 	High Contrast	Erős kontraszt
@@ -2007,9 +2007,9 @@ file-filter	Templates	Sablonok
 	Its graphics, colors and text styles are deleted from this machine.	A grafikái, színei és szövegstílusai törlődnek erről a gépről.
 	Japanese	Japán
 	Join	Összekapcsolás
-	Join Our Discord	Csatlakozz a Discordunkhoz
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Csatlakozz a Discordunkhoz
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Csatlakozz az ArtCraft-közösséghez a Discordon (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Bekezdések sorainak összefűzése
 	Join Tool	Összekapcsolás
 	Joins	Csatlakozások
@@ -2041,7 +2041,7 @@ file-filter	Templates	Sablonok
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Billentyűparancs-készlet importálása
 	Import Shortcut Set…	Billentyűparancs-készlet importálása…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	A VectorCraft a fájl minden bejegyzését megfelelteti valamelyik eszközének, parancsának vagy paneljének. Ellenőrizd a megfeleltetéseket, és válaszolj a még nyitott kérdésekre.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	A VL Vector a fájl minden bejegyzését megfelelteti valamelyik eszközének, parancsának vagy paneljének. Ellenőrizd a megfeleltetéseket, és válaszolj a még nyitott kérdésekre.
 	Keys	Billentyűk
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	A fájl a billentyűket és a módosítóbillentyűket kódként tárolja. Ellenőrizd a javasolt jelentéseket, és add meg a még ismeretlen kódok jelentését.
 	Click, then press the key this code stands for (Esc cancels)	Kattints, majd nyomd le azt a billentyűt, amelyet ez a kód jelöl (Esc: mégse)
@@ -2052,7 +2052,7 @@ file-filter	Templates	Sablonok
 	not known yet	még ismeretlen
 	Shortcuts	Billentyűparancsok
 	In the File	A fájlban
-	In VectorCraft	A VectorCraftban
+	In VL Vector	A VL Vectorban
 	Needs Attention Only	Csak a figyelmet igénylő sorok
 	Ready	Kész
 	Needs a choice	Választás szükséges
@@ -2061,7 +2061,7 @@ file-filter	Templates	Sablonok
 	Tools take a single key (optionally with Shift)	Eszközhöz egyetlen billentyű rendelhető (Shifttel vagy anélkül)
 	A later row takes this shortcut	Ezt a billentyűparancsot egy későbbi sor kapja meg
 	Same item as a later row	Ugyanaz az elem, mint egy későbbi sorban
-	Start from VectorCraft Defaults	Kiindulás a VectorCraft-alapértékekből
+	Start from VL Vector Defaults	Kiindulás a VL Vector-alapértékekből
 	Add to the Current Shortcuts	Hozzáadás a jelenlegi billentyűparancsokhoz
 	Remember My Choices	Választásaim megjegyzése
 	{ready} of {total} ready	Kész: {ready}/{total}
@@ -2670,9 +2670,9 @@ file-filter	Templates	Sablonok
 	Open Swatch Library	Színminta-könyvtár megnyitása
 	Open the URL in the web browser	URL megnyitása a böngészőben
 	Opened with {} note(s): {}	Megnyitva, megjegyzések: {}. {}
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Megnyitáskor kimaradt, amit a VectorCraft még nem tud beolvasni ({what}), ezért a fájl felülírásával ez végleg elvész. A megtartásához mentsd más néven.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Megnyitáskor kimaradt, amit a VL Vector még nem tud beolvasni ({what}), ezért a fájl felülírásával ez végleg elvész. A megtartásához mentsd más néven.
 	“{name}” already exists. Replace it?	„{name}” már létezik. Felülírod?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	A mentési panelen megadott név ez volt: „{typed}”, a VectorCraft pedig hozzáadta a fájltípus kiterjesztését. A fájl felülírásakor a tartalma elvész.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	A mentési panelen megadott név ez volt: „{typed}”, a VL Vector pedig hozzáadta a fájltípus kiterjesztését. A fájl felülírásakor a tartalma elvész.
 	Open…	Megnyitás…
 	Optical Margin Alignment	Optikai margóigazítás
 	Optimize for fast web view	Optimalizálás gyors webes megtekintéshez
@@ -2761,8 +2761,8 @@ file-filter	Templates	Sablonok
 	Paragraph Style Options	Bekezdésstílus beállításai
 	Paragraph Styles	Bekezdésstílusok
 	Paragraph Symbol	Bekezdésjel
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Az ArtCraft része. MIT OR Apache-2.0. Betűtípusok: Source Sans 3, Inter, JetBrains Mono (OFL). Ikonok: Lucide (ISC) + VectorCraft.
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Az ArtCraft része. MIT OR Apache-2.0. Betűtípusok: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikonok: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Az Visualab Studios része. MIT OR Apache-2.0. Betűtípusok: Source Sans 3, Inter, JetBrains Mono (OFL). Ikonok: Lucide (ISC) + VL Vector.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Az Visualab Studios része. MIT OR Apache-2.0. Betűtípusok: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Ikonok: Lucide (ISC) + VL Vector.
 	Password	Jelszó
 	Paste	Beillesztés
 	Paste in Back	Beillesztés mögé
@@ -2989,7 +2989,7 @@ mark-style	Japanese	Japán
 	Quarter Space	Negyedkvirt-szóköz
 	Quick Actions	Gyorsműveletek
 	Quickly start a new file	Új fájl gyors létrehozása
-	Quit VectorCraft	Kilépés a VectorCraftból
+	Quit VL Vector	Kilépés a VL Vectorból
 	Radar Graph Tool	Sugárdiagram
 	Radial	Körkörös
 	Radial Blur	Körkörös elmosás
@@ -4272,15 +4272,15 @@ mark-style	Japanese	Japán
 	Vector Halftone	Vektoros rácspontos raszter
 	Vector Halftone…	Vektoros rácspontos raszter…
 	Vector illustration — fast, open, scriptable.	Vektoros illusztráció – gyors, nyílt, szkriptelhető.
-	VectorCraft copies the fonts to {folder}.	A VectorCraft ide másolja a betűtípusokat: {folder}.
+	VL Vector copies the fonts to {folder}.	A VL Vector ide másolja a betűtípusokat: {folder}.
 	VectorCraft Default	VectorCraft alapértelmezés
-	VectorCraft Defaults	VectorCraft-alapértékek
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	A VectorCraft legutóbb nem szabályosan lépett ki. Ezekben a dokumentumokban mentetlen módosítások voltak:
-	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft-dokumentumok: egyetlen zárolt objektum, amely a fájl változásakor frissül.
+	VL Vector Defaults	VL Vector-alapértékek
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	A VL Vector legutóbb nem szabályosan lépett ki. Ezekben a dokumentumokban mentetlen módosítások voltak:
+	VL Vector documents: one locked object, updated when the file changes.	VL Vector-dokumentumok: egyetlen zárolt objektum, amely a fájl változásakor frissül.
 	VectorCraft Generic CMYK (SWOP-like)	VectorCraft általános CMYK (SWOP-szerű)
-	VectorCraft Help…	VectorCraft súgó…
-	VectorCraft on getartcraft.com	A VectorCraft a getartcraft.com oldalon
-	VectorCraft on GitHub	A VectorCraft a GitHubon
+	VL Vector Help…	VL Vector súgó…
+	VL Vector on visualabstudios.com	A VL Vector a visualabstudios.com oldalon
+	VL Vector on GitHub	A VL Vector a GitHubon
 	VectorCraft Swatches (.vcswatches)	VectorCraft-színminták (.vcswatches)
 	Vectors	Vektorok
 	Version	Verzió
@@ -4347,7 +4347,7 @@ mark-style	Japanese	Japán
 	WebP	WebP
 	Weight	Vastagság
 	Weight:	Vastagság:
-	Welcome to VectorCraft	Üdvözöl a VectorCraft
+	Welcome to VL Vector	Üdvözöl a VL Vector
 	When pasting text	Szöveg beillesztésekor
 	White	Fehér
 	White Intensity	Fehér erőssége
@@ -4767,7 +4767,7 @@ imageTrace	Outline	Körvonal
 @msg	Live Paint takes paths and compound paths: convert type, images and other objects to paths first	Az élő festés útvonalakat és összetett útvonalakat fogad: előbb alakítsd útvonallá a szöveget, a képeket és a többi objektumot
 @msg	Live Paint: select paths or compound paths	Élő festés: jelölj ki útvonalakat vagy összetett útvonalakat
 @msg	Live Paint: these paths are too degenerate to paint	Élő festés: ezek az útvonalak túlságosan elfajultak a festéshez
-@msg	Loading VectorCraft…	A VectorCraft betöltése…
+@msg	Loading VL Vector…	A VL Vector betöltése…
 @msg	Make Guides: select paths	Segédvonalak létrehozása: jelölj ki útvonalakat
 @msg	missing `folder`	hiányzik: `folder`
 @msg	missing `id` (see plugin.list)	hiányzik: `id` (lásd: plugin.list)
@@ -5182,7 +5182,7 @@ imageTrace	Outline	Körvonal
 @msg	Updated {_1} linked file(s) changed on disk	Frissített, a lemezen módosult csatolt fájlok: {_1}
 @msg	variables are locked	a változók zárolva vannak
 @msg	variables that aren't text were left out: {kinds}	a nem szöveges változók kimaradtak: {kinds}
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	a VectorCraft nem keres más alkalmazások és a rendszer mappáiban: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	a VL Vector nem keres más alkalmazások és a rendszer mappáiban: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	a VectorCraft nem keres a Users alatti Shared és Public mappában: {path}
 @msg	VectorCraft failed to start: {e}	A VectorCraft nem tudott elindulni: {e}
 @msg	VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it	a VectorCraft Fonts mappája itt nincs beállítva: az asztali alkalmazás és a vectorcraft-cli állítja be

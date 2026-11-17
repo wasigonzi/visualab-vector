@@ -99,7 +99,7 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	Une valeur faible suit le contour de près ; une valeur élevée donne moins de points et des courbes plus lisses.
 	A new preset starting from the selected one	Un nouveau paramètre prédéfini basé sur celui sélectionné
 	A saved copy of the selected preset	Une copie enregistrée du paramètre prédéfini sélectionné
-	About VectorCraft	À propos de VectorCraft
+	About VL Vector	À propos de VL Vector
 	above	au-dessus
 	Absolute Position	Position absolue
 	Accurate	Précis
@@ -206,7 +206,7 @@ font-technology	Variable	Variables
 	Appearance Panel	Panneau Aspect
 	Appearance panel	Panneau Aspect
 	Applies when the linked file is relinked or updated.	S’applique lorsque le fichier lié est de nouveau lié ou mis à jour.
-	Applies the next time VectorCraft starts.	S’applique au prochain démarrage de VectorCraft.
+	Applies the next time VL Vector starts.	S’applique au prochain démarrage de VL Vector.
 	Apply	Appliquer
 	Apply Brush	Appliquer la forme
 	Apply Character Style	Appliquer le style de caractère
@@ -243,8 +243,8 @@ font-technology	Variable	Variables
 	Artboard {number}	Plan de travail {number}
 	Artboard:	Plan de travail :
 	Artboards	Plans de travail
-	ArtCraft Website	Site web d’ArtCraft
-	ArtCraft website	Site web d’ArtCraft
+	Visualab Studios Website	Site web d’Visualab Studios
+	Visualab Studios website	Site web d’Visualab Studios
 	Artwork Colors	Couleurs de l’illustration
 	As Multiple Assets	En plusieurs ressources
 	As Single Asset	En une seule ressource
@@ -404,7 +404,7 @@ font-technology	Variable	Variables
 	Check Script	Vérifier le script
 	Check Script…	Vérifier le script…
 	Copy Report	Copier le rapport
-	VectorCraft read this script without running it.	VectorCraft a lu ce script sans l’exécuter.
+	VL Vector read this script without running it.	VL Vector a lu ce script sans l’exécuter.
 	Needs nothing beyond plain JavaScript	Ne demande que du JavaScript simple
 	Needs the script language's own objects or directives	Demande les objets ou directives propres au langage du script
 	Needs the document model	Demande le modèle de document
@@ -1593,9 +1593,9 @@ font-technology	Variable	Variables
 	Italian	Italien
 	Japanese	Japonais
 	Join	Joindre
-	Join Our Discord	Rejoignez notre Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Rejoignez notre Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Rejoignez la communauté ArtCraft sur Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Joindre les lignes de chaque paragraphe
 	Join Tool	Outil Jonction
 	Justification…	Justification…
@@ -1619,7 +1619,7 @@ font-technology	Variable	Variables
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Importer un jeu de raccourcis
 	Import Shortcut Set…	Importer un jeu de raccourcis…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Chaque entrée du fichier est mise en correspondance avec un outil, une commande ou un panneau de VectorCraft. Vérifiez les correspondances et répondez à ce qui reste.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Chaque entrée du fichier est mise en correspondance avec un outil, une commande ou un panneau de VL Vector. Vérifiez les correspondances et répondez à ce qui reste.
 	Keys	Touches
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Le fichier enregistre les touches et les modificateurs sous forme de codes. Vérifiez les significations proposées et indiquez les codes encore inconnus.
 	Click, then press the key this code stands for (Esc cancels)	Cliquez, puis appuyez sur la touche que ce code représente (Échap pour annuler)
@@ -1629,7 +1629,7 @@ font-technology	Variable	Variables
 	not known yet	encore inconnu
 	Shortcuts	Raccourcis
 	In the File	Dans le fichier
-	In VectorCraft	Dans VectorCraft
+	In VL Vector	Dans VL Vector
 	Needs Attention Only	À vérifier uniquement
 	Ready	Prêt
 	Needs a choice	Choix nécessaire
@@ -1638,7 +1638,7 @@ font-technology	Variable	Variables
 	Tools take a single key (optionally with Shift)	Les outils prennent une seule touche (éventuellement avec Maj)
 	A later row takes this shortcut	Une ligne suivante prend ce raccourci
 	Same item as a later row	Même élément qu’une ligne suivante
-	Start from VectorCraft Defaults	Partir des valeurs par défaut de VectorCraft
+	Start from VL Vector Defaults	Partir des valeurs par défaut de VL Vector
 	Add to the Current Shortcuts	Ajouter aux raccourcis actuels
 	Remember My Choices	Mémoriser mes choix
 	{ready} of {total} ready	{ready} sur {total} prêts
@@ -2273,7 +2273,7 @@ font-technology	Variable	Variables
 	Paragraph Style Options	Options de style de paragraphe
 	Paragraph Styles	Styles de paragraphe
 	Paragraph Symbol	Symbole de paragraphe
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Fait partie d’ArtCraft. MIT OR Apache-2.0. Polices : Source Sans 3, Inter, JetBrains Mono (OFL). Icônes : Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Fait partie d’Visualab Studios. MIT OR Apache-2.0. Polices : Source Sans 3, Inter, JetBrains Mono (OFL). Icônes : Lucide (ISC) + VL Vector.
 	Password	Mot de passe
 	Paste	Coller
 	Paste in Back	Coller derrière
@@ -2453,7 +2453,7 @@ font-technology	Variable	Variables
 	Quarter Space	Quart d’espace
 	Quick Actions	Actions rapides
 	Quickly start a new file	Commencer rapidement un nouveau fichier
-	Quit VectorCraft	Quitter VectorCraft
+	Quit VL Vector	Quitter VL Vector
 	Radar Graph Tool	Outil Graphe radar
 	Radial	Radial
 	Radial Glows	Halos radiaux
@@ -2579,7 +2579,7 @@ font-technology	Variable	Variables
 	{count} folder(s) or file(s) couldn't be read	{count} dossier(s) ou fichier(s) illisible(s)
 	The search stopped at its limit: search a smaller folder.	La recherche s’est arrêtée à sa limite : recherchez dans un dossier plus petit.
 	Copy only fonts you own or are licensed to install.	Ne copiez que des polices qui vous appartiennent ou dont la licence vous autorise l’installation.
-	VectorCraft copies the fonts to {folder}.	VectorCraft copie les polices dans {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector copie les polices dans {folder}.
 	Registered Trademark Symbol	Symbole de marque déposée
 	Registration marks	Repères de montage
 	Registry name:	Nom du registre :
@@ -2689,9 +2689,9 @@ font-technology	Variable	Variables
 	Revert	Version précédente
 	Revert to the saved version of “{name}”?	Revenir à la version enregistrée de « {name} » ?
 	Replace “{name}”, the file this document was opened from?	Remplacer « {name} », le fichier à partir duquel ce document a été ouvert ?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Son ouverture a laissé de côté ce que VectorCraft ne sait pas encore lire ({what}) : le remplacer le perd définitivement. Enregistrez sous un autre nom pour le conserver.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Son ouverture a laissé de côté ce que VL Vector ne sait pas encore lire ({what}) : le remplacer le perd définitivement. Enregistrez sous un autre nom pour le conserver.
 	“{name}” already exists. Replace it?	« {name} » existe déjà. Le remplacer ?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Le nom dans la fenêtre d’enregistrement était « {typed} », puis VectorCraft a ajouté l’extension du type de fichier. Remplacer le fichier écrase son contenu.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Le nom dans la fenêtre d’enregistrement était « {typed} », puis VL Vector a ajouté l’extension du type de fichier. Remplacer le fichier écrase son contenu.
 	Revolve…	Révolution…
 	RGB Color	Couleur RVB
 	Right	Droite
@@ -3580,10 +3580,10 @@ font-technology	Variable	Variables
 	Vector Halftone	Trame de demi-teintes vectorielle
 	Vector Halftone…	Trame de demi-teintes vectorielle…
 	Vector illustration — fast, open, scriptable.	Illustration vectorielle — rapide, ouverte, scriptable.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft ne s’est pas fermé normalement la dernière fois. Ces documents comportaient des modifications non enregistrées :
-	VectorCraft Help…	Aide de VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft sur getartcraft.com
-	VectorCraft on GitHub	VectorCraft sur GitHub
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector ne s’est pas fermé normalement la dernière fois. Ces documents comportaient des modifications non enregistrées :
+	VL Vector Help…	Aide de VL Vector…
+	VL Vector on visualabstudios.com	VL Vector sur visualabstudios.com
+	VL Vector on GitHub	VL Vector sur GitHub
 	Vectors	Vecteurs
 	Version {version} — open-source vector illustration in pure Rust.	Version {version} — illustration vectorielle open source en pur Rust.
 	Version:	Version :
@@ -3623,7 +3623,7 @@ font-technology	Variable	Variables
 	Web Snap:	Magnétisme Web :
 	Weight	Épaisseur
 	Weight:	Épaisseur :
-	Welcome to VectorCraft	Bienvenue dans VectorCraft
+	Welcome to VL Vector	Bienvenue dans VL Vector
 	When pasting text	Lors du collage de texte
 	White	Blanc
 	Widget Position:	Position du widget :
@@ -4485,7 +4485,7 @@ axis	Both	Les deux
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Le processeur graphique essayé en premier n’a pas pu afficher la fenêtre : VectorCraft a redémarré sur {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Le dernier démarrage de VectorCraft s’est arrêté sur {name} avant l’affichage de la fenêtre, donc VectorCraft a démarré sur {summary}. Pour réessayer ce processeur graphique, modifiez Préférences › Performances › Processeur graphique ou démarrez avec la variable WGPU_BACKEND définie
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Le dernier démarrage de VectorCraft s’est arrêté pendant l’énumération des processeurs graphiques, donc VectorCraft a démarré sur {summary} avec OpenGL seul. Pour réessayer les autres interfaces graphiques, modifiez Préférences › Performances › Processeur graphique ou démarrez avec la variable WGPU_BACKEND définie
-@msg	Loading VectorCraft…	Chargement de VectorCraft…
+@msg	Loading VL Vector…	Chargement de VL Vector…
 @msg	VectorCraft failed to start: {e}	Le démarrage de VectorCraft a échoué : {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Un navigateur prenant en charge WebGPU ou WebGL2 est nécessaire.
 @msg	The graphics were lost and couldn't be restarted.	Le contexte graphique a été perdu et n’a pas pu être redémarré.
@@ -4520,7 +4520,7 @@ axis	Both	Les deux
 @msg	its editing data doesn't say where its art is	ses données d’édition ne disent pas où se trouve son illustration
 @msg	this file was saved without PDF compatibility, and its editing data can't be read ({why})	ce fichier a été enregistré sans compatibilité PDF et ses données d’édition sont illisibles ({why})
 @msg	No fonts are missing in this document	Aucune police ne manque dans ce document
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft ne recherche pas dans les dossiers d’autres apps ni du système : {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector ne recherche pas dans les dossiers d’autres apps ni du système : {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft ne recherche pas dans les dossiers Shared et Public de Users : {path}
 @msg	{path} is not a folder	{path} n’est pas un dossier
 @msg	the search couldn't start: try again in a moment	la recherche n’a pas pu démarrer : réessayez dans un instant
@@ -4543,7 +4543,7 @@ axis	Both	Les deux
 
 # The macOS menu bar (native_menu): the app and Window menus' system items, Settings pages.
 	Services	Services
-	Hide VectorCraft	Masquer VectorCraft
+	Hide VL Vector	Masquer VL Vector
 	Zoom	Zoom
 	Bring All to Front	Tout ramener au premier plan
 	Settings	Réglages
@@ -4551,7 +4551,7 @@ axis	Both	Les deux
 	On: one locked object showing the document, updated when it changes.	Activé : un objet verrouillé qui affiche le document et se met à jour quand celui-ci change.
 	Off: an editable copy of its art, embedded in this document.	Désactivé : une copie modifiable de son illustration, incorporée dans ce document.
 	Images: link to the file instead of only embedding it.	Images : lier le fichier au lieu de seulement l’incorporer.
-	VectorCraft documents: one locked object, updated when the file changes.	Documents VectorCraft : un objet verrouillé, mis à jour quand le fichier change.
+	VL Vector documents: one locked object, updated when the file changes.	Documents VL Vector : un objet verrouillé, mis à jour quand le fichier change.
 	A file dialog is open: choose there first	Une boîte de dialogue de fichiers est ouverte : faites d’abord votre choix dans celle-ci
 	The document was closed while its file dialog was open	Le document a été fermé pendant que sa boîte de dialogue de fichiers était ouverte
 	The dialog was closed before its file dialog answered	La boîte de dialogue a été fermée avant la réponse de sa boîte de dialogue de fichiers
@@ -5094,7 +5094,7 @@ lighting	Light	Lumière
 	PDF/X-4:2010	PDF/X-4:2010
 	PRs	PR
 	Page Cover 1640×624	Couverture de page 1640×624
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Fait partie d’ArtCraft. MIT OR Apache-2.0. Polices : Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icônes : Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Fait partie d’Visualab Studios. MIT OR Apache-2.0. Polices : Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icônes : Lucide (ISC) + VL Vector.
 	Pattern Swatches	Nuances de motif
 	Pen	Plume
 	Pentagram	Pentagramme
@@ -5233,7 +5233,7 @@ lighting	Light	Lumière
 	Use Default	Utiliser la valeur par défaut
 	Variation	Variation
 	VectorCraft Default	VectorCraft par défaut
-	VectorCraft Defaults	Valeurs par défaut de VectorCraft
+	VL Vector Defaults	Valeurs par défaut de VL Vector
 	VectorCraft Generic CMYK (SWOP-like)	CMJN générique VectorCraft (de type SWOP)
 	VectorCraft Swatches (.vcswatches)	Nuances VectorCraft (.vcswatches)
 	Vertical Align	Alignement vertical
@@ -5300,7 +5300,7 @@ file-filter	Print presets	Paramètres prédéfinis d’impression
 file-filter	SVG Compressed	SVG compressé
 file-filter	Swatch libraries	Bibliothèques de nuances
 file-filter	Templates	Modèles
-file-filter	VectorCraft Template	Modèle VectorCraft
+file-filter	VL Vector Template	Modèle VL Vector
 gradient-kind	Radial	Radial
 mark-style	Japanese	Japonais
 theme	Appearance	Apparence

@@ -1,7 +1,7 @@
 {
   "id": "vectorcraft",
-  "name": "VectorCraft",
-  "upgradeCode": "601C6437-08AE-4645-ADCC-27F036C2EA2F",
+  "name": "VL Vector",
+  "upgradeCode": "455CA5D3-1194-5575-BBEF-D30D0BD8163A",
   "sources": [
     "vectorcraft.wxs"
   ],
@@ -26,13 +26,13 @@
     ],
     [
       "-1",
-      "Software\\VectorCraft",
+      "Software\\VL Vector",
       "InstallDir",
       "[INSTALLFOLDER]"
     ],
     [
       "-1",
-      "Software\\VectorCraft",
+      "Software\\VL Vector",
       "DesktopShortcut",
       "#1"
     ]

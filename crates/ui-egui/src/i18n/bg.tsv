@@ -84,7 +84,7 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	По-ниската стойност следва щриха отблизо; по-високата дава по-малко опорни точки и по-плавни криви.
 	A new preset starting from the selected one	Нова предварителна настройка въз основа на избраната
 	A saved copy of the selected preset	Запазено копие на избраната предварителна настройка
-	About VectorCraft	Относно VectorCraft
+	About VL Vector	Относно VL Vector
 	above	над
 	Absolute Position	Абсолютна позиция
 	Accurate	Точно
@@ -191,7 +191,7 @@ font-technology	Variable	Променливи
 	Appearance Panel	Панел „Външен вид“
 	Appearance panel	Панел „Външен вид“
 	Applies when the linked file is relinked or updated.	Прилага се, когато свързаният файл бъде пресвързан или актуализиран.
-	Applies the next time VectorCraft starts.	Прилага се при следващото стартиране на VectorCraft.
+	Applies the next time VL Vector starts.	Прилага се при следващото стартиране на VL Vector.
 	Apply	Прилагане
 	Apply Brush	Прилагане на четка
 	Apply Character Style	Прилагане на стил на знаци
@@ -229,8 +229,8 @@ font-technology	Variable	Променливи
 	Artboard {number}	Работна област {number}
 	Artboard:	Работна област:
 	Artboards	Работни области
-	ArtCraft Website	Уебсайт на ArtCraft
-	ArtCraft website	Уебсайт на ArtCraft
+	Visualab Studios Website	Уебсайт на Visualab Studios
+	Visualab Studios website	Уебсайт на Visualab Studios
 	Artwork Colors	Цветове на произведението
 	As Multiple Assets	Като множество активи
 	As Single Asset	Като един актив
@@ -389,7 +389,7 @@ font-technology	Variable	Променливи
 	Check Script	Проверка на скрипт
 	Check Script…	Проверка на скрипт…
 	Copy Report	Копиране на отчет
-	VectorCraft read this script without running it.	VectorCraft прочете този скрипт, без да го изпълнява.
+	VL Vector read this script without running it.	VL Vector прочете този скрипт, без да го изпълнява.
 	Needs nothing beyond plain JavaScript	Не изисква нищо извън обикновения JavaScript
 	Needs the script language's own objects or directives	Изисква собствени обекти или директиви на езика за скриптове
 	Needs the document model	Изисква документалния модел
@@ -1556,9 +1556,9 @@ font-technology	Variable	Променливи
 	Italian	Италиански
 	Japanese	Японски
 	Join	Свързване
-	Join Our Discord	Присъединете се към нашия Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Присъединете се към нашия Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Присъединете се към общността на ArtCraft в Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Свързване на редовете на всеки параграф
 	Join Tool	Инструмент „Свързване“
 	Justification…	Подравняване…
@@ -1581,7 +1581,7 @@ font-technology	Variable	Променливи
 	Keyboard Shortcuts…	Клавишни комбинации…
 	Import Shortcut Set	Импортиране на набор от клавишни комбинации
 	Import Shortcut Set…	Импортиране на набор от клавишни комбинации…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Всеки запис във файла се съпоставя с инструмент, команда или панел на VectorCraft. Проверете съответствията и отговорете на останалите.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Всеки запис във файла се съпоставя с инструмент, команда или панел на VL Vector. Проверете съответствията и отговорете на останалите.
 	Keys	Клавиши
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Файлът записва клавишите и модификаторите като кодове. Проверете предложения смисъл и отговорете на все още неизвестните кодове.
 	Click, then press the key this code stands for (Esc cancels)	Кликнете, след което натиснете клавиша, съответстващ на този код (Esc отменя)
@@ -1591,7 +1591,7 @@ font-technology	Variable	Променливи
 	not known yet	все още не е известно
 	Shortcuts	Пряк пътища
 	In the File	Във файла
-	In VectorCraft	Във VectorCraft
+	In VL Vector	Във VL Vector
 	Needs Attention Only	Само изискващи внимание
 	Ready	Готово
 	Needs a choice	Изисква избор
@@ -1600,7 +1600,7 @@ font-technology	Variable	Променливи
 	Tools take a single key (optionally with Shift)	Инструментите използват един клавиш (по избор със Shift)
 	A later row takes this shortcut	По-късен ред заема тази клавишна комбинация
 	Same item as a later row	Същият елемент като по-късен ред
-	Start from VectorCraft Defaults	Започни от стандартните настройки на VectorCraft
+	Start from VL Vector Defaults	Започни от стандартните настройки на VL Vector
 	Add to the Current Shortcuts	Добавяне към текущите клавишни комбинации
 	Remember My Choices	Запомни изборите ми
 	{ready} of {total} ready	{ready} от {total} готови
@@ -2220,7 +2220,7 @@ font-technology	Variable	Променливи
 	Paragraph Style Options	Опции за стил на абзац
 	Paragraph Styles	Стилове на абзац
 	Paragraph Symbol	Символ за абзац
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от ArtCraft. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono (OFL). Икони: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Част от Visualab Studios. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono (OFL). Икони: Lucide (ISC) + VL Vector.
 	Password	Парола
 	Paste	Поставяне
 	Paste in Back	Поставяне отзад
@@ -2399,7 +2399,7 @@ font-technology	Variable	Променливи
 	Quarter Space	Четвъртинка интервал
 	Quick Actions	Бързи действия
 	Quickly start a new file	Бързо стартиране на нов файл
-	Quit VectorCraft	Изход от VectorCraft
+	Quit VL Vector	Изход от VL Vector
 	Radar Graph Tool	Инструмент „Радарна диаграма“
 	Radial	Радиален
 	Radial Glows	Лъчисти сияния
@@ -2524,7 +2524,7 @@ font-technology	Variable	Променливи
 	{count} folder(s) or file(s) couldn't be read	{count} папки или файла не можаха да бъдат прочетени
 	The search stopped at its limit: search a smaller folder.	Търсенето спре поради достигане на лимита: потърсете в по-малка папка.
 	Copy only fonts you own or are licensed to install.	Копирайте само шрифтове, които притежавате или имате лиценз да инсталирате.
-	VectorCraft copies the fonts to {folder}.	VectorCraft копира шрифтовете в {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector копира шрифтовете в {folder}.
 	Registered Trademark Symbol	Символ за регистрирана търговска марка
 	Registration marks	Знаци за регистрация
 	Registry name:	Име на системния регистър:
@@ -2634,9 +2634,9 @@ font-technology	Variable	Променливи
 	Revert	Връщане към запазеното
 	Revert to the saved version of “{name}”?	Връщане към запазената версия на „{name}“?
 	Replace “{name}”, the file this document was opened from?	Замяна на „{name}“, файла, от който беше отворен този документ?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Отварянето му пропусна това, което VectorCraft все още не може да прочете ({what}), така че замяната му го губи завинаги. Запазете под друго име, за да го запазите.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Отварянето му пропусна това, което VL Vector все още не може да прочете ({what}), така че замяната му го губи завинаги. Запазете под друго име, за да го запазите.
 	“{name}” already exists. Replace it?	„{name}“ вече съществува. Да бъде ли заменен?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Името в панела за запазване беше „{typed}“, а VectorCraft добави разширението на типа файл. Замяната на файла презаписва съдържанието му.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Името в панела за запазване беше „{typed}“, а VL Vector добави разширението на типа файл. Замяната на файла презаписва съдържанието му.
 	Revolve…	Завъртане…
 	RGB Color	RGB цвят
 	Right	Вдясно
@@ -3511,10 +3511,10 @@ font-technology	Variable	Променливи
 	Vector Halftone	Векторен полутон
 	Vector Halftone…	Векторен полутон…
 	Vector illustration — fast, open, scriptable.	Векторна илюстрация — бърза, отворена, скриптуема.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft не се затвори нормално последния път. Тези документи съдържаха незапазени промени:
-	VectorCraft Help…	Помощ за VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft в getartcraft.com
-	VectorCraft on GitHub	VectorCraft в GitHub
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector не се затвори нормално последния път. Тези документи съдържаха незапазени промени:
+	VL Vector Help…	Помощ за VL Vector…
+	VL Vector on visualabstudios.com	VL Vector в visualabstudios.com
+	VL Vector on GitHub	VL Vector в GitHub
 	Vectors	Вектори
 	Version {version} — open-source vector illustration in pure Rust.	Версия {version} — векторна илюстрация с отворен код на чист Rust.
 	Version:	Версия:
@@ -3554,7 +3554,7 @@ font-technology	Variable	Променливи
 	Web Snap:	Прилепване в уеб:
 	Weight	Дебелина
 	Weight:	Дебелина:
-	Welcome to VectorCraft	Добре дошли във VectorCraft
+	Welcome to VL Vector	Добре дошли във VL Vector
 	When pasting text	При поставяне на текст
 	White	Бяло
 	Widget Position:	Позиция на джаджата:
@@ -4359,7 +4359,7 @@ axis	Both	И двете
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Първият опит на графичния процесор да покаже прозореца не успя, затова VectorCraft стартира отново на {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Последното стартиране на VectorCraft прекъсна на {name}, преди прозорецът да се появи, затова VectorCraft стартира на {summary}. За да опитате отново с този графичен процесор, променете Настройки › Производителност › Графичен процесор или стартирайте със зададена променлива WGPU_BACKEND
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	Последното стартиране на VectorCraft прекъсна, докато се изброяваха графичните процесори, затова VectorCraft стартира на {summary} само с OpenGL. За да опитате отново другите графични интерфейси, променете Настройки › Производителност › Графичен процесор или стартирайте със зададена променлива WGPU_BACKEND
-@msg	Loading VectorCraft…	Зареждане на VectorCraft…
+@msg	Loading VL Vector…	Зареждане на VL Vector…
 @msg	VectorCraft failed to start: {e}	VectorCraft не успя да стартира: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Изисква се браузър с поддръжка на WebGPU или WebGL2.
 @msg	The graphics were lost and couldn't be restarted.	Графиката беше загубена и не можа да бъде рестартирана.
@@ -4394,7 +4394,7 @@ axis	Both	И двете
 @msg	its editing data doesn't say where its art is	данните му за редактиране не посочват къде се намира неговата графика
 @msg	this file was saved without PDF compatibility, and its editing data can't be read ({why})	този файл е записан без съвместимост с PDF и данните му за редактиране не могат да бъдат прочетени ({why})
 @msg	No fonts are missing in this document	В този документ няма липсващи шрифтове
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft не търси в папките на други приложения или на системата: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector не търси в папките на други приложения или на системата: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft не търси в папките Shared или Public в Users: {path}
 @msg	{path} is not a folder	{path} не е папка
 @msg	the search couldn't start: try again in a moment	търсенето не можа да стартира: опитайте отново след малко
@@ -4415,7 +4415,7 @@ axis	Both	И двете
 @msg	No linked files to look for	Няма свързани файлове за търсене
 @msg	Relinked {n} image(s); {name} couldn't be relinked: {reason}	Превързани са {n} изображения; {name} не можа да бъде превързан: {reason}
 	Services	Услуги
-	Hide VectorCraft	Скриване на VectorCraft
+	Hide VL Vector	Скриване на VL Vector
 	Zoom	Мащабиране
 	Bring All to Front	Извеждане на всички отпред
 	Settings	Настройки
@@ -4423,7 +4423,7 @@ axis	Both	И двете
 	On: one locked object showing the document, updated when it changes.	Вкл.: един заключен обект, показващ документа, който се обновява при промяна.
 	Off: an editable copy of its art, embedded in this document.	Изкл.: редактируемо копие на неговата графика, вградено в този документ.
 	Images: link to the file instead of only embedding it.	Изображения: връзка към файла вместо само вграждане.
-	VectorCraft documents: one locked object, updated when the file changes.	Документи на VectorCraft: един заключен обект, който се обновява при промяна на файла.
+	VL Vector documents: one locked object, updated when the file changes.	Документи на VL Vector: един заключен обект, който се обновява при промяна на файла.
 	A file dialog is open: choose there first	Диалоговият прозорец за файл е отворен: изберете първо там
 	The document was closed while its file dialog was open	Документът беше затворен, докато диалоговият му прозорец за файл беше отворен
 	The dialog was closed before its file dialog answered	Диалоговият прозорец беше затворен, преди диалоговият прозорец за файл да отговори
@@ -4953,7 +4953,7 @@ lighting	Light	Светлина
 	PDF/X-4:2010	PDF/X-4:2010
 	PRs	ПР-и
 	Page Cover 1640×624	Корица на страница 1640×624
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Част от ArtCraft. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Икони: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Част от Visualab Studios. MIT ИЛИ Apache-2.0. Шрифтове: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Икони: Lucide (ISC) + VL Vector.
 	Pattern Swatches	Образци на мостри
 	Pen	Перо
 	Pentagram	Петограм
@@ -5092,7 +5092,7 @@ lighting	Light	Светлина
 	Use Default	Използване по подразбиране
 	Variation	Вариант
 	VectorCraft Default	По подразбиране за VectorCraft
-	VectorCraft Defaults	Стандартни настройки на VectorCraft
+	VL Vector Defaults	Стандартни настройки на VL Vector
 	VectorCraft Generic CMYK (SWOP-like)	Общ CMYK за VectorCraft (подобен на SWOP)
 	VectorCraft Swatches (.vcswatches)	Образци на VectorCraft (.vcswatches)
 	Vertical Align	Вертикално подравняване
@@ -5159,7 +5159,7 @@ file-filter	Print presets	Предварителни настройки за п�
 file-filter	SVG Compressed	Компресиран SVG
 file-filter	Swatch libraries	Библиотеки с образци
 file-filter	Templates	Шаблони
-file-filter	VectorCraft Template	Шаблон на VectorCraft
+file-filter	VL Vector Template	Шаблон на VL Vector
 gradient-kind	Radial	Радиален
 mark-style	Japanese	Японски
 theme	Appearance	Външен вид
@@ -5205,7 +5205,7 @@ theme	Appearance	Външен вид
 	Tracing	Трасиране
 	Touch	Докосване
 	Typography	Типография
-	VectorCraft	VectorCraft
+	VL Vector	VL Vector
 	Web	Уеб
 	[1P-High View]	[Висок изглед (1P)]
 	[1P-Low View]	[Нисък изглед (1P)]

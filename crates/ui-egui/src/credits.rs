@@ -1,7 +1,7 @@
-//! The About window's credits: every contributor (GitHub login always; display and real names only
-//! with recorded consent) and the AI models that helped. The tables are baked into the binary by
-//! build.rs from contributors/contributors.json (craftrules standards/contributors.md); nothing is
-//! read at run time.
+//! The About window's credits: every contributor (display and real names with recorded consent;
+//! otherwise the account name used when attributing the work) and the AI models that helped. The
+//! tables are baked into the binary by build.rs from contributors/contributors.json (craftrules
+//! standards/contributors.md); nothing is read at run time.
 
 use std::cmp::Ordering;
 
@@ -225,7 +225,7 @@ impl Default for View {
 }
 
 /// About ▸ Contributors: a name toggle, a sort, and the list as a grab bag or a table.
-pub fn contributors_ui(app: &mut VectorcraftApp, ui: &mut egui::Ui) {
+pub fn contributors_ui(_app: &mut VectorcraftApp, ui: &mut egui::Ui) {
     let id = egui::Id::unique("credits_view");
     let mut v = ui.data_mut(|d| d.get_temp::<View>(id)).unwrap_or_default();
     ui.horizontal_wrapped(|ui| {
@@ -267,14 +267,14 @@ pub fn contributors_ui(app: &mut VectorcraftApp, ui: &mut egui::Ui) {
         if list.is_empty() {
             ui.label(tl!("No contributor data was built into this copy."));
         } else if v.table {
-            table(app, ui, &list, &mut v);
+            table(ui, &list, &mut v);
         } else {
             ui.horizontal_wrapped(|ui| {
                 for (i, c) in list.iter().enumerate() {
                     if i > 0 {
                         ui.label(RichText::new("·").weak());
                     }
-                    link(app, ui, c, v.names);
+                    link(ui, c, v.names);
                 }
             });
         }
@@ -282,16 +282,11 @@ pub fn contributors_ui(app: &mut VectorcraftApp, ui: &mut egui::Ui) {
     ui.data_mut(|d| d.insert_temp(id, v));
 }
 
-fn link(app: &mut VectorcraftApp, ui: &mut egui::Ui, c: &Contributor, names: NameMode) -> egui::Response {
-    let url = format!("https://github.com/{}", c.login);
-    let r = ui.add(egui::Link::new(c.name(names))).on_hover_text(c.summary());
-    if r.clicked() {
-        app.open_url(&url);
-    }
-    r
+fn link(ui: &mut egui::Ui, c: &Contributor, names: NameMode) -> egui::Response {
+    ui.add(egui::Label::new(c.name(names)).sense(egui::Sense::hover())).on_hover_text(c.summary())
 }
 
-fn table(app: &mut VectorcraftApp, ui: &mut egui::Ui, list: &[&Contributor], v: &mut View) {
+fn table(ui: &mut egui::Ui, list: &[&Contributor], v: &mut View) {
     egui::Grid::new("credits_table").striped(true).num_columns(SortKey::ALL.len()).show(ui, |ui| {
         for k in SortKey::ALL {
             let arrow = if v.key == k { if v.ascending { " ▲" } else { " ▼" } } else { "" };
@@ -306,7 +301,7 @@ fn table(app: &mut VectorcraftApp, ui: &mut egui::Ui, list: &[&Contributor], v: 
         }
         ui.end_row();
         for c in list {
-            link(app, ui, c, v.names);
+            link(ui, c, v.names);
             ui.label(group(c.prs));
             ui.label(group(c.commits));
             ui.label(group(c.lines_added));

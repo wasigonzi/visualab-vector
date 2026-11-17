@@ -31,17 +31,17 @@
 	Chop Design	Leikkaa malli
 	Scale Design	Skaalaa malli
 	Glowing Edges…	Hehkuvat reunat…
-	About VectorCraft	Tietoja VectorCraftista
+	About VL Vector	Tietoja VL Vectorista
 	Align to Path	Tasaa polkuun
 	Cut Path at Selected Anchor Points	Leikkaa polku valituista ankkuripisteistä
-	Join Our Discord	Liity Discordiimme
+	Visit Visualab Studios	Visit Visualab Studios
 	Language	Kieli
 	UI Brightness	Käyttöliittymän kirkkaus
 	Dark	Tumma
 	Medium Dark	Keskitumma
 	Medium Light	Keskivaalea
 	Light	Vaalea
-	Quit VectorCraft	Lopeta VectorCraft
+	Quit VL Vector	Lopeta VL Vector
 # Artwork drag between document tabs.
 	Drop Artwork	Pudota kuvitus
 @msg	{key} must be [x, y] with finite coordinates	{key} on annettava muodossa [x, y] äärellisillä koordinaateilla
@@ -130,7 +130,7 @@
 	Keyboard Shortcuts…	Pikanäppäimet…
 	Import Shortcut Set	Tuo pikanäppäinjoukko
 	Import Shortcut Set…	Tuo pikanäppäinjoukko…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Tiedoston jokainen merkintä vastaa VectorCraftin työkalua, komentoa tai paneelia. Tarkista vastaavuudet ja vastaa jäljelle jääviin.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Tiedoston jokainen merkintä vastaa VL Vectorin työkalua, komentoa tai paneelia. Tarkista vastaavuudet ja vastaa jäljelle jääviin.
 	Keys	Näppäimet
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Tiedosto tallentaa näppäimet ja muuntonäppäimet koodeina. Tarkista ehdotetut merkitykset ja vastaa koodeihin, joita ei vielä tunneta.
 	Click, then press the key this code stands for (Esc cancels)	Napsauta ja paina näppäintä, jota tämä koodi tarkoittaa (Esc peruuttaa)
@@ -140,7 +140,7 @@
 	not known yet	ei vielä tiedossa
 	Shortcuts	Pikanäppäimet
 	In the File	Tiedostossa
-	In VectorCraft	VectorCraftissa
+	In VL Vector	VL Vectorissa
 	Needs Attention Only	Vain huomiota vaativat
 	Ready	Valmis
 	Needs a choice	Vaatii valinnan
@@ -149,7 +149,7 @@
 	Tools take a single key (optionally with Shift)	Työkaluille annetaan yksi näppäin (valinnaisesti Vaihto-näppäimen kanssa)
 	A later row takes this shortcut	Myöhempi rivi käyttää tätä pikanäppäintä
 	Same item as a later row	Sama kohde kuin myöhemmällä rivillä
-	Start from VectorCraft Defaults	Aloita VectorCraftin oletuksista
+	Start from VL Vector Defaults	Aloita VL Vectorin oletuksista
 	Add to the Current Shortcuts	Lisää nykyisiin pikanäppäimiin
 	Remember My Choices	Muista valintani
 	{ready} of {total} ready	{ready}/{total} valmiina
@@ -740,11 +740,11 @@
 	Save Swatch Library…	Tallenna värimallikirjasto…
 	Symbol Libraries	Symbolikirjastot
 	Help	Ohje
-	ArtCraft Website	ArtCraft-verkkosivusto
-	VectorCraft on getartcraft.com	VectorCraft getartcraft.comissa
-	VectorCraft on GitHub	VectorCraft GitHubissa
+	Visualab Studios Website	Visualab Studios-verkkosivusto
+	VL Vector on visualabstudios.com	VL Vector visualabstudios.comissa
+	VL Vector on GitHub	VL Vector GitHubissa
 	Search Commands…	Hae komentoja…
-	VectorCraft Help…	VectorCraft-ohje…
+	VL Vector Help…	VL Vector-ohje…
 	Auto Color	Automaattinen väri
 	Automatic	Automaattinen
 	Isolate Selected Group	Eristä valittu ryhmä
@@ -793,7 +793,7 @@
 	Dock Panel	Telakoi paneeli
 	Float Tool Group	Kelluta työkaluryhmä
 	Services	Palvelut
-	Hide VectorCraft	Piilota VectorCraft
+	Hide VL Vector	Piilota VL Vector
 	Hide Others	Piilota muut
 	Minimize	Pienennä
 	Zoom	Zoomaa
@@ -2027,8 +2027,8 @@ lighting	Light	Valo
 	Select All Bound Objects	Valitse kaikki sidotut objektit
 	Multiple objects	Useita objekteja
 	Graphics: {adapter}	Grafiikka: {adapter}
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Osa ArtCraftia. MIT OR Apache-2.0. Fontit: Source Sans 3, Inter, JetBrains Mono (OFL). Kuvakkeet: Lucide (ISC) + VectorCraft.
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Osa ArtCraftia. MIT OR Apache-2.0. Fontit: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Kuvakkeet: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Osa Visualab Studiosia. MIT OR Apache-2.0. Fontit: Source Sans 3, Inter, JetBrains Mono (OFL). Kuvakkeet: Lucide (ISC) + VL Vector.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Osa Visualab Studiosia. MIT OR Apache-2.0. Fontit: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Kuvakkeet: Lucide (ISC) + VL Vector.
 	Version {version} — open-source vector illustration in pure Rust.	Versio {version} — avoimen lähdekoodin vektorikuvitusohjelma puhtaalla Rustilla.
 	Align to Page	Tasaa sivuun
 	Smooth Color	Tasainen väri
@@ -2346,7 +2346,7 @@ lighting	Light	Valo
 	{count} folder(s) or file(s) couldn't be read	{count} kansiota tai tiedostoa ei voitu lukea
 	The search stopped at its limit: search a smaller folder.	Haku pysähtyi rajaansa: hae pienemmästä kansiosta.
 	Copy only fonts you own or are licensed to install.	Kopioi vain fontteja, jotka omistat tai joiden asentamiseen sinulla on lisenssi.
-	VectorCraft copies the fonts to {folder}.	VectorCraft kopioi fontit kansioon {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector kopioi fontit kansioon {folder}.
 	Apply to All ({count} more missing)	Käytä kaikkiin ({count} muuta puuttuu)
 	Ignore	Ohita
 	Linked File Not Found	Linkitettyä tiedostoa ei löydy
@@ -2435,7 +2435,7 @@ lighting	Light	Valo
 	On: one locked object showing the document, updated when it changes.	Päällä: yksi lukittu objekti, joka näyttää asiakirjan ja päivittyy sen muuttuessa.
 	Off: an editable copy of its art, embedded in this document.	Pois: muokattava kopio sen kuvituksesta upotettuna tähän asiakirjaan.
 	Images: link to the file instead of only embedding it.	Kuvat: linkitä tiedostoon sen sijaan, että se vain upotetaan.
-	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft-asiakirjat: yksi lukittu objekti, joka päivittyy tiedoston muuttuessa.
+	VL Vector documents: one locked object, updated when the file changes.	VL Vector-asiakirjat: yksi lukittu objekti, joka päivittyy tiedoston muuttuessa.
 	Alignment:	Tasaus:
 	Applies when the linked file is relinked or updated.	Koskee tilannetta, jossa linkitetty tiedosto linkitetään uudelleen tai päivitetään.
 	Bounds (Fill Proportionally)	Rajat (täytä suhteellisesti)
@@ -2571,7 +2571,7 @@ lighting	Light	Valo
 	3 Color Job	3 värin työ
 	Recover Documents	Palauta asiakirjat
 	Restored documents open unsaved: save them to keep them.	Palautetut asiakirjat avautuvat tallentamattomina: tallenna ne, jos haluat säilyttää ne.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft ei sulkeutunut normaalisti viime kerralla. Näissä asiakirjoissa oli tallentamattomia muutoksia:
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector ei sulkeutunut normaalisti viime kerralla. Näissä asiakirjoissa oli tallentamattomia muutoksia:
 	Do you want to save the changes you made to “{name}”?	Haluatko tallentaa asiakirjaan ”{name}” tekemäsi muutokset?
 	Don't Save	Älä tallenna
 	Your changes will be lost if you don't save them.	Muutokset menetetään, jos niitä ei tallenneta.
@@ -2736,7 +2736,7 @@ lighting	Light	Valo
 	Selected Swatches Only (0)	Vain valitut värimallit (0)
 	User Defined Libraries	Käyttäjän määrittämät kirjastot
 	Copy Report	Kopioi raportti
-	VectorCraft read this script without running it.	VectorCraft luki tämän komentosarjan suorittamatta sitä.
+	VL Vector read this script without running it.	VL Vector luki tämän komentosarjan suorittamatta sitä.
 	Needs nothing beyond plain JavaScript	Tarvitsee vain tavallista JavaScriptiä
 	Needs the script language's own objects or directives	Tarvitsee komentosarjakielen omia objekteja tai direktiivejä
 	Needs the document model	Tarvitsee asiakirjamallin
@@ -3782,11 +3782,11 @@ effect	Regular	Normaali
 	Quickly start a new file	Aloita uusi tiedosto nopeasti
 	Recent Files	Viimeisimmät tiedostot
 	Vector illustration — fast, open, scriptable.	Vektorikuvitusta – nopea, avoin, skriptattava.
-	Welcome to VectorCraft	Tervetuloa VectorCraftiin
-	ArtCraft website	ArtCraftin verkkosivusto
+	Welcome to VL Vector	Tervetuloa VL Vectoriin
+	Visualab Studios website	Visualab Studiosin verkkosivusto
 	Discord	Discord
 	Join our Discord	Liity Discordiimme
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Liity ArtCraft-yhteisöön Discordissa (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Source code on GitHub	Lähdekoodi GitHubissa
 	All Tools	Kaikki työkalut
 	Draw	Piirrä
@@ -3831,9 +3831,9 @@ font-technology	Variable	Muuttuvat
 	Opened with {} note(s): {}	Avattu, huomautuksia {}: {}
 	Revert to the saved version of “{name}”?	Palautetaanko tiedoston ”{name}” tallennettu versio?
 	Replace “{name}”, the file this document was opened from?	Korvataanko ”{name}”, tiedosto, josta tämä asiakirja avattiin?
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Avattaessa jätettiin pois se, mitä VectorCraft ei vielä osaa lukea ({what}), joten korvaaminen hävittää sen pysyvästi. Säilytä se tallentamalla toisella nimellä.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Avattaessa jätettiin pois se, mitä VL Vector ei vielä osaa lukea ({what}), joten korvaaminen hävittää sen pysyvästi. Säilytä se tallentamalla toisella nimellä.
 	“{name}” already exists. Replace it?	”{name}” on jo olemassa. Korvataanko se?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Tallennusikkunan nimi oli ”{typed}”, ja VectorCraft lisäsi tiedostotyypin tunnisteen. Tiedoston korvaaminen kirjoittaa sen sisällön yli.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Tallennusikkunan nimi oli ”{typed}”, ja VL Vector lisäsi tiedostotyypin tunnisteen. Tiedoston korvaaminen kirjoittaa sen sisällön yli.
 	Saved {path}	Tallennettu {path}
 	Saved {path} with {} note(s): {first}	Tallennettu {path}, huomautuksia {}: {first}
 	Saving	Tallennetaan
@@ -3842,7 +3842,7 @@ font-technology	Variable	Muuttuvat
 	Dashed Line	Katkoviiva
 	Panel menu	Paneelivalikko
 	Unembed…	Poista upotus…
-	Applies the next time VectorCraft starts.	Tulee voimaan, kun VectorCraft käynnistetään seuraavan kerran.
+	Applies the next time VL Vector starts.	Tulee voimaan, kun VL Vector käynnistetään seuraavan kerran.
 	Enable Contextual Task Bar	Ota kontekstuaalinen tehtäväpalkki käyttöön
 	Next	Seuraava
 	OK	OK
@@ -4696,7 +4696,7 @@ imageTrace	Outline	Ääriviiva
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	Ensin kokeiltu grafiikkasuoritin ei pystynyt näyttämään ikkunaa, joten VectorCraft käynnistyi uudelleen: {summary}
 @msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	VectorCraftin edellinen käynnistys päättyi grafiikkasuorittimella {name} ennen kuin sen ikkuna tuli näkyviin, joten se käynnistyi: {summary}. Jos haluat kokeilla tätä grafiikkasuoritinta uudelleen, muuta kohtaa Asetukset › Suorituskyky › Grafiikkasuoritin tai käynnistä WGPU_BACKEND-muuttuja asetettuna
 @msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	VectorCraftin edellinen käynnistys päättyi grafiikkasuorittimien luetteloinnin aikana, joten se käynnistyi pelkällä OpenGL:llä: {summary}. Jos haluat kokeilla muita grafiikkataustoja uudelleen, muuta kohtaa Asetukset › Suorituskyky › Grafiikkasuoritin tai käynnistä WGPU_BACKEND-muuttuja asetettuna
-@msg	Loading VectorCraft…	Ladataan VectorCraftia…
+@msg	Loading VL Vector…	Ladataan VL Vectoria…
 @msg	VectorCraft failed to start: {e}	VectorCraftin käynnistys epäonnistui: {e}
 @msg	A browser with WebGPU or WebGL2 is required.	Vaaditaan selain, joka tukee WebGPU:ta tai WebGL2:ta.
 @msg	The graphics were lost and couldn't be restarted.	Grafiikka menetettiin, eikä sitä voitu käynnistää uudelleen.
@@ -4731,7 +4731,7 @@ imageTrace	Outline	Ääriviiva
 @msg	its editing data doesn't say where its art is	sen muokkaustiedoista ei selviä kuvituksen sijainti
 @msg	this file was saved without PDF compatibility, and its editing data can't be read ({why})	tämä tiedosto tallennettiin ilman PDF-yhteensopivuutta, eikä sen muokkaustietoja voi lukea ({why})
 @msg	No fonts are missing in this document	Tästä asiakirjasta ei puutu fontteja
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft ei hae muiden sovellusten tai järjestelmän kansioista: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector ei hae muiden sovellusten tai järjestelmän kansioista: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft ei hae Users-kansion Shared- tai Public-kansiosta: {path}
 @msg	{path} is not a folder	{path} ei ole kansio
 @msg	the search couldn't start: try again in a moment	hakua ei voitu aloittaa: yritä hetken kuluttua uudelleen
@@ -4885,7 +4885,7 @@ imageTrace	Outline	Ääriviiva
 	All shortcuts reset to defaults.	Kaikki pikanäppäimet palautettiin oletuksiin.
 	Imported. Press OK to keep the imported set.	Tuotu. Säilytä tuotu joukko painamalla OK.
 	⚠ {chord} was already used by {names} — it has been removed there.	Huomio: {chord} oli jo käytössä kohteessa {names} — se on poistettu sieltä.
-	VectorCraft Defaults	VectorCraftin oletukset
+	VL Vector Defaults	VL Vectorin oletukset
 @plural	{n} shortcut is assigned more than once|{n} shortcuts are assigned more than once	{n} pikanäppäin on määritetty useammin kuin kerran|{n} pikanäppäintä on määritetty useammin kuin kerran
 	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	Simuloi tulostaa päällepainatukset siten kuin päällepainatuksen esikatselu ne näyttää; erottelut säilyttävät ne aina. Esiasetus litistää läpinäkyvyyden ennen tulostusta (PostScript-tiedostoissa se litistetään aina).
 	Preserve	Säilytä
@@ -5125,7 +5125,7 @@ file-filter	PDF presets	PDF-esiasetukset
 file-filter	Print presets	Tulostuksen esiasetukset
 file-filter	SVG Compressed	Pakattu SVG
 file-filter	PDF-compatible .ai	PDF-yhteensopiva .ai
-file-filter	VectorCraft Template	VectorCraft-malli
+file-filter	VL Vector Template	VL Vector-malli
 file-filter	Templates	Mallit
 diagnostics	render	renderöinti
 diagnostics	ui	käyttöliittymä

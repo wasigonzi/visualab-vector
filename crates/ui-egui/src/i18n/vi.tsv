@@ -103,7 +103,7 @@
 	A new preset starting from the selected one	Thiết lập sẵn mới bắt đầu từ thiết lập đang chọn
 	A saved copy of the selected preset	Bản sao đã lưu của thiết lập đang chọn
 	About	Giới thiệu
-	About VectorCraft	Giới thiệu VectorCraft
+	About VL Vector	Giới thiệu VL Vector
 	above	phía trên
 	Above Text	Phía trên văn bản
 	Absolute	Tuyệt đối
@@ -222,7 +222,7 @@ font-technology	Variable	Biến thiên
 	Appearance of Black	Diện mạo màu đen
 	Appearance Panel	Bảng Diện mạo
 	Appearance panel	Bảng diện mạo
-	Applies the next time VectorCraft starts.	Áp dụng vào lần tiếp theo VectorCraft khởi động.
+	Applies the next time VL Vector starts.	Áp dụng vào lần tiếp theo VL Vector khởi động.
 	Applies when the linked file is relinked or updated.	Áp dụng khi tệp liên kết được liên kết lại hoặc cập nhật.
 	Apply	Áp dụng
 	Apply Brush	Áp dụng cọ
@@ -268,8 +268,8 @@ font-technology	Variable	Biến thiên
 	Artboard:	Bảng vẽ:
 	Artboards	Các bảng vẽ
 	Artboards: {n}	Bảng vẽ: {n}
-	ArtCraft Website	Trang web ArtCraft
-	ArtCraft website	Trang web ArtCraft
+	Visualab Studios Website	Trang web Visualab Studios
+	Visualab Studios website	Trang web Visualab Studios
 	Artistic	Nghệ thuật
 	Artwork Colors	Màu sắc tác phẩm
 	As Multiple Assets	Thành nhiều asset
@@ -476,7 +476,7 @@ font-technology	Variable	Biến thiên
 	Check Script	Kiểm tra script
 	Check Script…	Kiểm tra script…
 	Copy Report	Sao chép báo cáo
-	VectorCraft read this script without running it.	VectorCraft đã đọc script này mà không chạy nó.
+	VL Vector read this script without running it.	VL Vector đã đọc script này mà không chạy nó.
 	Needs nothing beyond plain JavaScript	Chỉ cần JavaScript thông thường
 	Needs the script language's own objects or directives	Cần các đối tượng hoặc chỉ thị riêng của ngôn ngữ script
 	Needs the document model	Cần mô hình tài liệu
@@ -1383,7 +1383,7 @@ file-filter	PDF presets	Thiết lập sẵn PDF
 file-filter	Print presets	Thiết lập sẵn in
 file-filter	SVG Compressed	SVG nén
 file-filter	PDF-compatible .ai	.ai tương thích PDF
-file-filter	VectorCraft Template	Mẫu VectorCraft
+file-filter	VL Vector Template	Mẫu VL Vector
 file-filter	Templates	Mẫu
 	Flattener Preview	Xem trước làm phẳng
 	Flip	Lật
@@ -1601,7 +1601,7 @@ file-filter	Templates	Mẫu
 	Hide Thumbnail	Ẩn hình thu nhỏ
 	Hide Thumbnails	Ẩn các hình thu nhỏ
 	Hide Transparency Grid	Ẩn lưới trong suốt
-	Hide VectorCraft	Ẩn VectorCraft
+	Hide VL Vector	Ẩn VL Vector
 	High	Cao
 	High (300 ppi)	Cao (300 ppi)
 	High Performance (discrete)	Hiệu suất cao (rời rạc)
@@ -1777,7 +1777,7 @@ file-filter	Templates	Mẫu
 # Import Shortcut Set (Keyboard Shortcuts › Import…, File › Open of a .kys file) and its commands.
 	Import Shortcut Set	Nhập bộ phím tắt
 	Import Shortcut Set…	Nhập bộ phím tắt…
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Mỗi mục trong tệp được ghép với một công cụ, lệnh hoặc bảng của VectorCraft. Hãy kiểm tra các cặp ghép và trả lời những mục còn lại.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Mỗi mục trong tệp được ghép với một công cụ, lệnh hoặc bảng của VL Vector. Hãy kiểm tra các cặp ghép và trả lời những mục còn lại.
 	Keys	Phím
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	Tệp ghi phím và phím bổ trợ dưới dạng mã. Hãy kiểm tra các nghĩa được đề xuất và trả lời những mã chưa biết.
 	Click, then press the key this code stands for (Esc cancels)	Bấm, rồi nhấn phím mà mã này biểu thị (Esc để hủy)
@@ -1789,7 +1789,7 @@ file-filter	Templates	Mẫu
 	Shortcuts	Phím tắt
 	Shortcut	Phím tắt
 	In the File	Trong tệp
-	In VectorCraft	Trong VectorCraft
+	In VL Vector	Trong VL Vector
 	Needs Attention Only	Chỉ mục cần chú ý
 	Ready	Sẵn sàng
 	Needs a choice	Cần chọn
@@ -1798,7 +1798,7 @@ file-filter	Templates	Mẫu
 	Tools take a single key (optionally with Shift)	Công cụ chỉ nhận một phím đơn (tùy chọn với Shift)
 	A later row takes this shortcut	Một hàng phía sau dùng phím tắt này
 	Same item as a later row	Cùng mục với một hàng phía sau
-	Start from VectorCraft Defaults	Bắt đầu từ mặc định VectorCraft
+	Start from VL Vector Defaults	Bắt đầu từ mặc định VL Vector
 	Add to the Current Shortcuts	Thêm vào phím tắt hiện tại
 	Remember My Choices	Ghi nhớ lựa chọn của tôi
 	{ready} of {total} ready	Sẵn sàng {ready} trong {total}
@@ -1888,9 +1888,9 @@ file-filter	Templates	Mẫu
 	Its graphics, colors and text styles are deleted from this machine.	Đồ họa, màu sắc và kiểu văn bản của nó sẽ bị xóa khỏi máy này.
 	Japanese	Tiếng Nhật
 	Join	Nối
-	Join Our Discord	Tham gia Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Tham gia Discord của chúng tôi
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Tham gia cộng đồng ArtCraft trên Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Nối các dòng trong mỗi đoạn văn
 	Join Tool	Công cụ Nối
 	Joins	Kiểu nối
@@ -2481,9 +2481,9 @@ file-filter	Templates	Mẫu
 	Open Swatch Library	Mở thư viện mẫu màu
 	Open the URL in the web browser	Mở URL trong trình duyệt web
 	Opened with {} note(s): {}	Mở với {} ghi chú: {}
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Khi mở, những phần VectorCraft chưa đọc được ({what}) đã bị bỏ qua, nên thay thế sẽ mất chúng vĩnh viễn. Hãy lưu với tên khác để giữ lại.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	Khi mở, những phần VL Vector chưa đọc được ({what}) đã bị bỏ qua, nên thay thế sẽ mất chúng vĩnh viễn. Hãy lưu với tên khác để giữ lại.
 	“{name}” already exists. Replace it?	“{name}” đã tồn tại. Thay thế tệp này?
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	Tên trong bảng lưu là “{typed}”, và VectorCraft đã thêm phần mở rộng của loại tệp. Thay thế tệp sẽ ghi đè nội dung của tệp.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	Tên trong bảng lưu là “{typed}”, và VL Vector đã thêm phần mở rộng của loại tệp. Thay thế tệp sẽ ghi đè nội dung của tệp.
 	Open…	Mở…
 	Optical Margin Alignment	Căn lề quang học
 	Optimize for fast web view	Tối ưu để xem web nhanh
@@ -2568,7 +2568,7 @@ file-filter	Templates	Mẫu
 	Paragraph Style Options	Tùy chọn kiểu đoạn văn
 	Paragraph Styles	Kiểu đoạn văn
 	Paragraph Symbol	Ký hiệu đoạn văn
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Một phần của ArtCraft. MIT OR Apache-2.0. Phông chữ: Source Sans 3, Inter, JetBrains Mono (OFL). Biểu tượng: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Một phần của Visualab Studios. MIT OR Apache-2.0. Phông chữ: Source Sans 3, Inter, JetBrains Mono (OFL). Biểu tượng: Lucide (ISC) + VL Vector.
 	Password	Mật khẩu
 	Paste	Dán
 	Paste Design	Dán thiết kế
@@ -2767,7 +2767,7 @@ mark-style	Japanese	Kiểu Nhật
 	Quarter Space	Khoảng cách một phần tư
 	Quick Actions	Hành động nhanh
 	Quickly start a new file	Tạo nhanh tệp mới
-	Quit VectorCraft	Thoát VectorCraft
+	Quit VL Vector	Thoát VL Vector
 	Radar Graph Tool	Công cụ Biểu đồ radar
 	Radial	Hướng tâm
 	Radial Blur	Mờ hướng tâm
@@ -3960,12 +3960,12 @@ mark-style	Japanese	Kiểu Nhật
 	Vector Halftone	Halftone vector
 	Vector Halftone…	Halftone vector…
 	Vector illustration — fast, open, scriptable.	Minh họa vector — nhanh, mở, có thể lập trình.
-	VectorCraft copies the fonts to {folder}.	VectorCraft sao chép phông chữ vào {folder}.
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft không thoát bình thường lần trước. Các tài liệu này có thay đổi chưa lưu:
-	VectorCraft documents: one locked object, updated when the file changes.	Tài liệu VectorCraft: một đối tượng bị khóa, cập nhật khi tệp thay đổi.
-	VectorCraft Help…	Trợ giúp VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft trên getartcraft.com
-	VectorCraft on GitHub	VectorCraft trên GitHub
+	VL Vector copies the fonts to {folder}.	VL Vector sao chép phông chữ vào {folder}.
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector không thoát bình thường lần trước. Các tài liệu này có thay đổi chưa lưu:
+	VL Vector documents: one locked object, updated when the file changes.	Tài liệu VL Vector: một đối tượng bị khóa, cập nhật khi tệp thay đổi.
+	VL Vector Help…	Trợ giúp VL Vector…
+	VL Vector on visualabstudios.com	VL Vector trên visualabstudios.com
+	VL Vector on GitHub	VL Vector trên GitHub
 	Vectors	Vector
 	Version	Phiên bản
 	Version {version} — open-source vector illustration in pure Rust.	Phiên bản {version} — minh họa vector mã nguồn mở bằng Rust thuần túy.
@@ -4011,7 +4011,7 @@ mark-style	Japanese	Kiểu Nhật
 	Web Snap:	Khớp màu Web:
 	Weight	Độ dày
 	Weight:	Độ dày:
-	Welcome to VectorCraft	Chào mừng đến với VectorCraft
+	Welcome to VL Vector	Chào mừng đến với VL Vector
 	When pasting text	Khi dán văn bản
 	White	Trắng
 	White Intensity	Cường độ trắng
@@ -4415,7 +4415,7 @@ theme	Appearance	Giao diện
 @msg	Live Paint takes paths and compound paths: convert type, images and other objects to paths first	Tô trực tiếp nhận đường dẫn và đường dẫn phức: hãy chuyển văn bản, hình ảnh và các đối tượng khác thành đường dẫn trước
 @msg	Live Paint: select paths or compound paths	Tô trực tiếp: chọn đường dẫn hoặc đường dẫn phức
 @msg	Live Paint: these paths are too degenerate to paint	Tô trực tiếp: các đường dẫn này quá suy biến để tô
-@msg	Loading VectorCraft…	Đang tải VectorCraft…
+@msg	Loading VL Vector…	Đang tải VL Vector…
 @msg	Make Guides: select paths	Tạo đường căn: hãy chọn đường dẫn
 @msg	missing `folder`	thiếu `folder`
 @msg	missing `id` (see plugin.list)	thiếu `id` (xem plugin.list)
@@ -4842,7 +4842,7 @@ theme	Appearance	Giao diện
 @msg	Updated {_1} linked file(s) changed on disk	Đã cập nhật {_1} tệp liên kết đã thay đổi trên đĩa
 @msg	variables are locked	biến số bị khóa
 @msg	variables that aren't text were left out: {kinds}	các biến số không phải văn bản đã bị bỏ qua: {kinds}
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft không tìm kiếm trong thư mục của ứng dụng khác hoặc hệ thống: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector không tìm kiếm trong thư mục của ứng dụng khác hoặc hệ thống: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft không tìm kiếm thư mục Shared hoặc Public trong Users: {path}
 @msg	VectorCraft failed to start: {e}	VectorCraft khởi động thất bại: {e}
 @msg	VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it	Thư mục Phông chữ của VectorCraft chưa được đặt ở đây: ứng dụng máy tính và vectorcraft-cli đặt nó

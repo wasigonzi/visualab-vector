@@ -8,7 +8,7 @@ installers for macOS, Windows, Linux (including Flatpak bundles and a RISC-V tar
 publishes it.
 
 User-facing names say **VectorCraft**. Files, binaries and ids stay lowercase
-(`vectorcraft-<version>-<platform>-<arch>.<ext>`, `ai.storyteller.vectorcraft`).
+(`vectorcraft-<version>-<platform>-<arch>.<ext>`, `com.visualabstudios.vector`).
 
 ## Cutting a release
 
@@ -73,7 +73,7 @@ The rules are in craftrules `standards/fonts.md`, the build option in
 `packaging/macos/package.sh` builds `aarch64-apple-darwin` and `x86_64-apple-darwin` with
 `MACOSX_DEPLOYMENT_TARGET=11.0`, joins them with `lipo` and assembles `VectorCraft.app`:
 
-- `Info.plist` is generated from `Info.plist.in` (bundle id `ai.storyteller.vectorcraft`,
+- `Info.plist` is generated from `Info.plist.in` (bundle id `com.visualabstudios.vector`,
   `LSMinimumSystemVersion` 11.0, the version and the build commit). The icon is
   `assets/app-icon/vectorcraft.icns`. `cargo xtask bundle` fills in the same template for its
   development app.
@@ -129,7 +129,7 @@ to the target triple, so host build scripts aren't affected.
   executable's own folder is read-only). Flatpak isn't supported: `/app` is read-only and the
   sandbox has no folder "beside the app", so a Flatpak install always uses its own config folder.
 - `vectorcraft.wxs` (WiX) is a dual-scope package (per-user by default into
-  `%LOCALAPPDATA%\Programs\ArtCraft\VectorCraft`, per-machine into `Program Files\ArtCraft\VectorCraft` (`Program Files (x86)` for the 32-bit build),
+  `%LOCALAPPDATA%\Programs\Visualab Studios\VectorCraft`, per-machine into `Program Files\Visualab Studios\VectorCraft` (`Program Files (x86)` for the 32-bit build),
   see `packaging/windows/INSTALLATION.md`) with a Start Menu shortcut
   and an App Paths entry (Win+R `vectorcraft`). Same-version upgrades are allowed, so release
   candidates replace each other.
@@ -165,7 +165,7 @@ AppStream metainfo, the MIME type for VectorCraft documents, the icons and the l
 
 **Document types.** The desktop entry's `MimeType` lists every format File › Open reads but PSD,
 PSB, `.ps` PostScript, Targa and PCX, so file managers list VectorCraft under Open With for them.
-`ai.storyteller.vectorcraft.mime.xml` declares the types that shared-mime-info lacks: VectorCraft
+`com.visualabstudios.vector.mime.xml` declares the types that shared-mime-info lacks: VectorCraft
 documents and templates, `.ait` templates and Affinity files (`application/x-affinity`). An `.af`
 file gets the Affinity type by its content, and `.afdesign` and `.afpub` files by their extension.
 A test keeps both files in step with the engine's `OPEN_EXTS`.
@@ -206,10 +206,10 @@ non-pre-release release. The job checks both are there.
 
 **Flatpak.** The `flatpak` jobs (x86_64 on `ubuntu-24.04`, aarch64 on `ubuntu-24.04-arm`) take the
 Linux job's tarball and repackage it with `packaging/linux/flatpak-bundle.sh` and
-`packaging/linux/flatpak/ai.storyteller.vectorcraft.bundle.yml` into a single-file bundle
+`packaging/linux/flatpak/com.visualabstudios.vector.bundle.yml` into a single-file bundle
 (`flatpak install --user vectorcraft-<v>-linux-<arch>.flatpak`), then install it and run
 `vectorcraft-cli --version` in the sandbox. No Rust build happens there, so the bundle carries the
-same binaries as the AppImage. `packaging/linux/flatpak/ai.storyteller.vectorcraft.yml` is the
+same binaries as the AppImage. `packaging/linux/flatpak/com.visualabstudios.vector.yml` is the
 from-source manifest for a Flathub submission (its header says how to build it); packaging-lint
 keeps the runtime and sandbox permissions of the two manifests identical.
 

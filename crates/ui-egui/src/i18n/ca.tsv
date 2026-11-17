@@ -157,7 +157,7 @@
 	A5	A5
 	A6	A6
 	About	Quant a
-	About VectorCraft	Quant al VectorCraft
+	About VL Vector	Quant al VL Vector
 	above	a sobre
 	Above Text	A sobre del text
 	Absolute	Absolut
@@ -304,7 +304,7 @@
 	Appearance Panel	Panell Aparença
 	Appearance panel	Panell Aparença
 	Applied Filters	Filtres aplicats
-	Applies the next time VectorCraft starts.	S’aplica la propera vegada que s’iniciï VectorCraft.
+	Applies the next time VL Vector starts.	S’aplica la propera vegada que s’iniciï VL Vector.
 	Applies when the linked file is relinked or updated.	S’aplica quan el fitxer enllaçat es torna a enllaçar o s’actualitza.
 	Apply	Aplica
 	Apply Brush	Aplica el pinzell
@@ -366,8 +366,8 @@
 	Artboard:	Tauler:
 	Artboards	Taulers
 	Artboards: {n}	Taulers: {n}
-	ArtCraft Website	Lloc web d’ArtCraft
-	ArtCraft website	Lloc web d’ArtCraft
+	Visualab Studios Website	Lloc web d’Visualab Studios
+	Visualab Studios website	Lloc web d’Visualab Studios
 	Artistic	Artístic
 	Artwork	Art
 	Artwork Colors	Colors de l’art
@@ -1251,7 +1251,7 @@
 	DXF Options Dialog	Diàleg d’opcions del DXF
 	e.g. 1-3, 5	p. ex. 1-3, 5
 	Each Design Represents:	Cada disseny representa:
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	Cada entrada del fitxer s’associa a una eina, una ordre o un panell del VectorCraft. Comprova les coincidències i respon a les que quedin.
+	Each entry of the file is matched to a VL Vector tool, command or panel. Check the matches and answer what is left.	Cada entrada del fitxer s’associa a una eina, una ordre o un panell del VL Vector. Comprova les coincidències i respon a les que quedin.
 	Each page prints as one image, at the document's raster effects resolution.	Cada pàgina s’imprimeix com una imatge, amb la resolució dels efectes de ràster del document.
 	Each run may take up to {minutes} minutes and do {times} times the work other plug-ins may. It runs in the background, and you can cancel it.	Cada execució pot trigar fins a {minutes} minuts i fer {times} vegades la feina que poden fer altres complements. S’executa en segon pla i la pots cancel·lar.
 	Earth Tones	Tons terrosos
@@ -1819,7 +1819,7 @@
 	Hide Thumbnail	Amaga la miniatura
 	Hide Thumbnails	Amaga les miniatures
 	Hide Transparency Grid	Amaga la quadrícula de transparència
-	Hide VectorCraft	Amaga el VectorCraft
+	Hide VL Vector	Amaga el VL Vector
 	Hide Video Rulers	Amaga les regles de vídeo
 	High	Alt
 	High (300 ppi)	Alta (300 ppi)
@@ -1920,7 +1920,7 @@
 	In Tangent Handles	En nanses tangents
 	In the File	Al fitxer
 	In the selected objects	Als objectes seleccionats
-	In VectorCraft	A VectorCraft
+	In VL Vector	A VL Vector
 	Inches	Polzades
 	Include all profiles	Inclou tots els perfils
 	Include All Subdirectories	Inclou tots els subdirectoris
@@ -2005,9 +2005,9 @@
 	JavaScript Files	Fitxers JavaScript
 	JavaScript:	JavaScript:
 	Join	Uneix
-	Join Our Discord	Uneix-te al nostre Discord
+	Visit Visualab Studios	Visit Visualab Studios
 	Join our Discord	Uneix-te al nostre Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Uneix-te a la comunitat ArtCraft a Discord (discord.gg/artcraft)
+	Visit Visualab Studios (visualabstudios.com)	Visit Visualab Studios (visualabstudios.com)
 	Join the lines of each paragraph	Uneix les línies de cada paràgraf
 	Join Tool	Eina d’unió
 	Joins	Unions
@@ -2722,7 +2722,7 @@
 	Open this dialog with these settings next time	Obre aquest quadre de diàleg amb aquesta configuració la propera vegada
 	Open this setting's help page	Obre la pàgina d’ajuda d’aquest paràmetre
 	Opened with {} note(s): {}	S’ha obert amb {} nota(es): {}
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	En obrir-lo s’ha omès el que VectorCraft encara no pot llegir ({what}), de manera que substituir-lo ho perd per sempre. Desa’l amb un altre nom per conservar-ho.
+	Opening it left out what VL Vector can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	En obrir-lo s’ha omès el que VL Vector encara no pot llegir ({what}), de manera que substituir-lo ho perd per sempre. Desa’l amb un altre nom per conservar-ho.
 	Opens files in other apps	Obre fitxers en altres aplicacions
 	Opens network connections	Obre connexions de xarxa
 	Open…	Obre…
@@ -2827,8 +2827,8 @@
 	Paragraph Style Options	Opcions de l’estil de paràgraf
 	Paragraph Styles	Estils de paràgraf
 	Paragraph Symbol	Símbol de paràgraf
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	Forma part d’ArtCraft. MIT OR Apache-2.0. Tipus de lletra: Source Sans 3, Inter, JetBrains Mono (OFL). Icones: Lucide (ISC) + VectorCraft.
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	Forma part d’ArtCraft. MIT OR Apache-2.0. Tipus de lletra: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icones: Lucide (ISC) + VectorCraft.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VL Vector.	Forma part d’Visualab Studios. MIT OR Apache-2.0. Tipus de lletra: Source Sans 3, Inter, JetBrains Mono (OFL). Icones: Lucide (ISC) + VL Vector.
+	By Visualab Studios. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VL Vector.	Forma part d’Visualab Studios. MIT OR Apache-2.0. Tipus de lletra: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icones: Lucide (ISC) + VL Vector.
 	Password	Contrasenya
 	Paste	Enganxa
 	Paste Design	Enganxa el disseny
@@ -3087,7 +3087,7 @@
 	Quarter Space	Espai de quart
 	Quick Actions	Accions ràpides
 	Quickly start a new file	Comença ràpidament un fitxer nou
-	Quit VectorCraft	Surt de VectorCraft
+	Quit VL Vector	Surt de VL Vector
 	Radar Graph Tool	Eina de gràfic de radar
 	Radial	Radial
 	Radial Blur	Desenfocament radial
@@ -4006,7 +4006,7 @@
 	Star Tool	Eina d’estrella
 	Start arrowhead	Punta de fletxa inicial
 	Start at:	Comença a:
-	Start from VectorCraft Defaults	Parteix dels valors predeterminats del VectorCraft
+	Start from VL Vector Defaults	Parteix dels valors predeterminats del VL Vector
 	Start Global Edit	Inicia l’edició global
 	Start Tile	Mosaic inicial
 	Start:	Inici:
@@ -4190,7 +4190,7 @@
 	The file is too large to read in full, so only its first part is listed.	El fitxer és massa gran per llegir-lo sencer, així que només se n’enumera la primera part.
 	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	El fitxer escriu les tecles i els modificadors com a codis. Comprova els significats proposats i respon als codis que encara no es coneixen.
 	The key color becomes the stroke color. The other colors shift their hue by the same amount and keep their saturation and brightness.	El color clau esdevé el color del traç. Els altres colors desplacen el to en la mateixa quantitat i conserven la saturació i la brillantor.
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	El nom al tauler de desament era “{typed}”; VectorCraft ha afegit l’extensió del tipus de fitxer. Substituir el fitxer sobreescriu-ne el contingut.
+	The name in the save panel was “{typed}”; VL Vector added the file type's extension. Replacing the file overwrites its contents.	El nom al tauler de desament era “{typed}”; VL Vector ha afegit l’extensió del tipus de fitxer. Substituir el fitxer sobreescriu-ne el contingut.
 	The page as it prints	La pàgina tal com s’imprimeix
 	The plug-in is computing…	El complement està calculant…
 	The plug-in writes the whole document.	El complement escriu tot el document.
@@ -4504,16 +4504,16 @@
 	Vector Halftone	Semitons vectorials
 	Vector Halftone…	Semitons vectorials…
 	Vector illustration — fast, open, scriptable.	Il·lustració vectorial — ràpida, oberta i programable.
-	VectorCraft copies the fonts to {folder}.	VectorCraft copia els tipus de lletra a {folder}.
+	VL Vector copies the fonts to {folder}.	VL Vector copia els tipus de lletra a {folder}.
 	VectorCraft Default	VectorCraft per defecte
-	VectorCraft Defaults	Valors per defecte de VectorCraft
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	VectorCraft no es va tancar correctament l’última vegada. Aquests documents tenien canvis no desats:
-	VectorCraft documents: one locked object, updated when the file changes.	Documents de VectorCraft: un objecte bloquejat, actualitzat quan canvia el fitxer.
+	VL Vector Defaults	Valors per defecte de VL Vector
+	VL Vector didn't quit normally last time. These documents had unsaved changes:	VL Vector no es va tancar correctament l’última vegada. Aquests documents tenien canvis no desats:
+	VL Vector documents: one locked object, updated when the file changes.	Documents de VL Vector: un objecte bloquejat, actualitzat quan canvia el fitxer.
 	VectorCraft Generic CMYK (SWOP-like)	CMYK genèric de VectorCraft (similar a SWOP)
-	VectorCraft Help…	Ajuda de VectorCraft…
-	VectorCraft on getartcraft.com	VectorCraft a getartcraft.com
-	VectorCraft on GitHub	VectorCraft al GitHub
-	VectorCraft read this script without running it.	VectorCraft ha llegit aquest script sense executar-lo.
+	VL Vector Help…	Ajuda de VL Vector…
+	VL Vector on visualabstudios.com	VL Vector a visualabstudios.com
+	VL Vector on GitHub	VL Vector al GitHub
+	VL Vector read this script without running it.	VL Vector ha llegit aquest script sense executar-lo.
 	VectorCraft Swatches (.vcswatches)	Mostres de VectorCraft (.vcswatches)
 	Vectors	Vectors
 	Version	Versió
@@ -4588,7 +4588,7 @@
 	WebP	WebP
 	Weight	Pes
 	Weight:	Gruix:
-	Welcome to VectorCraft	Us donem la benvinguda a VectorCraft
+	Welcome to VL Vector	Us donem la benvinguda a VL Vector
 	When pasting text	En enganxar text
 	White	Blanc
 	White Intensity	Intensitat del blanc
@@ -5052,7 +5052,7 @@
 @msg	Live Paint takes paths and compound paths: convert type, images and other objects to paths first	La pintura interactiva accepta traçats i traçats compostos: convertiu abans el text, les imatges i altres objectes a traçats
 @msg	Live Paint: select paths or compound paths	Pintura interactiva: seleccioneu traçats o traçats compostos
 @msg	Live Paint: these paths are too degenerate to paint	Pintura interactiva: aquests traçats són massa degenerats per pintar-los
-@msg	Loading VectorCraft…	Carregant VectorCraft…
+@msg	Loading VL Vector…	Carregant VL Vector…
 @msg	Make Guides: select paths	Crea guies: seleccioneu traçats
 @msg	mask art ends outside a mask dictionary	l’art de la màscara acaba fora d’un diccionari de màscara
 @msg	Measured anchor no longer exists	El punt d’ancoratge mesurat ja no existeix
@@ -5537,7 +5537,7 @@
 @msg	Updated {_1} linked file(s) changed on disk	S’han actualitzat {_1} fitxer(s) enllaçat(s) que han canviat al disc
 @msg	variables are locked	les variables estan blocades
 @msg	variables that aren't text were left out: {kinds}	les variables que no són text s’han omès: {kinds}
-@msg	VectorCraft doesn't search other apps' or the system's folders: {path}	VectorCraft no cerca a les carpetes d’altres aplicacions ni del sistema: {path}
+@msg	VL Vector doesn't search other apps' or the system's folders: {path}	VL Vector no cerca a les carpetes d’altres aplicacions ni del sistema: {path}
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft no cerca a la carpeta Shared o Public d’Usuaris: {path}
 @msg	VectorCraft failed to start: {e}	VectorCraft no s’ha pogut iniciar: {e}
 @msg	VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it	aquí no s’ha definit la carpeta Fonts de VectorCraft: l’aplicació d’escriptori i vectorcraft-cli la defineixen
@@ -5620,7 +5620,7 @@ file-filter	Print presets	Preajustos d’impressió
 file-filter	SVG Compressed	SVG comprimit
 file-filter	Swatch libraries	Biblioteques de mostres
 file-filter	Templates	Plantilles
-file-filter	VectorCraft Template	Plantilla de VectorCraft
+file-filter	VL Vector Template	Plantilla de VL Vector
 font-script	Japanese	Japonès
 font-technology	Variable	Variable
 gradient-kind	Radial	Radial
