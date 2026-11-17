@@ -1,10 +1,10 @@
-//! Community and project links: the Visualab Studios button (header, About, Home) and the link
-//! list. Icons are Lucide's (ISC).
+//! Community and project links: the Visualab Studios button (header, About, Home) and the website
+//! / app page links. Icons are Lucide's (ISC).
 
-use egui::{Color32, CornerRadius, Sense, Ui, vec2};
+use egui::{vec2, Color32, CornerRadius, Sense, Ui};
 
 use crate::theme::{self, Tokens};
-use crate::{VectorcraftApp, icons};
+use crate::{icons, VectorcraftApp};
 
 /// The Visualab Studios brand cyan (deep shade, so white lettering reads on it).
 const DISCORD: Color32 = Color32::from_rgb(0x00, 0x89, 0xA8);
@@ -61,7 +61,7 @@ fn link(app: &mut VectorcraftApp, ui: &mut Ui, icon: &str, label: &str, cmd: &st
     });
 }
 
-/// The Discord button and the website / app page / GitHub links.
+/// The Visualab Studios button and the website / app page links.
 pub fn links(app: &mut VectorcraftApp, ui: &mut Ui) {
     discord_button(app, ui, true);
     ui.add_space(8.0);
@@ -69,7 +69,6 @@ pub fn links(app: &mut VectorcraftApp, ui: &mut Ui) {
     let s = |k: &str| l[k].as_str().unwrap_or("").to_string();
     link(app, ui, "globe", tl!("Visualab Studios website"), "help.website", &s("website"));
     link(app, ui, "external-link", tl!("VL Vector on visualabstudios.com"), "help.appPage", &s("appPage"));
-    link(app, ui, "git-branch", tl!("Source code on GitHub"), "help.github", &s("github"));
 }
 
 #[cfg(test)]
@@ -83,22 +82,17 @@ mod tests {
         let o = opened.clone();
         let services = crate::Services { open_url: Some(Box::new(move |u: &str| o.lock().unwrap().push(u.to_string()))), ..Default::default() };
         let mut app = VectorcraftApp::new(vectorcraft_engine::Session::new(), services);
-        for id in ["help.discord", "help.website", "help.appPage", "help.github"] {
+        for id in ["help.discord", "help.website", "help.appPage"] {
             crate::menus::invoke(&mut app, id, serde_json::json!({}));
         }
         assert_eq!(
             *opened.lock().unwrap(),
-            [
-                "https://www.visualabstudios.com",
-                "https://www.visualabstudios.com",
-                "https://www.visualabstudios.com/vl-tools/vl-vector",
-                "https://github.com/wasigonzi/visualab-vector"
-            ]
+            ["https://www.visualabstudios.com", "https://www.visualabstudios.com", "https://www.visualabstudios.com/vl-tools/vl-vector",]
         );
         // The control channel / MCP path returns the URL without opening a browser.
         let v = app.run("help.discord", serde_json::json!({})).unwrap();
         assert_eq!(v["url"], "https://www.visualabstudios.com");
-        assert_eq!(opened.lock().unwrap().len(), 4);
+        assert_eq!(opened.lock().unwrap().len(), 3);
         let ctx = egui::Context::default();
         theme::install_fonts(&ctx);
         let mut out = ctx.run_ui(egui::RawInput::default(), |ui| links(&mut app, ui));

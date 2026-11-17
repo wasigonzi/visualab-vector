@@ -1,6 +1,6 @@
 use super::slots::{PERSPECTIVE_SLOTS, RECENT_FONT_IDS, RECENT_IDS, SAVED_SELECTION_IDS, SAVED_VIEW_IDS};
-use super::submenus::{INSERT_BREAK, INSERT_SPECIAL, INSERT_WHITESPACE, PATH_EFFECTS, TYPE_SIZES, effect_menu, font_items, insert_items};
-use super::{Item, Sep, c, cp, json, sub, todo, todos};
+use super::submenus::{effect_menu, font_items, insert_items, INSERT_BREAK, INSERT_SPECIAL, INSERT_WHITESPACE, PATH_EFFECTS, TYPE_SIZES};
+use super::{c, cp, json, sub, todo, todos, Item, Sep};
 
 /// The in-window and native menu tree. The in-window bar skips the VectorCraft menu (see
 /// `menu_bar`); the native Mac bar is composed from the whole tree (see `native_menu`).
@@ -685,7 +685,6 @@ pub fn menu_tree_named(english_names: bool) -> Vec<(&'static str, Vec<Item>)> {
                 c("Visit Visualab Studios", "help.discord"),
                 c("Visualab Studios Website", "help.website"),
                 c("VL Vector on visualabstudios.com", "help.appPage"),
-                c("VL Vector on GitHub", "help.github"),
                 Sep,
                 c("Search Commands…", "help.commandPalette"),
                 todos("VL Vector Help…", "F1"),

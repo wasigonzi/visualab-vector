@@ -91,7 +91,11 @@ pub(crate) fn show(app: &mut VectorcraftApp, ctx: &egui::Context) {
         // The restart helper is scheduled before the app closes, so no update starts over unsaved work.
         let clean = !crate::unsaved::any_dirty(app);
         match app.updates_rt.updater.show_if(ctx, clean) {
-            Action::OpenUrl(url) => app.open_url(&url),
+            Action::OpenUrl(url) => {
+                // Keep people on Visualab Studios; never open a GitHub page from the updater UI.
+                let url = if url.contains("github.com") { "https://www.visualabstudios.com/vl-tools/vl-vector" } else { url.as_str() };
+                app.open_url(url);
+            }
             Action::Close => ctx.send_viewport_cmd(egui::ViewportCommand::Close),
             Action::None => {}
         }
@@ -162,7 +166,7 @@ mod tests {
             tag: "v99.0.0".into(),
             version: craft_update::parse_version("99.0.0"),
             name: "VL Vector 99.0.0".into(),
-            html_url: "https://github.com/storytold/vectorcraft/releases/tag/v99.0.0".into(),
+            html_url: "https://www.visualabstudios.com/vl-tools/vl-vector".into(),
             ..Default::default()
         };
         app.updates_rt.updater.offer(release);
