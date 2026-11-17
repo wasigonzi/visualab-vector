@@ -76,8 +76,7 @@ const CRASHED_LIMIT: usize = 16;
 const NAME_ENV: &str = "WGPU_ADAPTER_NAME";
 
 /// Where to read how to choose another adapter, for the error that ends the app.
-const HELP: &str =
-    "to choose a graphics adapter, see the VL Vector page at https://www.visualabstudios.com/vl-tools/vl-vector";
+const HELP: &str = "to choose a graphics adapter, see the VL Vector page at https://www.visualabstudios.com/vl-tools/vl-vector";
 
 /// Frames the UI ran before the failure, below which it was still starting up. The failure in
 /// #502 came on the first or second frame; later, the adapter has proved itself, and a lost

@@ -1,9 +1,9 @@
 //! Help → community and project links (Visualab Studios, the website and this app's page).
 //! The commands return the URL; the frontend opens it.
 
-use serde_json::{json, Value};
+use serde_json::{Value, json};
 
-use super::{always, cmd, CommandSpec, Result};
+use super::{CommandSpec, Result, always, cmd};
 
 /// The app id.
 pub const APP_ID: &str = "vectorcraft";

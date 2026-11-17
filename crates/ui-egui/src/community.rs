@@ -1,10 +1,10 @@
 //! Community and project links: the Visualab Studios button (header, About, Home) and the website
 //! / app page links. Icons are Lucide's (ISC).
 
-use egui::{vec2, Color32, CornerRadius, Sense, Ui};
+use egui::{Color32, CornerRadius, Sense, Ui, vec2};
 
 use crate::theme::{self, Tokens};
-use crate::{icons, VectorcraftApp};
+use crate::{VectorcraftApp, icons};
 
 /// The Visualab Studios brand cyan (deep shade, so white lettering reads on it).
 const DISCORD: Color32 = Color32::from_rgb(0x00, 0x89, 0xA8);
