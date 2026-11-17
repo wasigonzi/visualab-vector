@@ -155,7 +155,6 @@
 	A4	A4
 	A5	A5
 	A6	A6
-	About	Névjegy
 	About VL Vector	A VL Vector névjegye
 	above	fölötte
 	Above Text	Szöveg fölött
@@ -769,7 +768,6 @@ font-technology	Variable	Változó
 	Contextual Task Bar	Helyzetérzékeny műveletsáv
 	Contrast	Kontraszt
 	Contrasty	Kontrasztos
-	Contributors	Közreműködők
 	Control	Vezérlősáv
 	Convert	Átalakítás
 	Convert All Spot Colors to Process	Minden direktszín átalakítása skálaszínné
@@ -2376,7 +2374,6 @@ file-filter	Templates	Sablonok
 	Mode	Mód
 	Mode:	Mód:
 	Model	Modell
-	Models	Modellek
 	Modified	Módosítva
 	Modified since it was read: {path}	A beolvasás óta módosult: {path}
 	Modified:	Módosítva:

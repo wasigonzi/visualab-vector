@@ -1,20 +1,16 @@
 # VL Vector
 
-Native creative application customized for **Visualab Studios**, based on [VectorCraft](https://github.com/storytold/vectorcraft).
+Vector illustration editor by **Visualab Studios**, for desktop and the web.
 
-## Branding
+- Web: https://vl-vector.vercel.app
+- Product page: https://www.visualabstudios.com/vl-tools/vl-vector
 
-- Visualab application name in desktop and browser UI.
-- Black / turquoise default theme, preserving other selectable appearances.
-- Provisional original V icons, with 2 identifying bar(s).
-- Upstream Visualab Studios trademark artwork removed.
+Internal Rust crate names, native document formats and automation commands keep their technical identifiers for compatibility.
 
-Internal Rust crate names, native document formats and automation commands remain unchanged for compatibility. This is an independent fork, not an official Visualab Studios distribution.
+## Development
 
-## Validation and releases
-
-This source customization is not a signed installer. Follow the original development and release documentation under `docs/` and `packaging/`. See [docs/VISUALAB.md](docs/VISUALAB.md) for validation status and remaining release work.
+See `docs/` and `packaging/` for build, validation and release notes, and [docs/VISUALAB.md](docs/VISUALAB.md) for the Visualab build status.
 
 ## License
 
-Original software: Copyright (c) 2026 Visualab Studios Team and the VectorCraft contributors. Keep [LICENSE-MIT](LICENSE-MIT), [LICENSE-APACHE](LICENSE-APACHE), [NOTICE](NOTICE) and third-party attribution. The provisional Visualab artwork added here is MIT OR Apache-2.0.
+MIT OR Apache-2.0. See [LICENSE-MIT](LICENSE-MIT), [LICENSE-APACHE](LICENSE-APACHE) and [NOTICE](NOTICE) for the license terms, required copyright notices and third-party attribution.

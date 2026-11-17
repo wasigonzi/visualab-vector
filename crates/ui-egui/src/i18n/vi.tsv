@@ -102,7 +102,6 @@
 	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	Giá trị thấp hơn bám sát nét vẽ; giá trị cao hơn cho ít điểm hơn và đường cong mượt hơn.
 	A new preset starting from the selected one	Thiết lập sẵn mới bắt đầu từ thiết lập đang chọn
 	A saved copy of the selected preset	Bản sao đã lưu của thiết lập đang chọn
-	About	Giới thiệu
 	About VL Vector	Giới thiệu VL Vector
 	above	phía trên
 	Above Text	Phía trên văn bản
@@ -673,7 +672,6 @@ font-technology	Variable	Biến thiên
 	Contextual Task Bar	Thanh tác vụ theo ngữ cảnh
 	Contrast	Tương phản
 	Contrasty	Tương phản cao
-	Contributors	Người đóng góp
 	Control	Điều khiển
 	Convert	Chuyển đổi
 	Convert All Spot Colors to Process	Chuyển tất cả màu đặc thành màu lai
@@ -2187,7 +2185,6 @@ file-filter	Templates	Mẫu
 	Mode	Chế độ
 	Mode:	Chế độ:
 	Model	Mô hình
-	Models	Mô hình AI
 	Modified	Đã sửa đổi
 	Modified since it was read: {path}	Đã sửa đổi kể từ khi đọc: {path}
 	Modified:	Đã sửa đổi:
